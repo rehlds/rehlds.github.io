@@ -37,8 +37,7 @@ const config: Config = {
           sidebarPath: "./sidebars.ts",
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            "https://github.com/rehlds/rehlds.github.io/tree/master/",
+          editUrl: "https://github.com/rehlds/rehlds.github.io/tree/master/",
         },
         blog: {
           showReadingTime: true,
@@ -48,8 +47,7 @@ const config: Config = {
           },
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            "https://github.com/rehlds/rehlds.github.io/tree/master/",
+          editUrl: "https://github.com/rehlds/rehlds.github.io/tree/master/",
           // Useful options to enforce blogging best practices
           onInlineTags: "warn",
           onInlineAuthors: "warn",
@@ -63,6 +61,9 @@ const config: Config = {
   ],
 
   themeConfig: {
+    colorMode: {
+      respectPrefersColorScheme: true,
+    },
     // Replace with your project's social card
     image: "img/docusaurus-social-card.jpg",
     navbar: {
@@ -87,7 +88,7 @@ const config: Config = {
       ],
     },
     footer: {
-      style: "dark", 
+      style: "dark",
       links: [
         {
           title: "Docs",
