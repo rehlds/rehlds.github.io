@@ -1,0 +1,146 @@
+[
+  {
+    "username": "rehlds",
+    "repo": "rehlds",
+    "name": "rehlds",
+    "description": "Reverse-engineered HLDS",
+    "downloads": 83,
+    "stars": 659,
+    "latestRelease": {
+      "version": "3.13.0.788",
+      "date": "2023-07-12T07:35:34Z"
+    }
+  },
+  {
+    "username": "s1lentq",
+    "repo": "ReGameDLL_CS",
+    "name": "ReGameDLL_CS",
+    "description": ":hammer: Reverse-engineered gamedll (CS 1.6 / CZero)",
+    "downloads": 63,
+    "stars": 582,
+    "latestRelease": {
+      "version": "5.26.0.668",
+      "date": "2023-12-31T19:01:59Z"
+    }
+  },
+  {
+    "username": "s1lentq",
+    "repo": "reapi",
+    "name": "reapi",
+    "description": "AMX Mod X module, using API regamedll & rehlds",
+    "downloads": 34,
+    "stars": 159,
+    "latestRelease": {
+      "version": "5.24.0.300",
+      "date": "2024-01-01T20:11:42Z"
+    }
+  },
+  {
+    "username": "s1lentq",
+    "repo": "resemiclip",
+    "name": "resemiclip",
+    "description": "ReSemiclip",
+    "downloads": 4,
+    "stars": 5,
+    "latestRelease": {
+      "version": "2.4.3",
+      "date": "2023-10-10T06:40:05Z"
+    }
+  },
+  {
+    "username": "s1lentq",
+    "repo": "reunion",
+    "name": "reunion",
+    "description": "Metamod plugin that allows protocol 47 and 48 non-steam clients to connect to ReHLDS servers",
+    "downloads": 9,
+    "stars": 33,
+    "latestRelease": {
+      "version": "0.2.0.13",
+      "date": "2024-06-30T15:20:01Z"
+    }
+  },
+  {
+    "username": "s1lentq",
+    "repo": "rechecker",
+    "name": "rechecker",
+    "description": "Resources Checker",
+    "downloads": 5,
+    "stars": 6,
+    "latestRelease": {
+      "version": "v2.7",
+      "date": "2024-10-20T19:23:40Z"
+    }
+  },
+  {
+    "username": "s1lentq",
+    "repo": "revoice",
+    "name": "revoice",
+    "description": "Voice transcoder which fixes voice chat between non-steam and steam clients (for ReHLDS)",
+    "downloads": 16,
+    "stars": 35,
+    "latestRelease": {
+      "version": "0.1.0.33",
+      "date": "2019-10-16T20:15:10Z"
+    }
+  },
+  {
+    "username": "s1lentq",
+    "repo": "refreelook",
+    "name": "ReFreeLook",
+    "description": "AMX Mod X module",
+    "downloads": 5,
+    "stars": 8,
+    "latestRelease": {
+      "version": "0.1.8",
+      "date": "2016-06-20T23:35:38Z"
+    }
+  },
+  {
+    "username": "s1lentq",
+    "repo": "localizebugfix",
+    "name": "localizebugfix",
+    "description": "Fix localization strings in nickname and chat",
+    "downloads": 5,
+    "stars": 6,
+    "latestRelease": {
+      "version": "2.4",
+      "date": "2015-09-28T11:13:18Z"
+    }
+  },
+  {
+    "username": "WPMGPRoSToTeMa",
+    "repo": "SafeNameAndChat",
+    "name": "SafeNameAndChat",
+    "description": "No description available.",
+    "downloads": 4,
+    "stars": 14,
+    "latestRelease": {
+      "version": "v1.2Beta3",
+      "date": "2022-02-06T13:16:43Z"
+    }
+  },
+  {
+    "username": "rehlds",
+    "repo": "relocalizebugfix",
+    "name": "relocalizebugfix",
+    "description": "ReLocalizeBug Fix",
+    "downloads": 7,
+    "stars": 0,
+    "latestRelease": {
+      "version": "No version available",
+      "date": "No date available"
+    }
+  },
+  {
+    "username": "s1lentq",
+    "repo": "hitboxtracker",
+    "name": "hitboxtracker",
+    "description": ":hammer:  Dev-tool that demonstrates on client-side true position of the hitboxes calculated by server",
+    "downloads": 8,
+    "stars": 39,
+    "latestRelease": {
+      "version": "v1.1",
+      "date": "2018-01-02T13:47:38Z"
+    }
+  }
+]
