@@ -1,41 +1,66 @@
-# Website
+# 📚 ReHLDS Documentation
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+This repository contains the documentation for the ReHLDS project, built using [Docusaurus](https://docusaurus.io/).
 
-### Installation
+## Prerequisites
 
+- Node.js version 18 or higher
+- NPM (comes with Node.js)
+
+## Getting Started
+
+1. Clone the repository
+
+2. Install the dependencies
+```bash
+    npm install
 ```
-$ yarn
+3. Start the local development server
+```bash
+    npm run start
 ```
+This will launch the documentation at `http://localhost:3000` with hot reloading enabled. Any changes made to the content will automatically refresh the browser.
 
-### Local Development
+## Available Scripts
 
+- **docusaurus**: Runs the Docusaurus CLI.
+- **start**: Starts the development server.
+- **build**: Builds the static website for production.
+- **swizzle**: Customizes the Docusaurus theme.
+- **deploy**: Deploys the website (requires configuration).
+- **clear**: Cleans up the cached data and files.
+- **serve**: Serves the production build locally.
+- **write-translations**: Prepares translation files.
+- **write-heading-ids**: Generates heading IDs for markdown.
+- **typecheck**: Runs TypeScript type checking.
+
+## Building for Production
+
+To create a production build of the documentation:
+```npm
+    npm run build
 ```
-$ yarn start
+The output will be in the `build` directory, which can be served by any static site hosting service.
+
+## Deployment
+
+To deploy the documentation site, make sure to configure the deployment settings in `docusaurus.config.js` and run:
+
+```npm
+    npm run deploy
 ```
+## Type Checking
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
-
-### Build
-
+To check for TypeScript errors, run:
+```npm
+    npm run typecheck
 ```
-$ npm run build
-```
+This will ensure that all TypeScript code adheres to type definitions.
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+## Browser Support
 
-### Deployment
+This project follows the [browserslist](https://github.com/browserslist/browserslist) specification to support modern browsers in production and the last few versions of major browsers in development.
 
-Using SSH:
+## Contributing
 
-```
-$ USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+Feel free to contribute to the documentation by submitting pull requests. Please follow the contribution guidelines and ensure that your changes pass all checks before submitting.
