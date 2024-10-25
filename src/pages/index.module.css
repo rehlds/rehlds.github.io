@@ -1,23 +1,112 @@
-/**
- * CSS files with the .module.css suffix will be treated as CSS modules
- * and scoped locally.
- */
-
 .heroBanner {
-  padding: 4rem 0;
+  padding: 8vh 0;
   text-align: center;
-  position: relative;
-  overflow: hidden;
 }
 
-@media screen and (max-width: 996px) {
+.repoList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 2vw;
+  gap: 1rem;
+}
+
+.shortDesc {
+  font-size: 1rem;
+  color: var(--ifm-color-text-light);
+}
+
+.repoCard {
+  background: var(--ifm-color-background);
+  border: 1px solid var(--ifm-color-border);
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin: 1rem;
+  width: calc(25vw - 2rem);
+  max-width: 500px;
+  min-width: 280px;
+  box-shadow: var(--ifm-box-shadow);
+  position: relative;
+  transition: transform 0.3s ease;
+}
+
+.repoCard:hover {
+  transform: scale(1.02);
+}
+
+.repoCard h2 {
+  margin-bottom: 0.8rem;
+  font-size: 1.2rem;
+  color: var(--ifm-color-text);
+}
+
+.repoCard p {
+  margin: 0.2rem 0;
+}
+
+.repoCard::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: var(--ifm-color-primary);
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.badges img {
+  max-width: none;
+  height: auto;
+}
+
+@media (max-width: 768px) {
   .heroBanner {
-    padding: 2rem;
+    padding: 6vh 0;
+  }
+
+  .repoCard {
+    width: 100vw;
+    margin: 1rem 0;
+    padding: 1rem;
+  }
+
+  .repoCard h2 {
+    font-size: 1.1rem;
+  }
+
+  .shortDesc {
+    font-size: 0.9rem;
+  }
+
+  .repoList {
+    padding: 1vw;
   }
 }
 
-.buttons {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+@media (max-width: 480px) {
+  .heroBanner {
+    padding: 5vh 0;
+  }
+
+  .repoCard {
+    width: 90vw;
+    margin: 1rem 0.5rem;
+    padding: 0.8rem;
+  }
+
+  .repoCard h2 {
+    font-size: 1rem;
+  }
+
+  .shortDesc {
+    font-size: 0.85rem;
+  }
 }

@@ -6,24 +6,40 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #FF6405; /* Яркий оранжевый */
-  --ifm-color-primary-dark: #FA8C01; /* Оранжево-жёлтый */
-  --ifm-color-primary-darker: #577700; /* Тёмно-зелёный */
-  --ifm-color-primary-darkest: #082400; /* Очень тёмный зелёный */
-  --ifm-color-primary-light: #A0A600; /* Яркий зелёный */
-  --ifm-color-primary-lighter: #B5BD00; /* Светло-зелёный */
-  --ifm-color-primary-lightest: #CDD500; /* Очень светлый зелёный */
+  --ifm-color-primary: #FF6405;
+  --ifm-color-primary-dark: #FA8C01;
+  --ifm-color-primary-darker: #577700;
+  --ifm-color-primary-darkest: #082400;
+  --ifm-color-primary-light: #A0A600;
+  --ifm-color-primary-lighter: #B5BD00;
+  --ifm-color-primary-lightest: #CDD500;
+  
+  --ifm-color-background: #F9F9F9;
+  --ifm-color-text: #333333;
+  --ifm-color-text-light: #666666;
+  
+  --ifm-color-border: #DDDDDD;
+  --ifm-color-badge-background: rgba(255, 100, 5, 0.1);
+  
   --ifm-code-font-size: 95%;
-  --docusaurus-highlighted-code-line-bg: rgba(255, 100, 5, 0.1); /* Подсветка кода */
+  --docusaurus-highlighted-code-line-bg: rgba(255, 100, 5, 0.1);
 }
 
 [data-theme='dark'] {
-  --ifm-color-primary: #FF6405; /* Яркий оранжевый */
-  --ifm-color-primary-dark: #FA8C01; /* Оранжево-жёлтый */
-  --ifm-color-primary-darker: #577700; /* Тёмно-зелёный */
-  --ifm-color-primary-darkest: #082400; /* Очень тёмный зелёный */
-  --ifm-color-primary-light: #A0A600; /* Яркий зелёный */
-  --ifm-color-primary-lighter: #B5BD00; /* Светло-зелёный */
-  --ifm-color-primary-lightest: #CDD500; /* Очень светлый зелёный */
-  --docusaurus-highlighted-code-line-bg: rgba(255, 100, 5, 0.3); /* Подсветка кода в темной теме */
+  --ifm-color-primary: #FF6405;
+  --ifm-color-primary-dark: #FA8C01;
+  --ifm-color-primary-darker: #577700;
+  --ifm-color-primary-darkest: #082400;
+  --ifm-color-primary-light: #A0A600;
+  --ifm-color-primary-lighter: #B5BD00;
+  --ifm-color-primary-lightest: #CDD500;
+  
+  --ifm-color-background: #2B2B2B;
+  --ifm-color-text: #FFFFFF;
+  --ifm-color-text-light: #B0B0B0;
+  
+  --ifm-color-border: #444444;
+  --ifm-color-badge-background: rgba(255, 100, 5, 0.3);
+  
+  --docusaurus-highlighted-code-line-bg: rgba(255, 100, 5, 0.3);
 }
