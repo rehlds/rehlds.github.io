@@ -17,15 +17,15 @@ const repos: { author: string; repo: string }[] = [
     { author: 'rehlds', repo: 'rehlds' },
     { author: 's1lentq', repo: 'ReGameDLL_CS' },
     { author: 's1lentq', repo: 'reapi' },
-    { author: 's1lentq', repo: 'resemiclip' },
-    { author: 's1lentq', repo: 'reunion' },
-    { author: 's1lentq', repo: 'rechecker' },
-    { author: 's1lentq', repo: 'revoice' },
-    { author: 's1lentq', repo: 'refreelook' },
-    { author: 's1lentq', repo: 'localizebugfix' },
-    { author: 'WPMGPRoSToTeMa', repo: 'SafeNameAndChat' },
-    { author: 'rehlds', repo: 'relocalizebugfix' },
-    { author: 's1lentq', repo: 'hitboxtracker' }
+    // { author: 's1lentq', repo: 'resemiclip' },
+    // { author: 's1lentq', repo: 'reunion' },
+    // { author: 's1lentq', repo: 'rechecker' },
+    // { author: 's1lentq', repo: 'revoice' },
+    // { author: 's1lentq', repo: 'refreelook' },
+    // { author: 's1lentq', repo: 'localizebugfix' },
+    // { author: 'WPMGPRoSToTeMa', repo: 'SafeNameAndChat' },
+    // { author: 'rehlds', repo: 'relocalizebugfix' },
+    // { author: 's1lentq', repo: 'hitboxtracker' }
 ];
 
 async function fetchLatestRelease(author: string, repo: string): Promise<{ version: string; date: string }> {

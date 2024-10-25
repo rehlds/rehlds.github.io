@@ -1,9 +1,12 @@
 name: Update Repositories file
 
 on:
+  workflow_dispatch:
   schedule:
     - cron: "0 0 1 * *"
-  workflow_dispatch:
+  push: 
+    paths: 
+      - scripts/fetchRepositories.ts
 
 jobs:
   update-repositories:
