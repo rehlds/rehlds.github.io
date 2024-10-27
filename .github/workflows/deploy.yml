@@ -31,7 +31,6 @@ jobs:
           path: build
 
   deploy:
-    if: false
     name: Deploy to GitHub Pages
     needs: build
 
