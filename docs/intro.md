@@ -1,47 +1,37 @@
 ---
+id: intro
 sidebar_position: 1
+title: Introduction
+description: Overview of the ReHLDS project ecosystem, including ReHLDS, Metamod-r, and ReGameDLL_CS, designed to enhance the Half-Life Dedicated Server experience.
+slug: /
 ---
 
-# Tutorial Intro
+# Welcome to the ReHLDS Documentation
 
-Let's discover **Docusaurus in less than 5 minutes**.
+The ReHLDS project is a collection of re-engineered and optimized components designed to enhance the experience of running Half-Life Dedicated Servers (HLDS), particularly for games like Counter-Strike 1.6 and other HLDS-based titles. These projects offer improvements in performance, security, customization, and extendability, providing a more modern and robust platform for game servers.
+
+## What You'll Find in the ReHLDS Ecosystem
+
+Our organization maintains several key projects that work seamlessly together or independently to improve server stability, flexibility, and functionality.
+
+### ReHLDS
+
+ReHLDS is a reverse-engineered version of the original HLDS engine, aimed at delivering a more secure, efficient, and customizable server experience. Built on the original HLDS 6153 build, ReHLDS introduces numerous performance optimizations, expanded configuration options, and improved network handling.
+
+### Metamod-r
+
+Metamod-r is an optimized version of the original Metamod, acting as a dynamic plugin manager between the HLDS engine and game mods. It enables servers to load and unload plugins without restarts, making server customization more flexible. Metamod-r is designed to work with both HLDS and ReHLDS, providing an improved core with enhanced performance and a Just-In-Time (JIT) compiler.
+
+### ReGameDLL_CS
+
+ReGameDLL_CS is a re-engineered version of the Counter-Strike GameDLL, providing server admins and modders with an enhanced, stable base for running Counter-Strike 1.6 and Condition Zero. It offers extended APIs, additional game settings, and improved security, enabling advanced modifications and enhanced control over server settings.
+
+## Why Choose ReHLDS Projects?
+
+The ReHLDS suite is intended for server administrators, modders, and developers who want more control, improved stability, and advanced customization options for their HLDS-based servers. With regular updates and contributions from dedicated developers, ReHLDS components are reliable, compatible, and ideal for maintaining high-performance servers for today’s gaming needs.
 
 ## Getting Started
 
-Get started by **creating a new site**.
+Each project has its own set of documentation to help you install, configure, and make the most of the features offered. To start exploring, select a project from the navigation menu, or visit our [GitHub repository](https://github.com/ReHLDS) for the latest releases and updates.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
-
-### What you'll need
-
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
-
-## Generate a new site
-
-Generate a new Docusaurus site using the **classic template**.
-
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+Dive in and discover the potential of ReHLDS for building the next generation of Half-Life-based servers!

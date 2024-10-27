@@ -1,0 +1,8 @@
+{
+  "label": "Core projects",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "The main projects of the ReHLDS organization, which you can read about."
+  }
+}
