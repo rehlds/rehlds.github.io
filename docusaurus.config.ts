@@ -13,7 +13,7 @@ const config: Config = {
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/",
 
-  deploymentBranch: 'gh-pages',
+  deploymentBranch: "gh-pages",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -129,6 +129,11 @@ const config: Config = {
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
+    },
+    algolia: {
+      appId: "GCT2K03UR1",
+      apiKey: "41b3073341af875e11a1de96cd00f535",
+      indexName: "rehldsio",
     },
   } satisfies Preset.ThemeConfig,
 };
