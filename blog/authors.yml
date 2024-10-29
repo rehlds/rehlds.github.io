@@ -1,3 +1,12 @@
+wopox1337:
+  name: Shorokhov Sergey
+  title: Software Engineer
+  url: https://github.com/wopox1337
+  image_url: https://github.com/wopox1337.png
+  page: true
+  socials:
+    github: wopox1337
+
 yangshun:
   name: Yangshun Tay
   title: Front End Engineer @ Facebook

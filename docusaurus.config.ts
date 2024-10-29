@@ -3,7 +3,7 @@ import type { Config } from "@docusaurus/types";
 import type * as Preset from "@docusaurus/preset-classic";
 
 const config: Config = {
-  title: "Re: HLDS",
+  title: "Re:HLDS",
   tagline: "Refined HLDS with fixes and new features for better performance.",
   favicon: "img/favicon.ico",
 
@@ -68,6 +68,11 @@ const config: Config = {
     },
     // Replace with your project's social card
     // image: "img/docusaurus-social-card.jpg",
+    announcementBar: {
+      backgroundColor: "var(--ifm-color-primary-lighter)",
+      textColor: "var(--ifm-color-text)",
+      content: '<strong><a href="/blog/2024/11/01/welcome">🫵 We need you!"</a></strong>',
+    },
     navbar: {
       title: "ReHLDS Documentation",
       logo: {
@@ -81,7 +86,7 @@ const config: Config = {
           position: "left",
           label: "Tutorial",
         },
-        // { to: "/blog", label: "Blog", position: "left" },
+        { to: "/blog", label: "Blog", position: "left" },
         {
           href: "https://github.com/rehlds",
           label: "GitHub",
@@ -113,10 +118,10 @@ const config: Config = {
         {
           title: "More",
           items: [
-            // {
-            //   label: "Blog",
-            //   to: "/blog",
-            // },
+            {
+              label: "Blog",
+              to: "/blog",
+            },
             {
               label: "GitHub ",
               href: "https://github.com/rehlds",
