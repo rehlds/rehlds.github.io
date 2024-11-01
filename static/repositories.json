@@ -5,7 +5,7 @@
     "name": "rehlds",
     "description": "Reverse-engineered HLDS",
     "downloads": 83,
-    "stars": 659,
+    "stars": 664,
     "latestRelease": {
       "version": "3.13.0.788",
       "date": "2023-07-12T07:35:34Z"
@@ -17,7 +17,7 @@
     "name": "ReGameDLL_CS",
     "description": ":hammer: Reverse-engineered gamedll (CS 1.6 / CZero)",
     "downloads": 63,
-    "stars": 582,
+    "stars": 583,
     "latestRelease": {
       "version": "5.26.0.668",
       "date": "2023-12-31T19:01:59Z"
