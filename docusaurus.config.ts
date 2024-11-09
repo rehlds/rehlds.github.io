@@ -158,6 +158,34 @@ const config: Config = {
         webvisor: true,
       },
     ],
+    [
+      "@docusaurus/plugin-pwa",
+      {
+        debug: false,
+        offlineModeActivationStrategies: [
+          "appInstalled",
+          "standalone",
+          "queryString",
+        ],
+        pwaHead: [
+          {
+            tagName: "link",
+            rel: "icon",
+            href: "/img/rehlds.png",
+          },
+          {
+            tagName: "link",
+            rel: "manifest",
+            href: "/manifest.json",
+          },
+          {
+            tagName: "meta",
+            name: "theme-color",
+            content: "rgb(255, 100, 5)",
+          },
+        ],
+      },
+    ],
   ],
 };
 

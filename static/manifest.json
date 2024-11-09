@@ -1,0 +1,30 @@
+{
+    "name": "ReHLDS Documentation",
+    "short_name": "ReHLDS",
+    "description": "Refined HLDS with fixes and new features for better performance.",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "rgb(255, 100, 5)",
+    "orientation": "portrait",
+    "icons": [
+        {
+            "src": "/img/logo.svg",
+            "type": "image/svg+xml",
+            "sizes": "512x512"
+        },
+        {
+            "src": "/img/rehlds.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ],
+    "scope": "/",
+    "lang": "en",
+    "categories": [
+        "documentation",
+        "software",
+        "open-source"
+    ],
+    "prefer_related_applications": false
+}
