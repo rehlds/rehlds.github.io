@@ -3,12 +3,12 @@ import type { Config } from "@docusaurus/types";
 import type * as Preset from "@docusaurus/preset-classic";
 
 const config: Config = {
-  title: "Re:HLDS",
+  title: "ReHLDS",
   tagline: "Refined HLDS with fixes and new features for better performance.",
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
-  url: "https://rehlds.github.io",
+  url: "https://rehlds.dev",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/",
