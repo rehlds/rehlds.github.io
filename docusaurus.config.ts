@@ -71,7 +71,8 @@ const config: Config = {
     announcementBar: {
       backgroundColor: "var(--ifm-color-primary-lighter)",
       textColor: "var(--ifm-color-text)",
-      content: '<strong><a href="/blog/2024/11/01/welcome">🫵 We need you!"</a></strong>',
+      content:
+        '<strong><a href="/blog/2024/11/01/welcome">🫵 We need you!</a></strong>',
     },
     navbar: {
       title: "ReHLDS Documentation",
