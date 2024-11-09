@@ -186,6 +186,17 @@ const config: Config = {
         ],
       },
     ],
+    [
+      "@docusaurus/plugin-client-redirects",
+      {
+        redirects: [
+          {
+            to: "https://github.com/rehlds",
+            from: ["/github"],
+          },
+        ],
+      },
+    ],
   ],
 };
 
