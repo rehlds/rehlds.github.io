@@ -190,9 +190,32 @@ const config: Config = {
       "@docusaurus/plugin-client-redirects",
       {
         redirects: [
+          // Social
+          {
+            to: "https://discord.gg/5wapsWtnF8",
+            from: ["/to/discord"],
+          },
           {
             to: "https://github.com/rehlds",
-            from: ["/github"],
+            from: ["/to/github"],
+          },
+          {
+            to: "https://t.me/ReHLDS_Community",
+            from: ["/to/telegram"],
+          },
+
+          // Resources
+          {
+            to: "https://github.com/rehlds/rehlds/releases/latest",
+            from: ["/get/rehlds"],
+          },
+          {
+            to: "https://github.com/s1lentq/ReGameDLL_CS/releases/latest",
+            from: ["/get/regamedll_cs"],
+          },
+          {
+            to: "https://github.com/rehlds/metamod-r/releases/latest",
+            from: ["/get/metamod-r", "/get/metamod"],
           },
         ],
       },
