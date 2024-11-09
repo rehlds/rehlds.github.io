@@ -141,23 +141,24 @@ const config: Config = {
       apiKey: "41b3073341af875e11a1de96cd00f535",
       indexName: "rehldsio",
     },
-    plugins: [
-      [
-        "@docusaurus/plugin-google-gtag",
-        {
-          trackingID: "G-REKDWWGWC3",
-          anonymizeIP: false,
-        },
-      ],
-      [
-        "docusaurus-plugin-yandex-metrica",
-        {
-          counterID: "98867928",
-          webvisor: true,
-        },
-      ],
-    ],
   } satisfies Preset.ThemeConfig,
+
+  plugins: [
+    [
+      "@docusaurus/plugin-google-gtag",
+      {
+        trackingID: "G-REKDWWGWC3",
+        anonymizeIP: false,
+      },
+    ],
+    [
+      "docusaurus-plugin-yandex-metrica",
+      {
+        counterID: "98867928",
+        webvisor: true,
+      },
+    ],
+  ],
 };
 
 export default config;
