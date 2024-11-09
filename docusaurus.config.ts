@@ -58,6 +58,10 @@ const config: Config = {
         theme: {
           customCss: "./src/css/custom.css",
         },
+        gtag: {
+          trackingID: "G-REKDWWGWC3",
+          anonymizeIP: false,
+        },
       } satisfies Preset.Options,
     ],
   ],
@@ -140,6 +144,15 @@ const config: Config = {
       apiKey: "41b3073341af875e11a1de96cd00f535",
       indexName: "rehldsio",
     },
+    plugins: [
+      [
+        "docusaurus-plugin-yandex-metrica",
+        {
+          counterID: "98867928",
+          webvisor: true,
+        },
+      ],
+    ],
   } satisfies Preset.ThemeConfig,
 };
 
