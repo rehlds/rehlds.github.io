@@ -58,10 +58,6 @@ const config: Config = {
         theme: {
           customCss: "./src/css/custom.css",
         },
-        gtag: {
-          trackingID: "G-REKDWWGWC3",
-          anonymizeIP: false,
-        },
       } satisfies Preset.Options,
     ],
   ],
@@ -145,6 +141,13 @@ const config: Config = {
       indexName: "rehldsio",
     },
     plugins: [
+      [
+        "@docusaurus/plugin-google-gtag",
+        {
+          trackingID: "G-REKDWWGWC3",
+          anonymizeIP: false,
+        },
+      ],
       [
         "docusaurus-plugin-yandex-metrica",
         {
