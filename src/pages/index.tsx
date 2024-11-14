@@ -4,39 +4,49 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import Heading from '@theme/Heading';
 import styles from './index.module.css';
-import repositoriesData from '@site/static/repositories.json';
+import { useEffect, useState } from 'react';
 
 interface Repository {
-  username: string;
-  repo: string;
-  name: string;
-  description: string;
-  downloads: number;
-  stars: number;
-  latestRelease: {
-    version: string;
-    date: string;
-  };
+  repo: any;
+  latestRelease: any;
 }
 
-function RepositoryCard({ repo }: { repo: Repository }) {
+const repos = [
+  { author: 'rehlds', repo: 'rehlds' },
+  { author: 's1lentq', repo: 'ReGameDLL_CS' },
+  { author: 's1lentq', repo: 'reapi' },
+  // { author: 's1lentq', repo: 'metamod-r' },
+  // { author: 's1lentq', repo: 'resemiclip' },
+  // { author: 's1lentq', repo: 'reunion' },
+  // { author: 's1lentq', repo: 'rechecker' },
+  // { author: 's1lentq', repo: 'revoice' },
+  // { author: 's1lentq', repo: 'refreelook' },
+  // { author: 's1lentq', repo: 'localizebugfix' },
+  // { author: 'WPMGPRoSToTeMa', repo: 'SafeNameAndChat' },
+  // { author: 'rehlds', repo: 'relocalizebugfix' },
+  // { author: 's1lentq', repo: 'hitboxtracker' },
+];
+
+function RepositoryCard({ repoData }: { repoData: Repository }) {
+  const { repo, latestRelease } = repoData;
+
   return (
     <div className={clsx(styles.repoCard, 'card')}>
-      <a href={`https://github.com/${repo.username}/${repo.repo}`} target="_blank" rel="noopener noreferrer">
-        <h2 className="card__title">{repo.repo}</h2>
+      <a href={repo.html_url} target="_blank" rel="noopener noreferrer">
+        <h2 className="card__title">{repo.name}</h2>
       </a>
-      <p className={styles.shortDesc}>{repo.description}</p>
+      <p className={styles.shortDesc}>{repo.description || 'No description available.'}</p>
       <div className={styles.badges}>
-        <a href={`https://github.com/${repo.username}/${repo.repo}/releases`} target="_blank" rel="noopener noreferrer">
-          <img 
-            src={`https://img.shields.io/github/v/release/${repo.username}/${repo.repo}?include_prereleases&style=for-the-badge`} 
-            alt="Latest Release" 
+        <a href={`${repo.html_url}/releases`} target="_blank" rel="noopener noreferrer">
+          <img
+            src={`https://img.shields.io/github/v/release/${repo.owner.login}/${repo.name}?include_prereleases&style=for-the-badge`}
+            alt="Latest Release"
           />
         </a>
-        <a href={`https://github.com/${repo.username}/${repo.repo}/releases`} target="_blank" rel="noopener noreferrer">
-          <img 
-            src={`https://img.shields.io/github/downloads/${repo.username}/${repo.repo}/total?style=for-the-badge`} 
-            alt="Downloads" 
+        <a href={`${repo.html_url}/releases`} target="_blank" rel="noopener noreferrer">
+          <img
+            src={`https://img.shields.io/github/downloads/${repo.owner.login}/${repo.name}/total?style=for-the-badge`}
+            alt="Downloads"
           />
         </a>
         {/* <a href={`https://github.com/${repo.username}/${repo.repo}/stargazers`} target="_blank" rel="noopener noreferrer">
@@ -75,7 +85,28 @@ function HomepageHeader() {
 }
 
 export default function Home(): JSX.Element {
-  const repositories: Repository[] = repositoriesData;
+  const [repositories, setRepositories] = useState<Repository[]>([]);
+
+  useEffect(() => {
+    const fetchRepositories = async () => {
+      const repoDataPromises = repos.map(async ({ author, repo: repoName }) => {
+        const [repoResponse, releaseResponse] = await Promise.all([
+          fetch(`https://api.github.com/repos/${author}/${repoName}`, { cache: 'force-cache' }),
+          fetch(`https://api.github.com/repos/${author}/${repoName}/releases/latest`, { cache: 'force-cache' }),
+        ]);
+
+        const repo = await repoResponse.json();
+        const latestRelease = releaseResponse.ok ? await releaseResponse.json() : { tag_name: 'N/A', published_at: 'N/A' };
+
+        return { repo, latestRelease };
+      });
+
+      const allRepoData = await Promise.all(repoDataPromises);
+      setRepositories(allRepoData);
+    };
+
+    fetchRepositories();
+  }, []);
 
   return (
     <Layout
@@ -84,7 +115,7 @@ export default function Home(): JSX.Element {
       <main>
         <div className={styles.repoList}>
           {repositories.map((repo, index) => (
-            <RepositoryCard key={index} repo={repo} />
+            <RepositoryCard key={index} repoData={repo} />
           ))}
         </div>
       </main>
