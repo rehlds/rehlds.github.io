@@ -5,6 +5,7 @@ import Layout from '@theme/Layout';
 import Heading from '@theme/Heading';
 import styles from './index.module.css';
 import { useEffect, useState } from 'react';
+import Translate from '@docusaurus/Translate';
 
 interface Repository {
   repo: any;
@@ -73,10 +74,8 @@ function HomepageHeader() {
         </Heading>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className={styles.buttons}>
-          <Link
-            className="button button--secondary button--lg"
-            to="/docs">
-            Get Started
+          <Link className="button button--secondary button--lg" to="/docs">
+            <Translate description="CTA button on main page">Get Started</Translate>
           </Link>
         </div>
       </div>

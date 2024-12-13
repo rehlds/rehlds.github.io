@@ -440,5 +440,9 @@
   "theme.tags.tagsPageTitle": {
     "message": "Теги",
     "description": "The title of the tag list page"
+  },
+  "Get Started": {
+    "message": "Начать изучение",
+    "description": "CTA button on main page"
   }
 }
