@@ -1,0 +1,14 @@
+{
+  "version.label": {
+    "message": "Следующая",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.Core projects": {
+    "message": "Основные проекты",
+    "description": "The label for category Core projects in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Core projects.link.generated-index.description": {
+    "message": "Основные проекты организации ReHLDS, о которых вы можете прочитать.",
+    "description": "The generated-index page description for category Core projects in sidebar tutorialSidebar"
+  }
+}
