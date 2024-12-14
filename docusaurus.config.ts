@@ -51,8 +51,8 @@ const config: Config = {
           // Remove this to remove the "edit this page" links.
           editUrl: "https://github.com/rehlds/rehlds.github.io/tree/master/",
           // Useful options to enforce blogging best practices
-          onInlineTags: "warn",
-          onInlineAuthors: "warn",
+          onInlineTags: "ignore",
+          onInlineAuthors: "ignore",
           onUntruncatedBlogPosts: "warn",
           editLocalizedFiles: true
         },
