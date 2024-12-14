@@ -67,7 +67,7 @@ const config: Config = {
       respectPrefersColorScheme: true,
     },
     // Replace with your project's social card
-    // image: "img/docusaurus-social-card.jpg",
+    image: "img/rehlds-social-card.jpg",
     announcementBar: {
       backgroundColor: "var(--ifm-color-primary-lighter)",
       textColor: "var(--ifm-color-text)",
