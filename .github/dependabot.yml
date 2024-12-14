@@ -10,7 +10,7 @@ updates:
     schedule:
       interval: monthly
     reviewers:
-    - rehlds/maintainers
+      - rehlds/maintainers
     ignore:
       - dependency-name: "*"
         update-types: ["version-update:semver-patch"]
