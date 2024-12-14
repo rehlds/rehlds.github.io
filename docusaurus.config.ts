@@ -39,7 +39,7 @@ const config: Config = {
           sidebarPath: "./sidebars.ts",
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: "https://github.com/rehlds/rehlds.github.io/tree/master/",
+          editLocalizedFiles: true
         },
         blog: {
           showReadingTime: true,
@@ -54,6 +54,7 @@ const config: Config = {
           onInlineTags: "warn",
           onInlineAuthors: "warn",
           onUntruncatedBlogPosts: "warn",
+          editLocalizedFiles: true
         },
         theme: {
           customCss: "./src/css/custom.css",
