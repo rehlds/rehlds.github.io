@@ -116,8 +116,8 @@ const config: Config = {
           title: "Community",
           items: [
             {
-              label: "Telegram",
-              href: "https://t.me/ReHLDS_Community",
+              label: "Discord",
+              href: "https://rehlds.dev/to/discord",
             },
           ],
         },
