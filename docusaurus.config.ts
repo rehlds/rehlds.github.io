@@ -2,6 +2,8 @@ import { themes as prismThemes } from "prism-react-renderer";
 import type { Config } from "@docusaurus/types";
 import type * as Preset from "@docusaurus/preset-classic";
 
+const repoName = "rehlds.github.io"
+
 const config: Config = {
   title: "ReHLDS",
   tagline: "Refined HLDS with fixes and new features for better performance.",
@@ -18,7 +20,7 @@ const config: Config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: "rehlds", // Usually your GitHub org/user name.
-  projectName: "rehlds.github.io", // Usually your repo name.
+  projectName: repoName, // Usually your repo name.
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -39,6 +41,7 @@ const config: Config = {
           sidebarPath: "./sidebars.ts",
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
+          editUrl: "https://github.com/rehlds/" + repoName + "/tree/master/",
           editLocalizedFiles: true
         },
         blog: {
@@ -49,7 +52,7 @@ const config: Config = {
           },
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: "https://github.com/rehlds/rehlds.github.io/tree/master/",
+          editUrl: "https://github.com/rehlds/" + repoName + "/tree/master/",
           // Useful options to enforce blogging best practices
           onInlineTags: "ignore",
           onInlineAuthors: "ignore",
@@ -72,8 +75,10 @@ const config: Config = {
     announcementBar: {
       backgroundColor: "var(--ifm-color-primary-lighter)",
       textColor: "var(--ifm-color-text)",
-      content:
-        '<strong><a href="/blog/2024/11/01/welcome">🫵 We need you!</a></strong>',
+      content: ''
+        + '<strong>'
+          + '<a href="blog/2024/11/01/welcome">🫵 We need you!</a>'
+        + '</strong>',
     },
     navbar: {
       title: "ReHLDS Documentation",
