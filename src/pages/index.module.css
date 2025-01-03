@@ -9,6 +9,7 @@
   justify-content: center;
   padding: 2vw;
   gap: 1rem;
+  min-height: 310px;
 }
 
 .shortDesc {
@@ -88,6 +89,7 @@
 
   .repoList {
     padding: 1vw;
+    min-height: 600px;
   }
 }
 
