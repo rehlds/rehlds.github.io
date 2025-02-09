@@ -14,3 +14,8 @@ updates:
     ignore:
       - dependency-name: "*"
         update-types: ["version-update:semver-patch"]
+    groups:
+      docusaurus-deps:
+        patterns:
+          - '@docusaurus/*'
+          - 'react*'
