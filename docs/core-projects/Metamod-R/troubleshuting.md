@@ -1,6 +1,7 @@
 ---
 id: metamod-r-troubbleshouting
 title: Troubbleshouting
+sidebar_position: 4
 description: Metamod-r is an optimized version of the original Metamod, enhancing performance and compatibility for Half-Life 1 servers.
 slug: /metamod-r/troubbleshouting
 ---
@@ -25,46 +26,46 @@ This will help for a more thorough analysis and possibly correction of your prob
 ***
  
 
-## Получение дампов падения HLDS\reHLDS
+## Getting HLDS\reHLDS crash dumps
 
 ![](https://i.imgur.com/vqDiJ67.png) [Main source (rus)](https://aghl.ru/forum/viewtopic.php?f=10&t=1441).
 ![](https://i.imgur.com/vqDiJ67.png) [Mirror (rus)](https://dev-cs.ru/threads/1532/).
 
- **Не стоит просто так выкладывать дампы в интернете, так как зачастую в них содержится полная информация о сервере, включая rcon и прочее. Для передачи можно архивировать их с паролем, что полезно ещё тем, что жмутся они весьма хорошо.**
+**Don't just post dumps on the Internet, as they often contain full information about the server, including rcon and so on. For transmission, you can archive them with a password, which is also useful because they compress very well.**
  
-### ![](https://i.imgur.com/t23p9tU.png) Windows 
+### ![](https://i.imgur.com/t23p9tU.png) Windows
 
-#### С использованием WER (Windows Error Reporting):
-* Разрешить WER (отчеты об ошибках):
-  - До Vista:
-      - Запустить drwtsn32.exe и выбрать "Full" напротив Crash Dump File. Тут же можно увидеть (или настроить) куда будут складываться дампы.
-  - На Vista и выше: 
-      - Редактирование реестра, удобный способ от [s1lent](https://github.com/s1lentq):
+#### Using WER (Windows Error Reporting):
+* Enable WER (error reports):
+- Before Vista:
+- Run drwtsn32.exe and select "Full" next to Crash Dump File. Here you can also see (or configure) where the dumps will be stored.
+- On Vista and above:
+- Editing the registry, a convenient method from [s1lent](https://github.com/s1lentq):
+>
+> #### A detailed and quick way to configure the registry to receive dumps for beginners.
+>
+> * Settings:
+> - **NAME_APP** - `hlds.exe`
+> - name of the application that will need to create dumps in case of a crash.
+> - **REG_LINK** - `HKLM\Software\Microsoft\Windows\Windows Error Reporting`
+> - path to the Windows Error Reporting section (This setting most likely does not need to be changed, I think the paths are the same in all Windows)
+> - **DumpType** - `2`
+> - `0` - Normal dump
+> - `1` - Minimum dump
+> - `2` - Full dump
+> - DumpCount - `15`
+> - number of dumps to create, if the number of dumps in the folder is greater than the specified value, the old dump will be deleted to create a new dump.
+> - **DumpFolder** - `C:\CrashDumps`
+> - path to the folder where the dumps will be stored.
+> - (to avoid any problems, do not use spaces or Cyrillic in the paths)
+> * Installation:
+> - Download the archive and unzip it.
+> - Run add_RegistryDumps.bat
+>
+> - After writing to the registry, you must make sure that you have enabled the Windows Error Reporting service.
+> - Then press the hotkey Windows + R (the Windows button is between ctrl and alt) or you can call cmd.exe or Start - Run, immediately after that you need to enter gpedit.msc, then see the screenshot.
 >  
-> #### Развернутый и быстрый способ настроить реестр на получение дампов для новичков.
->  
-> * Настройки: 
->   - **NAME_APP** - `hlds.exe`
->       - имя приложения, которому нужно будет создавать дампы в случае аварийного завершения. 
->   - **REG_LINK** - `HKLM\Software\Microsoft\Windows\Windows Error Reporting`
->       - путь до раздела Windows Error Reporting (Эту настройку скорее всего менять не нужно, думаю во всех Windows пути одинаковые) 
->   - **DumpType** - `2`
->       - `0` - Обычный дамп
->       - `1` - Минимальный дамп
->       - `2` - Полный дамп 
->   - DumpCount - `15`
->       - количество создаваемых дампов, если в папке количество дампов будет больше указанного значения, то будет удаляться старый дамп для создания нового дампа. 
->   - **DumpFolder** - `C:\CrashDumps`
->       - путь до папки, куда будут складываться дампы.
->       - (во избежании всяких проблем не используйте пробелы или кириллицу в путях) 
-> * Установка:
->   - Скачать архив и разархивировать.
->   - Запустить add_RegistryDumps.bat
->  
->   - После записи в реестр вы должны убедиться что у вас включена служба Отчеты об ошибках Windows.
->   - Дальше нажать горячую клавишу Windows + R (Windows кнопка находится между ctrl и alt) или можно вызвать cmd.exe или Пуск - Выполнить, сразу после этого нужно ввести gpedit.msc, далее см. скриншот.
->  
-> `Конфигурация компьютера -> Административные шаблоны -> Компоненты Windows -> Отчеты об ошибок Windows`
+> `Computer Configuration -> Administrative Templates -> Windows Components -> Windows Error Reporting`
 >  
 > ![](https://i.imgur.com/PLQ8mf3.jpg)
 >  
@@ -72,78 +73,78 @@ This will help for a more thorough analysis and possibly correction of your prob
 > * ![](https://i.imgur.com/vqDiJ67.png) [remove_RegistryDumps.zip](http://aghl.ru/forum/download/file.php?id=3536) \ ![](https://i.imgur.com/Uy97ydR.png) mirror for ["remove_RegistryDumps.zip"](https://github.com/EpicMorgGames/LegacyMods/raw/master/AGHL.ru/remove_RegistryDumps.zip) 
 >  
 
-#### С использованием утилиты userdumps
-* Инструкция от _unKn0wn_:
+#### Using the userdumps utility
+* Instructions from _unKn0wn_:
 
 >
-> Способ получения дампов посредством утилиты от MicroSoft: ![](https://i.imgur.com/vqDiJ67.png) [UserModeProcessDumper](http://www.microsoft.com/en-us/download/details.aspx?id=4060) \ ![](https://i.imgur.com/Uy97ydR.png) mirror for ["UserModeProcessDumper8_1_2929_5.zip"](https://github.com/EpicMorgGames/LegacyMods/raw/master/AGHL.ru/UserModeProcessDumper8_1_2929_5.zip).
-> 
-> Спасибо [Lev](https://github.com/LevShisterov) за настройки.
+> Method for obtaining dumps using the utility from MicroSoft: ![](https://i.imgur.com/vqDiJ67.png) [UserModeProcessDumper](http://www.microsoft.com/en-us/download/details.aspx?id=4060) \ ![](https://i.imgur.com/Uy97ydR.png) mirror for ["UserModeProcessDumper8_1_2929_5.zip"](https://github.com/EpicMorgGames/LegacyMods/raw/master/AGHL.ru/UserModeProcessDumper8_1_2929_5.zip).
 >
-> ##### 1. Инсталяция
-> Архив который вы скачали разархивируем (по умолчанию C:\kktools\userdump8.1).
-> - Запустите файл setup.exe из каталога:
->   - Если вы используете 32-битную ОС Windows XP/2003, то C:\kktools\userdump8.1\x86.
->   - Если вы используете 64-битную ОС Windows XP/2003, то C:\kktools\userdump8.1\x64.
-> - В окне Мастера установки нажмите на кнопку Далее.
-> - (Только для 32-битных ОС) В окне Terminate Mode выберите Disable "Dump on Process Termination" feature и нажмите на кнопку Далее.
+> Thanks to [Lev](https://github.com/LevShisterov) for the settings.
+>
+> ##### 1. Installation
+> Unzip the archive you downloaded (by default C:\kktools\userdump8.1).
+> - Run the setup.exe file from the directory:
+> - If you are using 32-bit Windows XP/2003, then C:\kktools\userdump8.1\x86.
+> - If you are using 64-bit Windows XP/2003, then C:\kktools\userdump8.1\x64.
+> - In the Installation Wizard window, click Next.
+> - (Only for 32-bit OS) In the Terminate Mode window, select Disable "Dump on Process Termination" feature and click Next.
 >
 > ![](https://i.imgur.com/NgjxfPa.png)
 >
-> - Нажмите на кнопку Готово и дождитесь завершения установки.
-> В окне User Mode Process Dump Setup нажмите на кнопку ДА (Если по каким-то причинам вы не знаете как зайти в меню с настройками userdump -вы их всегда сможете найти в Панель управления - Process Dumper).
+> - Click Finish and wait for the installation to complete.
+> In the User Mode Process Dump Setup window, click the YES button (If for some reason you do not know how to enter the userdump settings menu, you can always find them in Control Panel - Process Dumper).
 >
-> ##### 2. Добавление приложения
-> В открывшемся окне Свойства: User Mode Process Dumper Setup жмём New и добавляем имя нужной нам программы на пример: hlds.exe (расширение -обязательно!) и жмём ОК
+> ##### 2. Adding an application
+> In the Properties: User Mode Process Dumper Setup window that opens, click New and add the name of the program we need, for example: hlds.exe (the extension is required!) and click OK
 >
 > ![](https://i.imgur.com/36m9qL1.jpg)
->   
-> ##### 3. Настройки
-> В окне Свойства: User Mode Process Dumper Setup находим созданное только-что правило приложения, выделяем его и жмём кнопку Rules
-> В открывшемся окне Process Monitoring Ruless for hlds.exe
-> 1. Выберем Use custom rules.
-> 2. Если требуется меняем папку для хранения созданных дампов.
-> 3. В Exeption Codes выделяем (нажатием ЛКМ) следующие коды: "Access Violation, Overflow, Illegal Instruction, Stack oveflow."
-> 4. Выставляем параметр Save Mode в режим Cyclic saving (5 times). 
-> Должно получится примерно так:
+>
+> ##### 3. Settings
+> In the Properties: User Mode Process Dumper Setup window, find the application rule you just created, select it and click the Rules button
+> In the Process Monitoring Ruless for hlds.exe window that opens
+> 1. Select Use custom rules.
+> 2. If necessary, change the folder for storing the created dumps.
+> 3. In Exception Codes, select (by left-clicking) the following codes: "Access Violation, Overflow, Illegal Instruction, Stack overflow."
+> 4. Set the Save Mode parameter to Cyclic saving (5 times).
+> It should look something like this:
 >
 > ![](https://i.imgur.com/sio3Aac.jpg)
 >
-> PS: Рекомендую использовать совместно с Dr Watson с типом дампов "Краткий", т.к. доктор умеет вести логи в текстовом формате, которые дадут возможность отбирать нужные дампы. А userdump будет делать полные дампы.
+> PS: I recommend using it together with Dr Watson with the "Brief" dump type, since the doctor can keep logs in text format, which will allow you to select the necessary dumps. And userdump will make full dumps.
 >
 
 ### ![](https://i.imgur.com/AzhAYR4.png) Linux
 
-Сервер надо запускать с ключем **-debug**.
+The server must be started with the **-debug** key.
 
-Если в системе установлен gdb, то автоматически в файле `debug.log` будет записываться внятная информация об ошибке. Так что рекомендуется его поставить (команда зависит от используемой системы, на Debian\Ubuntu - это `apt install gdb`). Хотя для создания дампов это не требуется, это фактически обязательно надо сделать при наличии возможности, так как в `debug.log` при этом будет записано место падения, что позволит сразу что-то сказать об ошибке. Получение этой же информации на другой системе из дамп-файла потребует наличия всех бинарников от сервера.
+If gdb is installed on the system, then clear information about the error will be automatically written to the `debug.log` file. So it is recommended to install it (the command depends on the system used, on Debian\Ubuntu it is `apt install gdb`). Although this is not required to create dumps, it is actually necessary to do this if possible, since the crash location will be written to `debug.log`, which will allow you to immediately say something about the error. Getting the same information on another system from a dump file will require all the binaries from the server.
 
-По умолчанию дамп-файл называется `core`, записывается в рабочей папке, и, соответственно, будет перезаписываться. Во избежание, можно добавлять к имени идентификатор процесса:
- 
+By default, the dump file is called `core`, is written to the working folder, and, accordingly, will be overwritten. To avoid this, you can add the process ID to the name:
+
 `echo 1 > /proc/sys/kernel/core_uses_pid`
- 
-или складывать дампы в `/tmp`:
- 
-`echo /tmp/%e-%t-%p-%c.dmp > /proc/sys/kernel/core_pattern` Больше информации ![](https://i.imgur.com/vqDiJ67.png)[тут](http://man7.org/linux/man-pages/man5/core.5.html).
- 
-Запуск без `sudo` (под root, иначе общие настройки системы должны быть выставлены на unlimited):
- 
+
+or dump the dumps to `/tmp`:
+
+`echo /tmp/%e-%t-%p-%c.dmp > /proc/sys/kernel/core_pattern` More information ![](https://i.imgur.com/vqDiJ67.png)[here](http://man7.org/linux/man-pages/man5/core.5.html).
+
+Launch without `sudo` (as root, otherwise the general system settings should be set to unlimited):
+
 `ulimit -c unlimited && ./hlds_run -debug ...`
 
-Запуск с `sudo` (под пользователем hlds):
- 
+Launch with `sudo` (as user hlds):
+
 `ulimit -Hc unlimited && sudo -u hlds sh -c "ulimit -Sc unlimited && ./hlds_run -debug ..."`
 
-Проверка запуска из под sudo:
- 
+Checking launch under sudo:
+
 `ulimit -Hc unlimited && sudo -u hlds sh -c "ulimit -Sc unlimited && whoami && ulimit -Sc && ./hlds_run -debug ..."`
 
-выводит имя пользователя под которым произойдет запуск и лимит на создание дампов, после чего запускает сервер.
+displays the user name under which the launch will take place and the limit on creating dumps, after which it starts the server.
 
-Для тестирования настроек создания дампов можете использовать специально разработанный модуль: ![](https://i.imgur.com/vqDiJ67.png) [FixItAll](http://aghl.ru/forum/viewtopic.php?f=19&t=1680&p=19549) \ ![](https://i.imgur.com/Uy97ydR.png) [FixItAll mirror](https://github.com/EpicMorgGames/LegacyMods/raw/master/AGHL.ru/fixitall_mm.0.0.zip) or ![](https://i.imgur.com/Uy97ydR.png) [Crash.sma*](https://github.com/EpicMorgGames/LegacyMods/blob/master/AGHL.ru/Crash.sma).
+To test dump settings, you can use a specially developed module: ![](https://i.imgur.com/vqDiJ67.png) [FixItAll](http://aghl.ru/forum/viewtopic.php?f=19&t=1680&p=19549) \ ![](https://i.imgur.com/Uy97ydR.png) [FixItAll mirror](https://github.com/EpicMorgGames/LegacyMods/raw/master/AGHL.ru/fixitall_mm.0.0.zip) or ![](https://i.imgur.com/Uy97ydR.png) [Crash.sma*](https://github.com/EpicMorgGames/LegacyMods/blob/master/AGHL.ru/Crash.sma).
 
 * crash.sma - https://github.com/theAsmodai/metamod-r/issues/42#issuecomment-416456526
- 
+
 ***
 
 ### Summary table:
