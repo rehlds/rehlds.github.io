@@ -16,6 +16,7 @@ const repos = [
   { author: 'rehlds', repo: 'rehlds' },
   { author: 'rehlds', repo: 'ReGameDLL_CS' },
   { author: 'rehlds', repo: 'reapi' },
+  { author: 'rehlds', repo: 'metamod-r' },
   // { author: 'rehlds', repo: 'metamod-r' },
   // { author: 'rehlds', repo: 'resemiclip' },
   // { author: 'rehlds', repo: 'reunion' },
