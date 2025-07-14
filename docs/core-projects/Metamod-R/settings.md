@@ -1,6 +1,7 @@
 ---
 id: metamod-r-settings
 title: Settings
+sidebar_position: 3
 description: Metamod-r is an optimized version of the original Metamod, enhancing performance and compatibility for Half-Life 1 servers.
 slug: /metamod-r/settings
 ---

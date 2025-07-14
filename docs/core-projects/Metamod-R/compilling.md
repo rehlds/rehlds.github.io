@@ -1,6 +1,7 @@
 ---
 id: metamod-r-compilling
 title: Compilling
+sidebar_position: 5
 description: Metamod-r is an optimized version of the original Metamod, enhancing performance and compatibility for Half-Life 1 servers.
 slug: /metamod-r/compilling
 ---

@@ -1,6 +1,7 @@
 ---
 id: metamod-r-troubbleshouting
 title: Troubbleshouting
+sidebar_position: 4
 description: Metamod-r is an optimized version of the original Metamod, enhancing performance and compatibility for Half-Life 1 servers.
 slug: /metamod-r/troubbleshouting
 ---
