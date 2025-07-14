@@ -14,18 +14,18 @@ interface Repository {
 
 const repos = [
   { author: 'rehlds', repo: 'rehlds' },
-  { author: 's1lentq', repo: 'ReGameDLL_CS' },
-  { author: 's1lentq', repo: 'reapi' },
-  // { author: 's1lentq', repo: 'metamod-r' },
-  // { author: 's1lentq', repo: 'resemiclip' },
-  // { author: 's1lentq', repo: 'reunion' },
-  // { author: 's1lentq', repo: 'rechecker' },
-  // { author: 's1lentq', repo: 'revoice' },
-  // { author: 's1lentq', repo: 'refreelook' },
-  // { author: 's1lentq', repo: 'localizebugfix' },
+  { author: 'rehlds', repo: 'ReGameDLL_CS' },
+  { author: 'rehlds', repo: 'reapi' },
+  // { author: 'rehlds', repo: 'metamod-r' },
+  // { author: 'rehlds', repo: 'resemiclip' },
+  // { author: 'rehlds', repo: 'reunion' },
+  // { author: 'rehlds', repo: 'rechecker' },
+  // { author: 'rehlds', repo: 'revoice' },
+  // { author: 'rehlds', repo: 'refreelook' },
+  // { author: 'rehlds', repo: 'localizebugfix' },
   // { author: 'WPMGPRoSToTeMa', repo: 'SafeNameAndChat' },
   // { author: 'rehlds', repo: 'relocalizebugfix' },
-  // { author: 's1lentq', repo: 'hitboxtracker' },
+  // { author: 'rehlds', repo: 'hitboxtracker' },
 ];
 
 function RepositoryCard({ repoData }: { repoData: Repository }) {
