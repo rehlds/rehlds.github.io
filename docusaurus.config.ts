@@ -135,9 +135,13 @@ const config: Config = {
               to: "/blog",
             },
             {
-              label: "GitHub ",
+              label: "GitHub",
               href: "https://github.com/rehlds",
             },
+            {
+              label: "Sitemap",
+              href: "https://rehlds.dev/sitemap.xml"
+            }
           ],
         },
       ],
@@ -221,7 +225,7 @@ const config: Config = {
             from: ["/get/rehlds"],
           },
           {
-            to: "https://github.com/s1lentq/ReGameDLL_CS/releases/latest",
+            to: "https://github.com/rehlds/ReGameDLL_CS/releases/latest",
             from: ["/get/regamedll_cs"],
           },
           {
