@@ -6,9 +6,7 @@ description: Metamod-r is an optimized version of the original Metamod, enhancin
 slug: /metamod-r/compilling
 ---
 
-# Compilling
-
-## Build instructions
+# Build instructions
 ### Checking requirements
 There are several software requirements for building Metamod-r:
 
