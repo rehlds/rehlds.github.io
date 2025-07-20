@@ -215,7 +215,7 @@ const config: Config = {
             from: ["/to/github"],
           },
           {
-            to: "https://t.me/ReHLDS_Community",
+            to: "https://t.me/ReHLDS_Feed",
             from: ["/to/telegram"],
           },
 
