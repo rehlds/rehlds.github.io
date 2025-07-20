@@ -1,0 +1,8 @@
+{
+  "label": "Addons, Plugins and Modules",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "Additional projects of the ReHLDS organization, which you can read about."
+  }
+}
