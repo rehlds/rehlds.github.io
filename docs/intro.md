@@ -26,6 +26,10 @@ Metamod-r is an optimized version of the original Metamod, acting as a dynamic p
 
 ReGameDLL_CS is a re-engineered version of the Counter-Strike GameDLL, providing server admins and modders with an enhanced, stable base for running Counter-Strike 1.6 and Condition Zero. It offers extended APIs, additional game settings, and improved security, enabling advanced modifications and enhanced control over server settings.
 
+### ReAPI
+
+ReAPI is a AMXModX module providing APIs for ReHLDS, ReGameDLL, and Metamod plugins (e.g., ReUnion, ReVoice).
+
 ## Why Choose ReHLDS Projects?
 
 The ReHLDS suite is intended for server administrators, modders, and developers who want more control, improved stability, and advanced customization options for their HLDS-based servers. With regular updates and contributions from dedicated developers, ReHLDS components are reliable, compatible, and ideal for maintaining high-performance servers for today’s gaming needs.
