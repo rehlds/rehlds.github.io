@@ -9,8 +9,8 @@ updates:
     directory: "/" # Location of package manifests
     schedule:
       interval: monthly
-    reviewers:
-      - rehlds/maintainers
+#    reviewers:
+#      - rehlds/maintainers
     ignore:
       - dependency-name: "*"
         update-types: ["version-update:semver-patch"]
