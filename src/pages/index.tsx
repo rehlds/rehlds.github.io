@@ -6,6 +6,7 @@ import Heading from '@theme/Heading';
 import styles from './index.module.css';
 import { useEffect, useState } from 'react';
 import Translate from '@docusaurus/Translate';
+import * as React from 'react';
 
 interface Repository {
   repo: any;
@@ -84,7 +85,7 @@ function HomepageHeader() {
   );
 }
 
-export default function Home(): JSX.Element {
+export default function Home(): React.JSX.Element {
   const [repositories, setRepositories] = useState<Repository[]>([]);
 
   useEffect(() => {

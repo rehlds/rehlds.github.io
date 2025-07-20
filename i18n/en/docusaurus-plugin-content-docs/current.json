@@ -1,0 +1,58 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.Core projects": {
+    "message": "Core projects",
+    "description": "The label for category Core projects in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Core projects.link.generated-index.description": {
+    "message": "The main projects of the ReHLDS organization, which you can read about.",
+    "description": "The generated-index page description for category Core projects in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.ReAPI": {
+    "message": "ReAPI",
+    "description": "The label for category ReAPI in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.ReGameDLL_CS": {
+    "message": "ReGameDLL_CS",
+    "description": "The label for category ReGameDLL_CS in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.ReHLDS": {
+    "message": "ReHLDS",
+    "description": "The label for category ReHLDS in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Metamod-r": {
+    "message": "Metamod-r",
+    "description": "The label for category Metamod-r in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Addons, Plugins and Modules": {
+    "message": "Addons, Plugins and Modules",
+    "description": "The label for category Addons, Plugins and Modules in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Addons, Plugins and Modules.link.generated-index.description": {
+    "message": "Additional projects of the ReHLDS organization, which you can read about.",
+    "description": "The generated-index page description for category Addons, Plugins and Modules in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.ReChecker": {
+    "message": "ReChecker",
+    "description": "The label for category ReChecker in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.ReFreeLook": {
+    "message": "ReFreeLook",
+    "description": "The label for category ReFreeLook in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.ReSemiclip": {
+    "message": "ReSemiclip",
+    "description": "The label for category ReSemiclip in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.ReUnion": {
+    "message": "ReUnion",
+    "description": "The label for category ReUnion in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.ReVoice": {
+    "message": "ReVoice",
+    "description": "The label for category ReVoice in sidebar tutorialSidebar"
+  }
+}

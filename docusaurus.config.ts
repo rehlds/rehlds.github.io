@@ -34,6 +34,11 @@ const config: Config = {
     locales: ["en", "ru"],
   },
 
+  future: {
+    v4: true, // opt-in for Docusaurus v4 planned changes
+    experimental_faster: true, // turns Docusaurus Faster on globally
+  },
+
   presets: [
     [
       "classic",

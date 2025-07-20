@@ -4,20 +4,24 @@ This repository contains the documentation for the ReHLDS project, built using [
 
 ## Prerequisites
 
-- Node.js version 18 or higher
+- Node.js version 22 LTS
 - NPM (comes with Node.js)
+- Install `yarn` (or `pnpm`, `bun`, etc. or use `npm`)
 
 ## Getting Started
 
 1. Clone the repository
+2. `node -v`  Should print `v22.17.1` or other `22.x`
+3. `corepack enable yarn`
+4. `yarn -v`
 
-2. Install the dependencies
+5. Install the dependencies
 ```bash
-    npm install
+    yarn install --frozen-lockfile
 ```
-3. Start the local development server
+1. Start the local development server
 ```bash
-    npm run start
+    yarn start
 ```
 This will launch the documentation at `http://localhost:3000` with hot reloading enabled. Any changes made to the content will automatically refresh the browser.
 
@@ -38,7 +42,7 @@ This will launch the documentation at `http://localhost:3000` with hot reloading
 
 To create a production build of the documentation:
 ```npm
-    npm run build
+    yarn run build
 ```
 The output will be in the `build` directory, which can be served by any static site hosting service.
 
@@ -47,13 +51,13 @@ The output will be in the `build` directory, which can be served by any static s
 To deploy the documentation site, make sure to configure the deployment settings in `docusaurus.config.js` and run:
 
 ```npm
-    npm run deploy
+    yarn run deploy
 ```
 ## Type Checking
 
 To check for TypeScript errors, run:
 ```npm
-    npm run typecheck
+    yarn run typecheck
 ```
 This will ensure that all TypeScript code adheres to type definitions.
 
