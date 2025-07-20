@@ -27,14 +27,6 @@
     "message": "Metamod-r",
     "description": "The label for category Metamod-r in sidebar tutorialSidebar"
   },
-  "sidebar.tutorialSidebar.category.Addons, Plugins and Modules": {
-    "message": "Addons, Plugins and Modules",
-    "description": "The label for category Addons, Plugins and Modules in sidebar tutorialSidebar"
-  },
-  "sidebar.tutorialSidebar.category.Addons, Plugins and Modules.link.generated-index.description": {
-    "message": "Additional projects of the ReHLDS organization, which you can read about.",
-    "description": "The generated-index page description for category Addons, Plugins and Modules in sidebar tutorialSidebar"
-  },
   "sidebar.tutorialSidebar.category.ReChecker": {
     "message": "ReChecker",
     "description": "The label for category ReChecker in sidebar tutorialSidebar"
@@ -62,5 +54,13 @@
   "sidebar.tutorialSidebar.category.Metamod": {
     "message": "Metamod",
     "description": "The label for category Metamod in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Misc": {
+    "message": "Misc",
+    "description": "The label for category Misc in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Misc.link.generated-index.description": {
+    "message": "Additional projects of the ReHLDS organization, which you can read about.",
+    "description": "The generated-index page description for category Misc in sidebar tutorialSidebar"
   }
 }
