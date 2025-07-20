@@ -6,6 +6,10 @@ description: Metamod-r is an optimized version of the original Metamod, enhancin
 slug: /metamod-r/credits
 ---
 
+<head>
+  <title>Metamod-R: Авторы | ReHLDS</title>
+</head>
+
 # Авторы
 
 **Metamod-r** основан на оригинальной версии [Metamod](http://metamod.org/), написанной _Will Day_ для Half-Life 1 с некоторыми улучшениями от _[Jussi Kivilinna](https://github.com/jkivilin)_ ([Metamod-p](https://github.com/jkivilin/metamod-p)). Данный продукт содержит большое количество оптимизаций производительности и более чистый код. Ядро было написано с использованием JIT-компилятора. 

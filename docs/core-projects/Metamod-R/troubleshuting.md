@@ -6,6 +6,10 @@ description: Metamod-r is an optimized version of the original Metamod, enhancin
 slug: /metamod-r/troubbleshouting
 ---
 
+<head>
+  <title>Metamod-R: Troubbleshouting | ReHLDS</title>
+</head>
+
 # Troubbleshouting
 
 ## How to report about the problem correctly:

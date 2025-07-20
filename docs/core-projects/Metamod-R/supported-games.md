@@ -6,6 +6,10 @@ description: Metamod-r is an optimized version of the original Metamod, enhancin
 slug: /metamod-r/supported-games
 ---
 
+<head>
+  <title>Metamod-R: Supported games | ReHLDS</title>
+</head>
+
 # Supported games
 
 Enthusiasts from the community looked at the famous versions of _Metamod_,

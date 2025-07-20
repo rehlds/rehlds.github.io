@@ -6,6 +6,10 @@ description: Metamod-r is an optimized version of the original Metamod, enhancin
 slug: /metamod-r/install
 ---
 
+<head>
+  <title>Metamod-R: Installing | ReHLDS</title>
+</head>
+
 # Installing
 
 Check out [list of supported games](/docs/metamod-r/supported-games) and make sure that there is your game in the list. _Don't be upset if it's not. After installation you can check the performance of **Metamod-r** with your `unsupported` mod after fine tuning by this [article](/docs/metamod-r/settings). There is a possibility that the game will start._

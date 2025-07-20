@@ -6,6 +6,10 @@ description: Metamod-r is an optimized version of the original Metamod, enhancin
 slug: /metamod-r/settings
 ---
 
+<head>
+  <title>Metamod-R: Settings | ReHLDS</title>
+</head>
+
 # Settings
 
 ## Connection of the plugins in plugins.ini

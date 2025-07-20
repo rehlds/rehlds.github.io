@@ -6,6 +6,10 @@ description: Metamod-r is an optimized version of the original Metamod, enhancin
 slug: /metamod-r/compilling
 ---
 
+<head>
+  <title>Metamod-R: Инструкция по сборке | ReHLDS</title>
+</head>
+
 # Инструкция по сборке
 
 ### Проверка требований
