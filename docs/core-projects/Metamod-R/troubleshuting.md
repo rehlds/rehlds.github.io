@@ -2,7 +2,7 @@
 id: metamod-r-troubbleshouting
 title: Troubbleshouting
 sidebar_position: 4
-description: Metamod-r is an optimized version of the original Metamod, enhancing performance and compatibility for Half-Life 1 servers.
+description: Metamod-R is an optimized version of the original Metamod, enhancing performance and compatibility for Half-Life 1 servers.
 slug: /metamod-r/troubbleshouting
 ---
 
@@ -14,11 +14,11 @@ slug: /metamod-r/troubbleshouting
 
 ## How to report about the problem correctly:
 
-If you want to make an offer, register a mistake, your fail or you need "live" help and assistance-you can always apply [here](https://github.com/theAsmodai/metamod-r/issues). Just press the green `New issue` button and fill out the form.
+If you want to make an offer, register a mistake, your fail or you need "live" help and assistance-you can always apply [here](https://github.com/rehlds/metamod-r/issues). Just press the green `New issue` button and fill out the form.
 
 Developers will be grateful if the description of the problem be as much detail as possible:
 * The version of your operating system;
- The version (build number) HLDS server (either [ReHLDS](https://github.com/dreamstalker/ReHLDS));
+ The version (build number) HLDS server (either [ReHLDS](https://github.com/rehlds/ReHLDS));
 * The version of your game (or mod);
 * Metamod-r version (build number or build date) ;
   - You can optionally specify a list of modules (by typing `meta list` in the server console).
@@ -147,7 +147,7 @@ displays the user name under which the launch will take place and the limit on c
 
 To test dump settings, you can use a specially developed module: ![](https://i.imgur.com/vqDiJ67.png) [FixItAll](http://aghl.ru/forum/viewtopic.php?f=19&t=1680&p=19549) \ ![](https://i.imgur.com/Uy97ydR.png) [FixItAll mirror](https://github.com/EpicMorgGames/LegacyMods/raw/master/AGHL.ru/fixitall_mm.0.0.zip) or ![](https://i.imgur.com/Uy97ydR.png) [Crash.sma*](https://github.com/EpicMorgGames/LegacyMods/blob/master/AGHL.ru/Crash.sma).
 
-* crash.sma - https://github.com/theAsmodai/metamod-r/issues/42#issuecomment-416456526
+* crash.sma - https://github.com/rehlds/metamod-r/issues/42#issuecomment-416456526
 
 ***
 

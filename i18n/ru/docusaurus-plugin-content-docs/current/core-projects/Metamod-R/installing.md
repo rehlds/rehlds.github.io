@@ -2,7 +2,7 @@
 id: metamod-r-install
 title: Установка
 sidebar_position: 2
-description: Metamod-r is an optimized version of the original Metamod, enhancing performance and compatibility for Half-Life 1 servers.
+description: Metamod-R — это оптимизированная версия оригинального Metamod, улучшающая производительность и совместимость для серверов Half-Life 1.
 slug: /metamod-r/install
 ---
 

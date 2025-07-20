@@ -2,7 +2,7 @@
 id: metamod-r-supported-games
 title: Supported games
 sidebar_position: 1
-description: Metamod-r is an optimized version of the original Metamod, enhancing performance and compatibility for Half-Life 1 servers.
+description: Metamod-R is an optimized version of the original Metamod, enhancing performance and compatibility for Half-Life 1 servers.
 slug: /metamod-r/supported-games
 ---
 
@@ -90,7 +90,7 @@ made clear and actual list of mods,checked (**`briefly*`**) performance and adde
 | [Scientist Hunt](http://www.moddb.com/mods/scientist-hunt/downloads/) | :heavy_check_mark: |  :heavy_check_mark: 
 | [Snow-War](http://www.moddb.com/mods/snow-war/downloads/) | :heavy_check_mark: |  :heavy_check_mark: 
 | [StargateTC](http://www.moddb.com/mods/stargatetc/downloads/) :star:| :heavy_check_mark:  |  :heavy_check_mark: | All versions: `1.x` и `2.x`.
-| [Sven Coop](http://store.steampowered.com/app/225840/Sven_Coop/) :star: | :interrobang:  |  :interrobang: | **Warning!** `legacy` versions and old `steam 5.x` users have the problems [#1](https://github.com/theAsmodai/metamod-r/issues/17#issuecomment-362253473), [#2](https://github.com/theAsmodai/metamod-r/issues/29). _**Problem resolved**_ at `steam` version [#3](https://github.com/theAsmodai/metamod-r/issues/45) by developers since [Build 3082297](https://forums.svencoop.com/showthread.php/45308-Sven-Co-op-Update-Released-Build-3082297).
+| [Sven Coop](http://store.steampowered.com/app/225840/Sven_Coop/) :star: | :interrobang:  |  :interrobang: | **Warning!** `legacy` versions and old `steam 5.x` users have the problems [#1](https://github.com/rehlds/metamod-r/issues/17#issuecomment-362253473), [#2](https://github.com/rehlds/metamod-r/issues/29). _**Problem resolved**_ at `steam` version [#3](https://github.com/rehlds/metamod-r/issues/45) by developers since [Build 3082297](https://forums.svencoop.com/showthread.php/45308-Sven-Co-op-Update-Released-Build-3082297).
 | [Swarm](http://www.moddb.com/mods/swarm/downloads) | :heavy_check_mark:  |  :heavy_check_mark: |  
 | [Team Fortress Classic](http://store.steampowered.com/app/20/Team_Fortress_Classic/) | :heavy_check_mark: | :heavy_check_mark:
 | [The Battle Grounds](http://www.moddb.com/mods/battle-grounds/downloads/) | :heavy_check_mark:  |  :heavy_check_mark: |  
@@ -107,7 +107,7 @@ made clear and actual list of mods,checked (**`briefly*`**) performance and adde
 | [WormsHL](http://www.moddb.com/mods/wormshl/downloads/) | :heavy_check_mark: |  :heavy_check_mark: 
 | [Zombie Panic](http://www.moddb.com/mods/zombie-panic/downloads/) | :heavy_check_mark: |  :heavy_check_mark:  
 
-* _mods, exept `Counter-Strike 1.6`, `Half-Life 1` and the others marked :star: - tested only for successful launch in the [ReHLDS](https://github.com/dreamstalker/ReHLDS) + [Metamod-r](https://github.com/theAsmodai/metamod-r) environment. There were no Intensive checks. The compatibility chart is "advance". Nowadays there is a more deep testing and we try to identify all the problems with mods._
+* _mods, exept `Counter-Strike 1.6`, `Half-Life 1` and the others marked :star: - tested only for successful launch in the [ReHLDS](https://github.com/rehlds/ReHLDS) + [Metamod-r](https://github.com/rehlds/metamod-r) environment. There were no Intensive checks. The compatibility chart is "advance". Nowadays there is a more deep testing and we try to identify all the problems with mods._
  
 
 ***
@@ -119,7 +119,7 @@ made clear and actual list of mods,checked (**`briefly*`**) performance and adde
 #### "Precache limit - 512"
 ![image](https://user-images.githubusercontent.com/34998786/37242681-89c5da6a-24a8-11e8-8ef2-97188b70a6f3.png)
 
-The game has a modified limit for preloading objects in the engine and client. Since metamod-r requires rehlds, the server-side limit is changed to the standard 512 objects. As a consequence, the mod doesn't run on cards that go beyond the limit (co-op mode on single-player maps). But at the same time, the standard network cards, such as `crossfire` work fine. (_It is not a bug of [metamod-r #29](https://github.com/theAsmodai/metamod-r/issues/29) or [rehlds #591](https://github.com/dreamstalker/rehlds/issues/591), but affects it_). 
+The game has a modified limit for preloading objects in the engine and client. Since metamod-r requires rehlds, the server-side limit is changed to the standard 512 objects. As a consequence, the mod doesn't run on cards that go beyond the limit (co-op mode on single-player maps). But at the same time, the standard network cards, such as `crossfire` work fine. (_It is not a bug of [metamod-r #29](https://github.com/rehlds/metamod-r/issues/29) or [rehlds #591](https://github.com/rehlds/ReHLDS/issues/591), but affects it_). 
 
 ##### How to fix:
 * Try to update `steam`-version to [Build 3082297](https://forums.svencoop.com/showthread.php/45308-Sven-Co-op-Update-Released-Build-3082297) of svencoop.

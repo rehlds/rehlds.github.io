@@ -2,7 +2,7 @@
 id: metamod-r-credits
 title: Credits
 sidebar_position: 6
-description: Metamod-r is an optimized version of the original Metamod, enhancing performance and compatibility for Half-Life 1 servers.
+description: Metamod-R is an optimized version of the original Metamod, enhancing performance and compatibility for Half-Life 1 servers.
 slug: /metamod-r/credits
 ---
 

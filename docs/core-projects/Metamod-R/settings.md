@@ -2,7 +2,7 @@
 id: metamod-r-settings
 title: Settings
 sidebar_position: 3
-description: Metamod-r is an optimized version of the original Metamod, enhancing performance and compatibility for Half-Life 1 servers.
+description: Metamod-R is an optimized version of the original Metamod, enhancing performance and compatibility for Half-Life 1 servers.
 slug: /metamod-r/settings
 ---
 
@@ -37,7 +37,7 @@ _You can check plugin performance via `meta list` command in the server console 
 
 in case of negative result,
 ![](https://i.imgur.com/nGXAokG.png)
-apply to [Troubbleshouting](https://github.com/theAsmodai/metamod-r/wiki/Troubbleshouting).
+apply to [Troubbleshouting](https://github.com/rehlds/metamod-r/wiki/Troubbleshouting).
 
 # List of console commands
 Write command with `meta` word. _For example, `meta version`_.

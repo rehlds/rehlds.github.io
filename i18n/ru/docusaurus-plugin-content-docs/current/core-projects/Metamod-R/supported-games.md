@@ -2,7 +2,7 @@
 id: metamod-r-supported-games
 title: Поддерживаемые игры
 sidebar_position: 1
-description: Metamod-r is an optimized version of the original Metamod, enhancing performance and compatibility for Half-Life 1 servers.
+description: Metamod-R — это оптимизированная версия оригинального Metamod, улучшающая производительность и совместимость для серверов Half-Life 1.
 slug: /metamod-r/supported-games
 ---
 
@@ -17,7 +17,7 @@ slug: /metamod-r/supported-games
 * [metamod-p](https://github.com/jkivilin/metamod-p/blob/master/metamod/games.h), 
 * [metamod-p-cmake](https://github.com/SamVanheer/Metamod-P-CMake/blob/master/metamod/games.h) (просто форк, оптимизированный под c-make сборку),
 * [metamod-am\metamod-hl1](https://github.com/alliedmodders/metamod-hl1/blob/master/metamod/games.h) от [alliedmodders](https://github.com/alliedmodders/).
- составив очищенный и актуальный список модов, проверив (**`поверхностно*`**) на работоспособность и добавили поддержку "из-коробки" этих игр в **[Metamod-r](https://github.com/theAsmodai/metamod-r)**. 
+ составив очищенный и актуальный список модов, проверив (**`поверхностно*`**) на работоспособность и добавили поддержку "из-коробки" этих игр в **[Metamod-r](https://github.com/rehlds/metamod-r)**. 
 
 # Поддерживаемые игры:
 :heavy_check_mark: - Поддерживается  :x: - Не поддерживается :interrobang: - Частично поддерживается, есть проблемы :star: - Проверено сообществом
@@ -89,7 +89,7 @@ slug: /metamod-r/supported-games
 | [Scientist Hunt](http://www.moddb.com/mods/scientist-hunt/downloads/) | :heavy_check_mark: |  :heavy_check_mark: 
 | [Snow-War](http://www.moddb.com/mods/snow-war/downloads/) | :heavy_check_mark: |  :heavy_check_mark: 
 | [StargateTC](http://www.moddb.com/mods/stargatetc/downloads/) :star:| :heavy_check_mark:  |  :heavy_check_mark: | Все версии: `1.x` и `2.x`.
-| [Sven Coop](http://store.steampowered.com/app/225840/Sven_Coop/) :star: | :interrobang:  |  :interrobang: | **Внимание!** Пользователи испытывают проблемы со старыми `legacy` `steam 5.x` версиями [#1](https://github.com/theAsmodai/metamod-r/issues/17#issuecomment-362253473), [#2](https://github.com/theAsmodai/metamod-r/issues/29). _**Проблема РЕШЕНА**_ в `steam` версии [#3](https://github.com/theAsmodai/metamod-r/issues/45) разработчиками мода начиная с [билда 3082297](https://forums.svencoop.com/showthread.php/45308-Sven-Co-op-Update-Released-Build-3082297).
+| [Sven Coop](http://store.steampowered.com/app/225840/Sven_Coop/) :star: | :interrobang:  |  :interrobang: | **Внимание!** Пользователи испытывают проблемы со старыми `legacy` `steam 5.x` версиями [#1](https://github.com/rehlds/metamod-r/issues/17#issuecomment-362253473), [#2](https://github.com/rehlds/metamod-r/issues/29). _**Проблема РЕШЕНА**_ в `steam` версии [#3](https://github.com/rehlds/metamod-r/issues/45) разработчиками мода начиная с [билда 3082297](https://forums.svencoop.com/showthread.php/45308-Sven-Co-op-Update-Released-Build-3082297).
 | [Swarm](http://www.moddb.com/mods/swarm/downloads) | :heavy_check_mark:  |  :heavy_check_mark: |  
 | [Team Fortress Classic](http://store.steampowered.com/app/20/Team_Fortress_Classic/) | :heavy_check_mark: | :heavy_check_mark:
 | [The Battle Grounds](http://www.moddb.com/mods/battle-grounds/downloads/) | :heavy_check_mark:  |  :heavy_check_mark: |  
@@ -106,7 +106,7 @@ slug: /metamod-r/supported-games
 | [WormsHL](http://www.moddb.com/mods/wormshl/downloads/) | :heavy_check_mark: |  :heavy_check_mark: 
 | [Zombie Panic](http://www.moddb.com/mods/zombie-panic/downloads/) | :heavy_check_mark: |  :heavy_check_mark:  
 
-* _Моды, не считая `Counter-Strike 1.6`, `Half-Life 1` и остальных, помеченных :star: - проверялись только на успешный запуск в среде [ReHLDS](https://github.com/dreamstalker/ReHLDS) + [Metamod-r](https://github.com/theAsmodai/metamod-r). Интенсивных проверок произведено не было. Таблица совместимости является "авансовой". В данный момент идет более тщательное тестирование и выявление проблем с модами._
+* _Моды, не считая `Counter-Strike 1.6`, `Half-Life 1` и остальных, помеченных :star: - проверялись только на успешный запуск в среде [ReHLDS](https://github.com/rehlds/ReHLDS) + [Metamod-r](https://github.com/rehlds/metamod-r). Интенсивных проверок произведено не было. Таблица совместимости является "авансовой". В данный момент идет более тщательное тестирование и выявление проблем с модами._
 
 
 ***
@@ -118,7 +118,7 @@ slug: /metamod-r/supported-games
 #### "Лимит 512"
 ![image](https://user-images.githubusercontent.com/34998786/37242681-89c5da6a-24a8-11e8-8ef2-97188b70a6f3.png)
 
-Игра имеет модифицированный лимит на предзагрузку объектов в движке и клиенте. Поскольку metamod-r требует наличие rehlds, то на стороне сервера лимит меняется на стандартный - 512 объектов. Как следствие, мод не запускается на картах, которые выходят за рамки лимита (карты одиночной игры, для совместного прохождения). Но при этом, стандартные сетевые карты, типа `crossfire` работают нормально. (_Прямым багом [metamod-r #29](https://github.com/theAsmodai/metamod-r/issues/29) или [rehlds #591](https://github.com/dreamstalker/rehlds/issues/591) это не является, но косвенно затрагивает данные продукты_). 
+Игра имеет модифицированный лимит на предзагрузку объектов в движке и клиенте. Поскольку metamod-r требует наличие rehlds, то на стороне сервера лимит меняется на стандартный - 512 объектов. Как следствие, мод не запускается на картах, которые выходят за рамки лимита (карты одиночной игры, для совместного прохождения). Но при этом, стандартные сетевые карты, типа `crossfire` работают нормально. (_Прямым багом [metamod-r #29](https://github.com/rehlds/metamod-r/issues/29) или [rehlds #591](https://github.com/rehlds/ReHLDS/issues/591) это не является, но косвенно затрагивает данные продукты_). 
 
 ##### Решение:
 * можно попробовать обновиться до новейшей `steam`-версии [билд 3082297](https://forums.svencoop.com/showthread.php/45308-Sven-Co-op-Update-Released-Build-3082297) of svencoop.

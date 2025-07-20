@@ -2,7 +2,7 @@
 id: metamod-r-troubbleshouting
 title: Устранение проблем
 sidebar_position: 4
-description: Metamod-r is an optimized version of the original Metamod, enhancing performance and compatibility for Half-Life 1 servers.
+description: Metamod-R — это оптимизированная версия оригинального Metamod, улучшающая производительность и совместимость для серверов Half-Life 1.
 slug: /metamod-r/troubbleshouting
 ---
 
@@ -13,11 +13,11 @@ slug: /metamod-r/troubbleshouting
 # Устранение проблем
 
 ## Как правильно подать заявку с проблемой:
-Если вы хотите внести предложение, зарегистрировать ошибку, у вас ничего не получилось, либо вам нужна "живая" помощь и содействие - вы всегда можете подать заявку [здесь](https://github.com/theAsmodai/metamod-r/issues). Достаточно нажать зеленую кнопку `New issue` и заполнить форму. 
+Если вы хотите внести предложение, зарегистрировать ошибку, у вас ничего не получилось, либо вам нужна "живая" помощь и содействие - вы всегда можете подать заявку [здесь](https://github.com/rehlds/metamod-r/issues). Достаточно нажать зеленую кнопку `New issue` и заполнить форму. 
 
 Разработчики будут благодарны, если при описании проблемы - вы максимально подробно все распишете: 
 * Версию вашей операционной системы;
-* Версию (номер сборки) HLDS-сервера (либо [ReHLDS](https://github.com/dreamstalker/ReHLDS));
+* Версию (номер сборки) HLDS-сервера (либо [ReHLDS](https://github.com/rehlds/ReHLDS));
 * Версию вашей игры (или мода);
 * Версию (номер или дату сборки) Metamod-r;
   - Можете дополнительно указать список модулей (набрав `meta list` в консоли сервера).
@@ -146,7 +146,7 @@ slug: /metamod-r/troubbleshouting
 
 Для тестирования настроек создания дампов можете использовать специально разработанный модуль: ![](https://i.imgur.com/vqDiJ67.png) [FixItAll](http://aghl.ru/forum/viewtopic.php?f=19&t=1680&p=19549) \ ![](https://i.imgur.com/Uy97ydR.png) [FixItAll зеркало](https://github.com/EpicMorgGames/LegacyMods/raw/master/AGHL.ru/fixitall_mm.0.0.zip)  или ![](https://i.imgur.com/Uy97ydR.png) [Crash.sma*](https://github.com/EpicMorgGames/LegacyMods/blob/master/AGHL.ru/Crash.sma).
 
-* crash.sma - https://github.com/theAsmodai/metamod-r/issues/42#issuecomment-416456526
+* crash.sma - https://github.com/rehlds/metamod-r/issues/42#issuecomment-416456526
 
 *** 
 

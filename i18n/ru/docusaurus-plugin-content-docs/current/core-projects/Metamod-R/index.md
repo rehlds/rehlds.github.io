@@ -1,7 +1,7 @@
 ---
 id: metamod-r
 title: Metamod-r
-description: Metamod-r — это оптимизированная версия оригинального Metamod, улучшающая производительность и совместимость для серверов Half-Life 1.
+description: Metamod-R — это оптимизированная версия оригинального Metamod, улучшающая производительность и совместимость для серверов Half-Life 1.
 slug: /metamod-r
 ---
 
