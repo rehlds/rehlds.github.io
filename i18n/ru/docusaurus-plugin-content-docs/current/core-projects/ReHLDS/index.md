@@ -1,7 +1,7 @@
 ---
-sidebar_position: 1
 id: rehlds
 title: ReHLDS
+sidebar_position: 1
 description: ReHLDS — это переработанная версия оригинального HLDS с улучшенной безопасностью, производительностью и возможностями моддинга для таких игр, как Half-Life и Counter-Strike 1.6.
 slug: /rehlds
 ---
