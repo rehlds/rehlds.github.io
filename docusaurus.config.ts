@@ -2,6 +2,8 @@ import { themes as prismThemes } from "prism-react-renderer";
 import type { Config } from "@docusaurus/types";
 import type * as Preset from "@docusaurus/preset-classic";
 
+const repoName = "rehlds.github.io"
+
 const config: Config = {
   title: "ReHLDS",
   tagline: "Refined HLDS with fixes and new features for better performance.",
@@ -14,11 +16,12 @@ const config: Config = {
   baseUrl: "/",
 
   deploymentBranch: "gh-pages",
+  trailingSlash: true,
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: "rehlds", // Usually your GitHub org/user name.
-  projectName: "rehlds.github.io", // Usually your repo name.
+  projectName: repoName, // Usually your repo name.
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -28,7 +31,7 @@ const config: Config = {
   // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: "en",
-    locales: ["en"],
+    locales: ["en", "ru"],
   },
 
   presets: [
@@ -39,7 +42,8 @@ const config: Config = {
           sidebarPath: "./sidebars.ts",
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: "https://github.com/rehlds/rehlds.github.io/tree/master/",
+          editUrl: "https://github.com/rehlds/" + repoName + "/tree/master/",
+          editLocalizedFiles: true
         },
         blog: {
           showReadingTime: true,
@@ -49,11 +53,12 @@ const config: Config = {
           },
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: "https://github.com/rehlds/rehlds.github.io/tree/master/",
+          editUrl: "https://github.com/rehlds/" + repoName + "/tree/master/",
           // Useful options to enforce blogging best practices
-          onInlineTags: "warn",
-          onInlineAuthors: "warn",
+          onInlineTags: "ignore",
+          onInlineAuthors: "ignore",
           onUntruncatedBlogPosts: "warn",
+          editLocalizedFiles: true
         },
         theme: {
           customCss: "./src/css/custom.css",
@@ -67,12 +72,14 @@ const config: Config = {
       respectPrefersColorScheme: true,
     },
     // Replace with your project's social card
-    // image: "img/docusaurus-social-card.jpg",
+    image: "img/rehlds-social-card.jpg",
     announcementBar: {
       backgroundColor: "var(--ifm-color-primary-lighter)",
       textColor: "var(--ifm-color-text)",
-      content:
-        '<strong><a href="/blog/2024/11/01/welcome">🫵 We need you!</a></strong>',
+      content: ''
+        + '<strong>'
+          + '<a href="/blog/2024/11/01/welcome">🫵 We need you!</a>'
+        + '</strong>',
     },
     navbar: {
       title: "ReHLDS Documentation",
@@ -88,6 +95,10 @@ const config: Config = {
           label: "Tutorial",
         },
         { to: "/blog", label: "Blog", position: "left" },
+        {
+          type: 'localeDropdown',
+          position: 'right',
+        },
         {
           href: "https://github.com/rehlds",
           label: "GitHub",
@@ -111,8 +122,8 @@ const config: Config = {
           title: "Community",
           items: [
             {
-              label: "Telegram",
-              href: "https://t.me/ReHLDS_Community",
+              label: "Discord",
+              href: "https://rehlds.dev/to/discord",
             },
           ],
         },
@@ -124,9 +135,13 @@ const config: Config = {
               to: "/blog",
             },
             {
-              label: "GitHub ",
+              label: "GitHub",
               href: "https://github.com/rehlds",
             },
+            {
+              label: "Sitemap",
+              href: "https://rehlds.dev/sitemap.xml"
+            }
           ],
         },
       ],
@@ -200,7 +215,7 @@ const config: Config = {
             from: ["/to/github"],
           },
           {
-            to: "https://t.me/ReHLDS_Community",
+            to: "https://t.me/ReHLDS_Feed",
             from: ["/to/telegram"],
           },
 
@@ -210,7 +225,7 @@ const config: Config = {
             from: ["/get/rehlds"],
           },
           {
-            to: "https://github.com/s1lentq/ReGameDLL_CS/releases/latest",
+            to: "https://github.com/rehlds/ReGameDLL_CS/releases/latest",
             from: ["/get/regamedll_cs"],
           },
           {

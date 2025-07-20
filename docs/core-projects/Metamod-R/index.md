@@ -7,7 +7,7 @@ slug: /metamod-r
 
 # What is Metamod-r?
 
-Metamod-r is an improved version of the original Metamod, a plugin/DLL manager that functions as an intermediary layer between the Half-Life Engine and a Half-Life game mod. This setup allows the dynamic loading and unloading of mod-like DLL plugins, making it possible to add custom functionality to the Half-Life server or any game mod running on the engine.
+Metamod-r is an improved version of the original [Metamod](http://metamod.org/) written by _Will Day_ for Half-Life 1 with some additions from [Jussi Kivilinna](https://github.com/jkivilin) ([Metamod-p](https://github.com/jkivilin/metamod-p)), a plugin/DLL manager that functions as an intermediary layer between the Half-Life Engine and a Half-Life game mod.  This setup allows the dynamic loading and unloading of mod-like DLL plugins, making it possible to add custom functionality to the Half-Life server or any game mod running on the engine.
 
 Based on the original Metamod developed by Will Day, Metamod-r incorporates significant improvements, including code optimizations and enhanced performance, while maintaining full compatibility with all plugins designed for Metamod. Key enhancements in Metamod-r include optimizations from Metamod-p, an earlier modified version by Jussi Kivilinna, along with further refinements.
 
