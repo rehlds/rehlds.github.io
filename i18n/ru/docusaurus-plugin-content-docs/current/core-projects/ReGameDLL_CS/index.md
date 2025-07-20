@@ -1,6 +1,7 @@
 ---
-id: regamedll_cs
+id: regamedll-cs
 title: ReGameDLL_CS
+sidebar_position: 1
 description: ReGameDLL_CS представляет собой реверс-инжинированную, улучшенную версию GameDLL для Counter-Strike, включающую расширенный функционал, оптимизации и новые возможности API.
 slug: /regamedll-cs
 ---
