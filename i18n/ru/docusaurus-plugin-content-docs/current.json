@@ -7,15 +7,15 @@
     "message": "Основные проекты",
     "description": "The label for category Core projects in sidebar tutorialSidebar"
   },
-  "sidebar.tutorialSidebar.category.Addons, Plugins and Modules": {
-    "message": "Дополнения, Плагины и Модули",
-    "description": "The label for category .Addons, Plugins and Modules in sidebar tutorialSidebar"
+  "sidebar.tutorialSidebar.category.Misc": {
+    "message": "Остальное",
+    "description": "The label for category .Misc in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Core projects.link.generated-index.description": {
     "message": "Основные проекты организации ReHLDS, о которых вы можете прочитать.",
     "description": "The generated-index page description for category Core projects in sidebar tutorialSidebar"
   },
-  "sidebar.tutorialSidebar.category.Addons, Plugins and Modules.link.generated-index.description": {
+  "sidebar.tutorialSidebar.category.Misc.link.generated-index.description": {
     "message": "Дополнительные проекты организации ReHLDS, о которых вы можете узнать подробнее.",
     "description": "The generated-index page description for category Core projects in sidebar tutorialSidebar"
   }

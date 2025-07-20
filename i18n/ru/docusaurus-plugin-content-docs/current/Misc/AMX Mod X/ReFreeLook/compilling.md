@@ -1,14 +1,26 @@
 ---
 id: refreelook-compilling
-title: Инструкция по сборке
+title: "ReFreeLook: Инструкция по сборке"
+sidebar_label: Инструкция по сборке
 sidebar_position: 4
 description: ReFreeLook — модуль AMX Mod X, позволяющий администраторам-наблюдателям использовать любые режимы камеры, независимо от значения `mp_forcecamera` или `mp_forcechasecam`. Работает только в последней версии `ReGameDLL_CS`.
 slug: /refreelook/compilling
+keywords:
+  - refreelook
+  - AMX Mod X
+  - amxx
+  - amx
+  - module
+  - compilling
+  - Инструкция по сборке
+tags:
+  - refreelook
+  - compilling
+  - Инструкция по сборке
+last_update:
+  date: 07/21/2025
+  author: STAM
 ---
-
-<head>
-  <title>ReVoice: Инструкция по сборке | ReHLDS</title>
-</head>
 
 # Инструкция по сборке
 

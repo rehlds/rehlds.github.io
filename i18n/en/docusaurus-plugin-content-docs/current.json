@@ -54,5 +54,13 @@
   "sidebar.tutorialSidebar.category.ReVoice": {
     "message": "ReVoice",
     "description": "The label for category ReVoice in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.AMX Mod X": {
+    "message": "AMX Mod X",
+    "description": "The label for category AMX Mod X in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Metamod": {
+    "message": "Metamod",
+    "description": "The label for category Metamod in sidebar tutorialSidebar"
   }
 }

@@ -10,4 +10,4 @@ slug: /rehlds/install
   <title>ReHLDS: Installing | ReHLDS</title>
 </head>
 
-# Installing
+# Installation

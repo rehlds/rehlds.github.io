@@ -10,7 +10,7 @@ slug: /metamod-r/install
   <title>Metamod-R: Installing | ReHLDS</title>
 </head>
 
-# Installing
+# Installation
 
 Check out [list of supported games](/docs/metamod-r/supported-games) and make sure that there is your game in the list. _Don't be upset if it's not. After installation you can check the performance of **Metamod-r** with your `unsupported` mod after fine tuning by this [article](/docs/metamod-r/settings). There is a possibility that the game will start._
 
@@ -22,7 +22,7 @@ Check out [list of supported games](/docs/metamod-r/supported-games) and make su
 |---------| -------|  -------|  
 | :x: | `API 3.1+` | ![](https://i.imgur.com/AzhAYR4.png) ![](https://i.imgur.com/t23p9tU.png) |  
 
-# Installing on the game server
+# Installation on the game server
 * Download the latest version of _**Metamod-r**_ [![Download](https://camo.githubusercontent.com/2b15ec2fc402e02b66fde9eab7e896406caeddac/687474703a2f2f7265686c64732e6f72672f76657273696f6e2f6d6574616d6f642d2d722e737667)](http://teamcity.rehlds.org/guestAuth/downloadArtifacts.html?buildTypeId=Metamod_Publish&buildId=lastSuccessful) into any convenient place.
 * Unzip the folder _**addons**_ into your mod folder from the downloaded zip archive.![](https://i.imgur.com/ptx3MZx.png)
 _In case of any problem with determining the name of the directory, please refer to the summary table, which is represented by **[here](/docs/metamod-r/troubbleshouting)**._

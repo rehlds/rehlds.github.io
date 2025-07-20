@@ -10,4 +10,4 @@ slug: /regamedll-cs/install
   <title>ReGameDLL_CS: Installing | ReHLDS</title>
 </head>
 
-# Installing
+# Installation

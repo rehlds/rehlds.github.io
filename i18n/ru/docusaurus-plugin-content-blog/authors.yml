@@ -6,3 +6,14 @@ wopox1337:
   page: true
   socials:
     github: wopox1337
+
+STAM:
+  name: Зимовский Анатолий
+  title: DevOps Engineer
+  url: https://www.mobygames.com/person/1052066/anatolii-zimovskii/
+  image_url: https://github.com/stamepicmorg.png
+  page: true
+  socials:
+    github: stamepicmorg
+    linkedin: anatoliy-zimovskiy
+    mobygames: https://www.mobygames.com/person/1052066/anatolii-zimovskii/
