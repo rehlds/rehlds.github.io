@@ -7,7 +7,7 @@ slug: /reapi/settings
 ---
 
 <head>
-  <title>ReHLDS: Settings | ReHLDS</title>
+  <title>ReAPI: Settings | ReHLDS</title>
 </head>
 
 # Settings

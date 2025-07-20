@@ -7,7 +7,7 @@ slug: /reapi/compilling
 ---
 
 <head>
-  <title>ReHLDS: Compilling | ReHLDS</title>
+  <title>ReAPI: Compilling | ReHLDS</title>
 </head>
 
 # Build instructions

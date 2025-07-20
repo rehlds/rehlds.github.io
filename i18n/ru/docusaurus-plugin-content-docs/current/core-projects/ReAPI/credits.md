@@ -7,7 +7,7 @@ slug: /reapi/credits
 ---
 
 <head>
-  <title>reapi: Авторы | ReHLDS</title>
+  <title>ReAPI: Авторы | ReHLDS</title>
 </head>
 
 # Авторы

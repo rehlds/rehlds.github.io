@@ -7,7 +7,7 @@ slug: /reapi/install
 ---
 
 <head>
-  <title>ReHLDS: Installing | ReHLDS</title>
+  <title>ReAPI: Installing | ReHLDS</title>
 </head>
 
 # Installing

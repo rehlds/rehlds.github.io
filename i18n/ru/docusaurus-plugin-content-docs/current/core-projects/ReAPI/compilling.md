@@ -7,7 +7,7 @@ slug: /reapi/compilling
 ---
 
 <head>
-  <title>reapi: Инструкция по сборке | ReHLDS</title>
+  <title>ReAPI: Инструкция по сборке | ReHLDS</title>
 </head>
 
 # Инструкция по сборке

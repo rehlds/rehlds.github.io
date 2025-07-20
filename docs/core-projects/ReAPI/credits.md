@@ -7,7 +7,7 @@ slug: /reapi/credits
 ---
 
 <head>
-  <title>ReHLDS: Credits | ReHLDS</title>
+  <title>ReAPI: Credits | ReHLDS</title>
 </head>
 
 # Credits
