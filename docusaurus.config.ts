@@ -48,7 +48,7 @@ const config: Config = {
         blog: {
           showReadingTime: true,
           feedOptions: {
-            type: ["rss", "atom"],
+            type: ["rss", "atom", "json"],
             xslt: true,
           },
           // Please change this to your repo.
