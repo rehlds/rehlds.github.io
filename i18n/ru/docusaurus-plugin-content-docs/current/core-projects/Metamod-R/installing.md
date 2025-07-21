@@ -24,7 +24,7 @@ slug: /metamod-r/install
 
 # Установка на игровой сервер
 
-* Скачайте последнюю версию _**Metamod-r**_ [![Download](https://camo.githubusercontent.com/2b15ec2fc402e02b66fde9eab7e896406caeddac/687474703a2f2f7265686c64732e6f72672f76657273696f6e2f6d6574616d6f642d2d722e737667)](http://teamcity.rehlds.org/guestAuth/downloadArtifacts.html?buildTypeId=Metamod_Publish&buildId=lastSuccessful) в любое удобное место.
+* Скачайте последнюю версию _**Metamod-r**_ [![Download](https://img.shields.io/github/downloads/rehlds/metamod-r/latest/total?sort=date&style=flat-square)](https://github.com/rehlds/metamod-r/releases/latest) в любое удобное место.
 * Разархивируйте из скачанного zip-архива папку _**addons**_ в папку вашего мода. ![](https://i.imgur.com/QYpJ6vI.png)
 
  _Если у вас возникла проблема, с определением имени каталога, обратитесь к сводной таблице, которая представлена **[здесь](/ru/docs/metamod-r/troubbleshouting)**._
