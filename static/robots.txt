@@ -2,3 +2,4 @@ User-agent: *
 Allow: /
 
 Sitemap: https://rehlds.dev/sitemap.xml
+Sitemap: https://rehlds.dev/ru/sitemap.xml
