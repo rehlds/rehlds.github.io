@@ -11,3 +11,5 @@ slug: /rehlds/install
 </head>
 
 # Installation
+For new users, or for a faster installation, you can use this tutorial:
+https://github.com/lukasenka/rehlds-installer
