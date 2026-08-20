@@ -2,50 +2,67 @@
 id: regamedll-cs
 title: ReGameDLL_CS
 sidebar_position: 1
-description: ReGameDLL_CS is a reverse-engineered, enhanced version of the Counter-Strike GameDLL, featuring extended functionality, optimizations, and new API options.
+description: Current overview, compatibility notes, downloads, and next steps for ReGameDLL_CS server administrators and developers.
 slug: /regamedll-cs
 ---
 
-# What is ReGameDLL_CS?
+# ReGameDLL_CS
 
-ReGameDLL_CS is a reverse-engineered version of the original Counter-Strike game library (mp.dll / cs.so) based on HLDS (build 6153 beta) using DWARF debug information from the Linux version of HLDS (cs.so). This re-engineering effort allows for a more stable and feature-rich experience for Counter-Strike 1.6 and Counter-Strike: Condition Zero servers.
+ReGameDLL_CS is a reverse-engineered and actively maintained replacement for the Counter-Strike server GameDLL (`mp.dll` on Windows and `cs.so` on Linux). It is based on the original Counter-Strike GameDLL from HLDS build 6153 beta and provides fixes, new server settings, built-in bot support, and an extended API for mods and plugins.
 
-## Key Features and Improvements
+The project supports the official Valve server content for:
 
-ReGameDLL_CS is designed to provide an improved, stable GameDLL with extended functionality for mods and plugins. Below are some of the key improvements and features:
+- Counter-Strike 1.6 (`cstrike`)
+- Counter-Strike: Condition Zero (`czero`)
 
-1. **Performance and Network Optimizations**  
-   The GameDLL includes numerous optimizations, particularly in network performance, reducing latency and improving server response times during gameplay.
+Use the [latest stable release](https://github.com/rehlds/ReGameDLL_CS/releases/latest) for production servers. Development builds are available from the upstream [GitHub Actions workflow](https://github.com/rehlds/ReGameDLL_CS/actions/workflows/build.yml), but may contain changes that have not reached a stable release.
 
-2. **Extended Game Settings and Features**  
-   ReGameDLL_CS introduces a variety of new and enhanced in-game settings, allowing server administrators and modders greater control over gameplay. Additionally, expanded API support enables a broader range of custom mods and plugins, providing more flexibility and configurability.
+## What ReGameDLL_CS adds
 
-3. **Enhanced Security**  
-   The re-engineered codebase includes critical security improvements, mitigating common vulnerabilities and providing a safer environment for players and server operators.
+- Gameplay and server-side bug fixes.
+- Additional game rules and configurable CVars.
+- Built-in zBot support, including bot quota modes and navigation tools.
+- Improved Condition Zero hostage AI that can also be installed for CS 1.6.
+- New server commands such as `game version`, `endround`, and `swapteams`.
+- An extended GameDLL API used by projects such as [ReAPI](https://github.com/rehlds/ReAPI).
 
-4. **Developer and Map makers Support**  
-   ReGameDLL_CS provides additional functionality aimed at developers and map designers, including enhanced options for .bsp maps and extended scripting possibilities. This allows for deeper customization and the creation of richer, more complex game environments.
+The complete, continuously updated list of settings is maintained in the upstream [`game.cfg`](https://github.com/rehlds/ReGameDLL_CS/blob/master/dist/game.cfg).
 
-## Important Compatibility Note
+## Compatibility warning
 
-:::warning
+:::warning Binary compatibility
 
-ReGameDLL_CS is not binary compatible with the original HLDS, as it was compiled using different compilers from those used for the original Counter-Strike mod. Plugins that rely on binary code analysis (such as Orpheu) may not function correctly with ReGameDLL_CS.
+ReGameDLL_CS is not binary compatible with Valve's original GameDLL because it is built with different compilers. Plugins that inspect or patch the original binary by signatures or offsets, such as some Orpheu-based plugins, may fail or crash the server.
+
+Prefer supported APIs such as ReAPI and test every binary-dependent plugin before deploying it to a production server.
 
 :::
 
-## Installation and Usage
+Standard AMX Mod X and Metamod plugins that use documented interfaces are generally unaffected by this warning.
 
-ReGameDLL_CS is fully compatible with the official Counter-Strike 1.6 and Condition Zero mods by Valve. To install ReGameDLL_CS, download the binaries and replace the original `mp.dll` or `cs.so` files in your server setup.
+## Files in a release
 
-### Additional Options
+The stable `regamedll-bin-*.zip` archive contains separate `win32` and `linux32` builds:
 
-- **Installing zBot for CS 1.6**  
-  - Extract all files from the zBot archive.
-  - Add the `-bots` option to the HLDS command line.
-  
-- **Enabling CSCZ Hostage AI in CS 1.6**  
-  - Extract all files from the archive.
-  - Add the `-host-improv` option to the HLDS command line.
+| Platform | GameDLL | Release path |
+| --- | --- | --- |
+| Windows | `mp.dll` | `bin/win32/cstrike/dlls/mp.dll` |
+| Linux x86 | `cs.so` | `bin/linux32/cstrike/dlls/cs.so` |
 
-ReGameDLL_CS brings together stability, security, and expanded capabilities, making it an ideal choice for those seeking to enhance and maintain their Counter-Strike servers with modern tools and options.
+Each platform folder also contains `game.cfg`, `game_init.cfg`, and `delta.lst`. The zBot profiles and sounds for CS 1.6 are distributed separately; see [Using bots](./bots/).
+
+## Where to go next
+
+- [Install or update ReGameDLL_CS](./install/)
+- [Configure game rules and server commands](./settings/)
+- [Install and operate zBot](./bots/)
+- [Build ReGameDLL_CS from source](./compilling/)
+- [Troubleshoot a server](./troubbleshouting/)
+
+After installation, run this command in the server console:
+
+```text
+game version
+```
+
+A successful installation prints the ReGameDLL_CS build version, build date, and project URL.
