@@ -13,7 +13,7 @@ const config: Config = {
   url: "https://rehlds.dev",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: "/",
+  // baseUrl: "/",
 
   deploymentBranch: "gh-pages",
   trailingSlash: true,
@@ -45,10 +45,14 @@ const config: Config = {
       },
     },
   },
-
+  storage: {
+    type: 'localStorage',
+    namespace: true,
+  },
   future: {
     v4: true, // opt-in for Docusaurus v4 planned changes
-    experimental_faster: true, // turns Docusaurus Faster on globally
+    faster: true, // turns Docusaurus Faster on globally
+    fasterByDefault: true,  // https://docusaurus.io/blog/releases/3.10
   },
 
   presets: [
