@@ -4,14 +4,14 @@ This repository contains the documentation for the ReHLDS project, built using [
 
 ## Prerequisites
 
-- Node.js version 22 LTS
+- Node.js version 24 LTS
 - NPM (comes with Node.js)
 - Install `yarn` (or `pnpm`, `bun`, etc. or use `npm`)
 
 ## Getting Started
 
 1. Clone the repository
-2. `node -v`  Should print `v22.17.1` or other `22.x`
+2. `node -v`  Should print `v24.19.0` or other `24.x`
 3. `corepack enable yarn`
 4. `yarn -v`
 
