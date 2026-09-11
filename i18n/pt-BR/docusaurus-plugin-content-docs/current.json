@@ -1,0 +1,90 @@
+{
+  "version.label": {
+    "message": "Próxima",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.Core projects": {
+    "message": "Projetos principais",
+    "description": "The label for category Core projects in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Core projects.link.generated-index.description": {
+    "message": "Os projetos principais da organização ReHLDS, sobre os quais você pode se informar aqui.",
+    "description": "The generated-index page description for category Core projects in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.ReAPI": {
+    "message": "ReAPI",
+    "description": "The label for category ReAPI in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.ReGameDLL_CS": {
+    "message": "ReGameDLL_CS",
+    "description": "The label for category ReGameDLL_CS in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.ReHLDS": {
+    "message": "ReHLDS",
+    "description": "The label for category ReHLDS in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Metamod-r": {
+    "message": "Metamod-r",
+    "description": "The label for category Metamod-r in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.ReChecker": {
+    "message": "ReChecker",
+    "description": "The label for category ReChecker in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.ReFreeLook": {
+    "message": "ReFreeLook",
+    "description": "The label for category ReFreeLook in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.ReSemiclip": {
+    "message": "ReSemiclip",
+    "description": "The label for category ReSemiclip in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.ReUnion": {
+    "message": "ReUnion",
+    "description": "The label for category ReUnion in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.ReVoice": {
+    "message": "ReVoice",
+    "description": "The label for category ReVoice in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.AMX Mod X": {
+    "message": "AMX Mod X",
+    "description": "The label for category AMX Mod X in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Metamod": {
+    "message": "Metamod",
+    "description": "The label for category Metamod in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Misc": {
+    "message": "Outros",
+    "description": "The label for category Misc in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Misc.link.generated-index.description": {
+    "message": "Outros projetos da organização ReHLDS, sobre os quais você pode se informar aqui.",
+    "description": "The generated-index page description for category Misc in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Third-party": {
+    "message": "Projetos de terceiros",
+    "description": "The label for category Third-party in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Third-party.link.generated-index.description": {
+    "message": "Plugins escritos por membros da comunidade do ReHLDS fora da organização. A organização não os mantém: relate os problemas nos repositórios deles.",
+    "description": "The generated-index page description for category Third-party in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Deprecated": {
+    "message": "Projetos descontinuados",
+    "description": "The label for category Deprecated in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Deprecated.link.generated-index.description": {
+    "message": "Projetos que não são mais mantidos. Estão documentados aqui para que a situação deles possa ser consultada: não os instale em um servidor atual.",
+    "description": "The generated-index page description for category Deprecated in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Community": {
+    "message": "Comunidade",
+    "description": "The label for category Community in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Community.link.generated-index.description": {
+    "message": "Utilitários de terceiros criados pela comunidade em torno do ReHLDS. Estão listados apenas como referência: a organização ReHLDS não os desenvolve, revisa nem mantém.",
+    "description": "The generated-index page description for category Community in sidebar tutorialSidebar"
+  }
+}

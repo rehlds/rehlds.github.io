@@ -69,7 +69,7 @@ Write command with `meta` word. _For example, `meta version`_.
 | **type** | int
 | **contains** | from 0 to 42
 | **default** | 0
-| **overridden** |  `+localinfo mm_debug <число>`
+| **overridden** |  `+localinfo mm_debug <number>`
 | **example** | `debuglevel 0`
 | **description** | Sets the initial debugging level for metamod (same as cvar "meta_debug"). Where `<number>` is an integer, 0 and up. Default is normally 0.  If hlds is run with "-dev", default is 3.
 
@@ -79,17 +79,17 @@ Write command with `meta` word. _For example, `meta version`_.
 | **type** | string
 | **contains** | `<path>`
 | **default** | null
-| **overridden** |  `+localinfo mm_gamedll <путь>`
+| **overridden** |  `+localinfo mm_gamedll <path>`
 | **example** |  `gamedll dlls/hl.dll`, `gamedll ../podbot/podbot.dll`, `gamedll /home/bots/dlls/mybot.dll`
 | **description** | Overrides the auto-detected gamedll, in particular for bots. Where `<path>` is an absolute path, or a path relative to the gamedir. Default is empty, with gamedll being auto-recognized based on the gamedir.
 
 ### exec_cfg 
 | **var** | exec_cfg 
 | :----- | -----:
-| **Тип** | string
-| **type** | `<file>`
+| **type** | string
+| **contains** | `<file>`
 | **default** | `addons/metamod/exec.cfg`
-| **overridden** |  `+localinfo mm_execcfg <файл>`
+| **overridden** |  `+localinfo mm_execcfg <file>`
 | **example** |  `exec_cfg configs/debugging.cfg`, `exec_cfg ../clan/match.cfg`
 | **description** | Overrides the default filename containing hlds commands to run just after loading Metamod. Where `<file>` is a path relative to the gamedir.  Note!  This CANNOT be an absolute path, as hlds will not "exec" absolute pathnames.
  
@@ -104,7 +104,7 @@ Write command with `meta` word. _For example, `meta version`_.
 | **description** | Setting to disable or enable Metamod's client commands ('meta list' and 'meta version'). Extra setting for "Metamod+All-Mod-Support Patch". 
 
 ### dynalign_list
-| **var** | clientmeta 
+| **var** | dynalign_list 
 | :----- | -----:
 | **type** | bool
 | **contains** | `<yes/no>`
