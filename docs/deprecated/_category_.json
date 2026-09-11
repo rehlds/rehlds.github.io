@@ -1,0 +1,8 @@
+{
+  "label": "Deprecated",
+  "position": 5,
+  "link": {
+    "type": "generated-index",
+    "description": "Projects that are no longer maintained. They are documented here so their status is discoverable — do not deploy them on a current server."
+  }
+}
