@@ -1,0 +1,77 @@
+---
+title: "ReHLDS 的现状"
+description: ReHLDS 组织是什么、近期发布了哪些内容，以及三种语言的文档目前进展到哪一步。
+authors:
+  - STAM
+keywords:
+  - ReHLDS
+  - Half-Life 专用服务器
+  - Counter-Strike 1.6
+  - 开源
+  - 文档
+  - 社区
+tags:
+  - announcement
+  - community
+  - documentation
+  - open source
+---
+
+# ReHLDS 的现状
+
+Half-Life 属于那种迟迟不肯落幕的游戏。十年前搭起来的服务器至今仍在运行，周五晚上依然坐满了人，管理它们的依然是那些清楚每一行配置各自作用的人。而它们底下的引擎，早已不再得到最初作者的关注。
+
+我们这个组织的存在，正是为了填补这道空缺。
+
+{/* truncate */}
+
+## 我们究竟在做什么
+
+ReHLDS 是对 Valve 的 Half-Life Dedicated Server 进行逆向工程后重构的版本，以 build 6153 为基础重新构建，修掉了缺陷、封堵了安全漏洞、放宽了各项上限。围绕它形成了一个项目家族，每一个都解决管理员实际会遇到的某个具体问题：
+
+- **[ReGameDLL_CS](https://rehlds.dev/zh-Hans/docs/regamedll-cs)**——Counter-Strike 1.6 与 Condition Zero 游戏库的稳定、扩展版替代品。
+- **[Metamod-r](https://rehlds.dev/zh-Hans/docs/metamod-r)**——经过优化、核心采用 JIT 编译的插件管理器。
+- **[ReAPI](https://rehlds.dev/zh-Hans/docs/reapi)**——把引擎和 GameDLL 的内部实现以普通原生函数的形式开放给 Pawn 插件，让插件作者不必再去修补内存偏移。
+- **[ReUnion](https://rehlds.dev/zh-Hans/docs/reunion)**、**[ReChecker](https://rehlds.dev/zh-Hans/docs/rechecker)**、**[ReSemiclip](https://rehlds.dev/zh-Hans/docs/resemiclip)**、**[ReFreeLook](https://rehlds.dev/zh-Hans/docs/refreelook)**——分别负责客户端兼容、文件校验、玩家碰撞和观战视角控制。
+
+这些都不是为了重写而重写。每一个项目的起点，都是有人在正式服务器上撞了墙，然后决定去修引擎，而不是绕开它。
+
+## 近期发布了什么
+
+核心项目仍在推进。ReHLDS、ReGameDLL_CS 和 ReAPI 在今年五月的同一天发布了新版本——分别是 `3.15.0.896`、`5.30.0.814` 和 `5.29.0.358`；过去一年里，ReHLDS 和 ReGameDLL_CS 各自收到了约三十个提交。这不是一座博物馆。
+
+另有一件值得单独提及的事：2025 年 7 月，ReHLDS 在主要贡献者明确同意下，从 GPLv3 转为 **MIT 许可证**。这是为了让别人更容易以这套引擎为基础开展工作而做出的审慎决定，不是走形式。
+
+## 文档终于名副其实
+
+很长一段时间里，对「文档在哪」这个问题，诚实的回答是耸耸肩，再甩出一个 2017 年的论坛帖子链接。现在不是这样了。
+
+上面列出的每个项目，如今都有完整的文档：它是什么、如何安装、它提供的每一项设置、如何从源代码构建，以及由谁编写。而且它存在于**三种语言**中——英语、俄语和简体中文，每种各 84 页。
+
+其中中文这一版尤其值得做到彻底。文档站点会静默地、逐页地回退到英语，因此一个翻译了一半的站点看起来并不像「完成了一半」，而像是坏掉了——并且坏得没有人会去反馈。现在这种情况没有了。
+
+与之一同上线的还有三个新板块：
+
+- **第三方项目**——由社区成员在组织之外编写的插件：[Hitbox Fixer](https://rehlds.dev/zh-Hans/docs/hitbox-fixer) 和 [SafeNameAndChat](https://rehlds.dev/zh-Hans/docs/safenameandchat)。它们被广泛地与 ReHLDS 一同部署，理应能够被找到，同时清楚标明它们不属于我们。
+- **已废弃的项目**——四个确实已经死掉的项目：hitboxtracker、ReAMXModX、ReLocalizeBugFix 和 LocalizeBugFix。每一页都直白地写明它曾是什么、为何停止，以及该用什么替代。一页空白对正在搜索的管理员毫无帮助；而一页写着「这个与现代 ReHLDS 不兼容，请改用那个」的文档，能替他省下一个晚上。
+- **社区**——围绕 ReHLDS 构建的第三方工具，连同其注意事项一并如实列出。被列入并不意味着获得认可，页面上也这么写了。
+
+## 接下来做什么
+
+项目看板是公开的。如果你想知道实际正在推进的是什么，而不是公告里听起来漂亮的部分，[那里才是该看的地方](https://github.com/orgs/rehlds/projects)。
+
+在文档这一侧，接下来显而易见的问题是该增加哪种语言。如果不凭想当然，而是看真正活跃的 CS 1.6 服务器分布在哪里，西班牙语和巴西葡萄牙语最为突出，罗马尼亚语和波兰语紧随其后。这里不做任何承诺：翻译只有在有人持续维护时才有价值，而一个过时的语言版本比没有更糟。
+
+## 如何提供帮助
+
+你能做的最有用的事不花一分钱：**运行当前的发行版，然后把出问题的地方反馈上来。**
+
+一份好的反馈应包含 ReHLDS 的构建版本、你的平台、模组及其版本、插件列表，以及控制台输出或崩溃转储。如何采集这些内容，[故障排查](https://rehlds.dev/zh-Hans/docs/rehlds/troubbleshouting)一节有说明。引擎能走到今天，靠的正是这样的反馈——整份修复清单都来自实际运行服务器的人，而不是测试实验室。
+
+除此之外，文档本身也[和其他仓库并无二致](https://github.com/rehlds/rehlds.github.io)。如果某一页有错、含糊，或者缺少你自己摸索出来的东西，一个修正它的 Pull Request 是真心受欢迎的——包括翻译。
+
+另外，如果你在犹豫该私信还是公开提问：[请公开提问](/zh-Hans/blog/2024/12/12/why-not-to-dm-developers)。答案对下一个人同样有用。
+
+---
+
+可以在 [GitHub](https://github.com/rehlds)、[Discord](https://rehlds.dev/to/discord) 和 [Telegram](https://rehlds.dev/to/telegram) 找到我们。感谢你们让这些服务器一直活着。
