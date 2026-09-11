@@ -21,7 +21,11 @@
   },
   "link.item.label.Telegram": {
     "message": "Telegram",
-    "description": "The label of footer link with label=Telegram linking to https://t.me/ReHLDS_Community"
+    "description": "The label of footer link with label=Telegram linking to https://rehlds.dev/to/telegram"
+  },
+  "link.item.label.Telegram Chat": {
+    "message": "Telegram 群组",
+    "description": "The label of footer link with label=Telegram Chat linking to https://rehlds.dev/to/telegram-chat"
   },
   "link.item.label.Blog": {
     "message": "博客",

@@ -177,7 +177,11 @@ const config: Config = {
             },
             {
               label: "Telegram",
-              href: "https://t.me/ReHLDS_Community",
+              href: "https://rehlds.dev/to/telegram",
+            },
+            {
+              label: "Telegram Chat",
+              href: "https://rehlds.dev/to/telegram-chat",
             },
           ],
         },
