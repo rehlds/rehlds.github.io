@@ -31,9 +31,11 @@ jobs:
           DOCUSAURUS_IGNORE_SSG_WARNINGS: true
 
       - name: Upload Build Artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v5
         with:
           path: build
+          # Docusaurus emits .nojekyll files into build/; v4+ drops dotfiles by default
+          include-hidden-files: true
 
   deploy:
     name: Deploy to GitHub Pages
