@@ -4,6 +4,35 @@ import type * as Preset from "@docusaurus/preset-classic";
 
 const repoName = "rehlds.github.io"
 
+// Yandex.Metrica, wired in directly instead of via docusaurus-plugin-yandex-metrica.
+// That plugin pinned @docusaurus/core to an exact old version (dragging a second,
+// stale dependency tree into the lockfile) and injected its <noscript> counter into
+// <head>, which is invalid HTML and produced four minifier diagnostics per page.
+// The counter script belongs in <head>; the <noscript> pixel belongs at end of <body>.
+function yandexMetrica(counterID: string) {
+  return function yandexMetricaPlugin() {
+    return {
+      name: "yandex-metrica",
+      injectHtmlTags() {
+        return {
+          headTags: [
+            {
+              tagName: "script",
+              innerHTML: `(function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};m[i].l=1*new Date();for(var j=0;j<e.length;j++){if(e[j].src===r){return}}k=t.createElement("script"),a=t.getElementsByTagName("script")[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})(window,document.scripts,document,"https://mc.yandex.ru/metrika/tag.js","ym");ym(${counterID},"init",{defer:true,clickmap:true,trackLinks:true,accurateTrackBounce:true,webvisor:true});`,
+            },
+          ],
+          postBodyTags: [
+            {
+              tagName: "noscript",
+              innerHTML: `<div><img src="https://mc.yandex.ru/watch/${counterID}" style="position:absolute;left:-9999px" alt="" /></div>`,
+            },
+          ],
+        };
+      },
+    };
+  };
+}
+
 const config: Config = {
   title: "ReHLDS",
   tagline: "Refined HLDS with fixes and new features for better performance.",
@@ -187,13 +216,7 @@ const config: Config = {
         anonymizeIP: false,
       },
     ],
-    [
-      "docusaurus-plugin-yandex-metrica",
-      {
-        counterID: "98867928",
-        webvisor: true,
-      },
-    ],
+    yandexMetrica("98867928"),
     [
       "@docusaurus/plugin-pwa",
       {
@@ -218,40 +241,6 @@ const config: Config = {
             tagName: "meta",
             name: "theme-color",
             content: "rgb(255, 100, 5)",
-          },
-        ],
-      },
-    ],
-    [
-      "@docusaurus/plugin-client-redirects",
-      {
-        redirects: [
-          // Social
-          {
-            to: "https://discord.gg/5wapsWtnF8",
-            from: ["/to/discord"],
-          },
-          {
-            to: "https://github.com/rehlds",
-            from: ["/to/github"],
-          },
-          {
-            to: "https://t.me/ReHLDS_Feed",
-            from: ["/to/telegram"],
-          },
-
-          // Resources
-          {
-            to: "https://github.com/rehlds/rehlds/releases/latest",
-            from: ["/get/rehlds"],
-          },
-          {
-            to: "https://github.com/rehlds/ReGameDLL_CS/releases/latest",
-            from: ["/get/regamedll_cs"],
-          },
-          {
-            to: "https://github.com/rehlds/metamod-r/releases/latest",
-            from: ["/get/metamod-r", "/get/metamod"],
           },
         ],
       },
