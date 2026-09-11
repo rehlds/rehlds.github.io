@@ -1,0 +1,8 @@
+{
+  "label": "Third-party",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "description": "Plugins written by ReHLDS community members outside the ReHLDS organization. They are not maintained by the organization — report problems to their own issue trackers."
+  }
+}
