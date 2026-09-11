@@ -10,7 +10,6 @@ keywords:
   - metamod
   - plugin
   - settings
-  - configuración
 tags:
   - rechecker
   - settings

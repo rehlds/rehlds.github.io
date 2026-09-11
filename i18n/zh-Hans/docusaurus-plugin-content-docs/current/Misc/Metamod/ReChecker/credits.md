@@ -11,7 +11,6 @@ keywords:
   - plugin
   - credits
   - about
-  - 致谢
 tags:
   - rechecker
   - credits

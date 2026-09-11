@@ -12,7 +12,6 @@ keywords:
   - amx
   - module
   - settings
-  - 设置
 tags:
   - refreelook
   - settings

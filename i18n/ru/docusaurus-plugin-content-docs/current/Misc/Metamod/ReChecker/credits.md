@@ -10,7 +10,7 @@ keywords:
   - metamod
   - plugin
   - credits
-  - Авторы
+  - about
 tags:
   - rechecker
   - credits

@@ -10,7 +10,6 @@ keywords:
   - metamod
   - plugin
   - compilling
-  - 构建说明
 tags:
   - rechecker
   - compilling

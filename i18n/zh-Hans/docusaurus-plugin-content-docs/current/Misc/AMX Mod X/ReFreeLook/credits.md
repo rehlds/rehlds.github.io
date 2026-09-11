@@ -13,7 +13,6 @@ keywords:
   - module
   - credits
   - about
-  - 致谢
 tags:
   - refreelook
   - credits

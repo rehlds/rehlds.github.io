@@ -12,7 +12,6 @@ keywords:
   - amx
   - module
   - compilling
-  - Инструкция по сборке
 tags:
   - refreelook
   - compilling

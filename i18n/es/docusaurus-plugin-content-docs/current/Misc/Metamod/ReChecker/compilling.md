@@ -10,7 +10,6 @@ keywords:
   - metamod
   - plugin
   - compilling
-  - compilación
 tags:
   - rechecker
   - compilling

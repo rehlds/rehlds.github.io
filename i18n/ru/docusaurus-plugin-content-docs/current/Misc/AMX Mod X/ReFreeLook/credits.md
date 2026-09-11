@@ -13,7 +13,6 @@ keywords:
   - module
   - credits
   - about
-  - Авторы
 tags:
   - refreelook
   - credits
