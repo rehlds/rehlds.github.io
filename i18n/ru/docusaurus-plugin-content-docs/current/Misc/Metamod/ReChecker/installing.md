@@ -10,7 +10,6 @@ keywords:
   - metamod
   - plugin
   - install
-  - Установка
 tags:
   - rechecker
   - install

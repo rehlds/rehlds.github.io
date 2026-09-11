@@ -12,7 +12,6 @@ keywords:
   - amx
   - module
   - install
-  - Установка
 tags:
   - refreelook
   - install

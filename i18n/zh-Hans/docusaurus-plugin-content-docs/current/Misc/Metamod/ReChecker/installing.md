@@ -10,7 +10,6 @@ keywords:
   - metamod
   - plugin
   - install
-  - 安装
 tags:
   - rechecker
   - install
