@@ -23,3 +23,21 @@ last_update:
 ---
 
 # Credits
+
+ReFreeLook is an AMX Mod X module by s1lentq, maintained by the ReHLDS community, originally based on [Arkshine's AdminFreeLook](https://github.com/Arkshine/AdminFreeLook).
+
+## Project links
+
+- [Source repository](https://github.com/rehlds/ReFreeLook)
+- [Releases](https://github.com/rehlds/ReFreeLook/releases)
+- [Issue tracker](https://github.com/rehlds/ReFreeLook/issues)
+- [Changelog](https://github.com/rehlds/ReFreeLook/blob/master/CHANGELOG.md)
+- [ReHLDS organization](https://github.com/rehlds)
+
+## License
+
+ReFreeLook is distributed under the [GNU General Public License v3.0](https://github.com/rehlds/ReFreeLook/blob/master/LICENSE).
+
+## How to help
+
+Run ReFreeLook on your game server and report any problems through the [issue tracker](https://github.com/rehlds/ReFreeLook/issues), including your ReGameDLL_CS and AMX Mod X versions and your `afl_admin_access_flags` value. Pull requests are also welcome.
