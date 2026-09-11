@@ -86,8 +86,8 @@ El comando se escribe precedido de `meta`. _Por ejemplo, `meta version`_.
 ### exec_cfg 
 | **variable** | exec_cfg 
 | :----- | -----:
-| **Тип** | string
-| **tipo** | `<archivo>`
+| **tipo** | string
+| **valores** | `<archivo>`
 | **predeterminado** | `addons/metamod/exec.cfg`
 | **se sobrescribe con** |  `+localinfo mm_execcfg <archivo>`
 | **ejemplo** |  `exec_cfg configs/debugging.cfg`, `exec_cfg ../clan/match.cfg`
@@ -104,7 +104,7 @@ El comando se escribe precedido de `meta`. _Por ejemplo, `meta version`_.
 | **descripción** | Permite desactivar o activar los comandos de cliente de Metamod ('meta list' y 'meta version'). Ajuste adicional para "Metamod+All-Mod-Support Patch".
 
 ### dynalign_list
-| **variable** | clientmeta 
+| **variable** | dynalign_list 
 | :----- | -----:
 | **tipo** | bool
 | **valores** | `<yes/no>`

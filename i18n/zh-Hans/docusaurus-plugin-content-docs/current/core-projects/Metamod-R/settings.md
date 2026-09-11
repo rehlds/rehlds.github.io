@@ -86,8 +86,8 @@ _可以在服务器控制台执行 `meta list` 命令来检查插件是否正常
 ### exec_cfg 
 | **变量** | exec_cfg 
 | :----- | -----:
-| **Тип** | string
-| **类型** | `<文件>`
+| **类型** | string
+| **取值** | `<文件>`
 | **默认值** | `addons/metamod/exec.cfg`
 | **可覆盖方式** |  `+localinfo mm_execcfg <文件>`
 | **示例** |  `exec_cfg configs/debugging.cfg`、`exec_cfg ../clan/match.cfg`
@@ -104,7 +104,7 @@ _可以在服务器控制台执行 `meta list` 命令来检查插件是否正常
 | **说明** | 用于关闭或开启 Metamod 的客户端命令（'meta list' 和 'meta version'）。这是 "Metamod+All-Mod-Support Patch" 的附加设置。
 
 ### dynalign_list
-| **变量** | clientmeta 
+| **变量** | dynalign_list 
 | :----- | -----:
 | **类型** | bool
 | **取值** | `<yes/no>`
