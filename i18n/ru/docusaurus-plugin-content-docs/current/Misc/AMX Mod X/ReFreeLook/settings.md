@@ -15,7 +15,6 @@ keywords:
 tags:
   - refreelook
   - settings
-  - Настройки
 last_update:
   date: 07/21/2025
   author: STAM

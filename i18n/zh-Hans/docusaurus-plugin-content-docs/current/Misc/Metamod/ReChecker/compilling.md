@@ -14,7 +14,6 @@ keywords:
 tags:
   - rechecker
   - compilling
-  - 构建说明
 last_update:
   date: 07/21/2025
   author: STAM

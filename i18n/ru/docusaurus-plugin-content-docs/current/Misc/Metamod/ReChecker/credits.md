@@ -14,7 +14,7 @@ keywords:
 tags:
   - rechecker
   - credits
-  - Авторы
+  - about
 last_update:
   date: 07/21/2025
   author: STAM
