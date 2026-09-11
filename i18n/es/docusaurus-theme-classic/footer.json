@@ -1,0 +1,46 @@
+{
+  "link.title.Docs": {
+    "message": "Documentación",
+    "description": "The title of the footer links column with title=Docs in the footer"
+  },
+  "link.title.Community": {
+    "message": "Comunidad",
+    "description": "The title of the footer links column with title=Community in the footer"
+  },
+  "link.title.More": {
+    "message": "Más",
+    "description": "The title of the footer links column with title=More in the footer"
+  },
+  "link.item.label.Tutorial": {
+    "message": "Guía",
+    "description": "The label of footer link with label=Tutorial linking to /docs/"
+  },
+  "link.item.label.Discord": {
+    "message": "Discord",
+    "description": "The label of footer link with label=Discord linking to https://rehlds.dev/to/discord"
+  },
+  "link.item.label.Telegram": {
+    "message": "Telegram",
+    "description": "The label of footer link with label=Telegram linking to https://rehlds.dev/to/telegram"
+  },
+  "link.item.label.Telegram Chat": {
+    "message": "Chat de Telegram",
+    "description": "The label of footer link with label=Telegram Chat linking to https://rehlds.dev/to/telegram-chat"
+  },
+  "link.item.label.Blog": {
+    "message": "Blog",
+    "description": "The label of footer link with label=Blog linking to /blog"
+  },
+  "link.item.label.GitHub": {
+    "message": "GitHub",
+    "description": "The label of footer link with label=GitHub linking to https://github.com/rehlds"
+  },
+  "link.item.label.Sitemap": {
+    "message": "Mapa del sitio",
+    "description": "The label of footer link with label=Sitemap linking to https://rehlds.dev/sitemap.xml"
+  },
+  "copyright": {
+    "message": "Copyright © 2026 ReHLDS. Creado con Docusaurus.",
+    "description": "The footer copyright"
+  }
+}
