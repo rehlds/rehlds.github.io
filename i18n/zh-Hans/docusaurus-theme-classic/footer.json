@@ -1,18 +1,18 @@
 {
   "link.title.Docs": {
-    "message": "Документация",
+    "message": "文档",
     "description": "The title of the footer links column with title=Docs in the footer"
   },
   "link.title.Community": {
-    "message": "Сообщество",
+    "message": "社区",
     "description": "The title of the footer links column with title=Community in the footer"
   },
   "link.title.More": {
-    "message": "Ещё",
+    "message": "更多",
     "description": "The title of the footer links column with title=More in the footer"
   },
   "link.item.label.Tutorial": {
-    "message": "Руководство",
+    "message": "教程",
     "description": "The label of footer link with label=Tutorial linking to /docs/"
   },
   "link.item.label.Discord": {
@@ -24,23 +24,23 @@
     "description": "The label of footer link with label=Telegram linking to https://rehlds.dev/to/telegram"
   },
   "link.item.label.Telegram Chat": {
-    "message": "Telegram-чат",
+    "message": "Telegram 群组",
     "description": "The label of footer link with label=Telegram Chat linking to https://rehlds.dev/to/telegram-chat"
   },
   "link.item.label.Blog": {
-    "message": "Блог",
+    "message": "博客",
     "description": "The label of footer link with label=Blog linking to /blog"
   },
-  "link.item.label.Sitemap": {
-    "message": "Карта сайта",
-    "description": "The label of footer link with label=Sitemap linking to /sitemap.xml"
+  "link.item.label.GitHub": {
+    "message": "GitHub",
+    "description": "The label of footer link with label=GitHub linking to https://github.com/rehlds"
   },
-  "link.item.label.GitHub ": {
-    "message": "GitHub ",
-    "description": "The label of footer link with label=GitHub  linking to https://github.com/rehlds"
+  "link.item.label.Sitemap": {
+    "message": "网站地图",
+    "description": "The label of footer link with label=Sitemap linking to https://rehlds.dev/sitemap.xml"
   },
   "copyright": {
-    "message": "Авторские права © 2026 ReHLDS. Создано с помощью Docusaurus.",
+    "message": "版权所有 © 2026 ReHLDS。使用 Docusaurus 构建。",
     "description": "The footer copyright"
   }
 }

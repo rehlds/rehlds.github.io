@@ -1,0 +1,90 @@
+{
+  "version.label": {
+    "message": "下一版本",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.Core projects": {
+    "message": "核心项目",
+    "description": "The label for category Core projects in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Core projects.link.generated-index.description": {
+    "message": "ReHLDS 组织的主要项目，你可以在这里了解它们。",
+    "description": "The generated-index page description for category Core projects in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.ReAPI": {
+    "message": "ReAPI",
+    "description": "The label for category ReAPI in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.ReGameDLL_CS": {
+    "message": "ReGameDLL_CS",
+    "description": "The label for category ReGameDLL_CS in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.ReHLDS": {
+    "message": "ReHLDS",
+    "description": "The label for category ReHLDS in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Metamod-r": {
+    "message": "Metamod-r",
+    "description": "The label for category Metamod-r in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.ReChecker": {
+    "message": "ReChecker",
+    "description": "The label for category ReChecker in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.ReFreeLook": {
+    "message": "ReFreeLook",
+    "description": "The label for category ReFreeLook in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.ReSemiclip": {
+    "message": "ReSemiclip",
+    "description": "The label for category ReSemiclip in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.ReUnion": {
+    "message": "ReUnion",
+    "description": "The label for category ReUnion in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.ReVoice": {
+    "message": "ReVoice",
+    "description": "The label for category ReVoice in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.AMX Mod X": {
+    "message": "AMX Mod X",
+    "description": "The label for category AMX Mod X in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Metamod": {
+    "message": "Metamod",
+    "description": "The label for category Metamod in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Misc": {
+    "message": "其他",
+    "description": "The label for category Misc in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Misc.link.generated-index.description": {
+    "message": "ReHLDS 组织的其他项目，你可以在这里进一步了解。",
+    "description": "The generated-index page description for category Misc in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Third-party": {
+    "message": "第三方项目",
+    "description": "The label for category Third-party in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Third-party.link.generated-index.description": {
+    "message": "由 ReHLDS 社区成员在组织之外编写的插件。组织并不维护它们——请向它们各自的问题追踪器反馈问题。",
+    "description": "The generated-index page description for category Third-party in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Deprecated": {
+    "message": "已废弃的项目",
+    "description": "The label for category Deprecated in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Deprecated.link.generated-index.description": {
+    "message": "不再维护的项目。这里记录它们的状态以便查证——请勿在当前的服务器上部署。",
+    "description": "The generated-index page description for category Deprecated in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Community": {
+    "message": "社区",
+    "description": "The label for category Community in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Community.link.generated-index.description": {
+    "message": "社区围绕 ReHLDS 构建的第三方工具。仅供参考——ReHLDS 组织既不开发、也不审核或支持它们。",
+    "description": "The generated-index page description for category Community in sidebar tutorialSidebar"
+  }
+}
