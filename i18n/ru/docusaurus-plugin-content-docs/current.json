@@ -18,5 +18,29 @@
   "sidebar.tutorialSidebar.category.Misc.link.generated-index.description": {
     "message": "Дополнительные проекты организации ReHLDS, о которых вы можете узнать подробнее.",
     "description": "The generated-index page description for category Core projects in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Third-party": {
+    "message": "Сторонние проекты",
+    "description": "The label for category Third-party in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Deprecated": {
+    "message": "Устаревшие проекты",
+    "description": "The label for category Deprecated in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Community": {
+    "message": "Сообщество",
+    "description": "The label for category Community in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Third-party.link.generated-index.description": {
+    "message": "Плагины, написанные участниками сообщества ReHLDS за пределами организации. Организация их не поддерживает — сообщайте о проблемах в их собственные трекеры задач.",
+    "description": "The generated-index page description for category Third-party in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Deprecated.link.generated-index.description": {
+    "message": "Проекты, которые больше не поддерживаются. Они описаны здесь, чтобы их статус можно было найти, — не устанавливайте их на современный сервер.",
+    "description": "The generated-index page description for category Deprecated in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Community.link.generated-index.description": {
+    "message": "Сторонние утилиты вокруг ReHLDS, созданные сообществом. Приведены только для справки — организация ReHLDS их не разрабатывает, не проверяет и не поддерживает.",
+    "description": "The generated-index page description for category Community in sidebar tutorialSidebar"
   }
 }
