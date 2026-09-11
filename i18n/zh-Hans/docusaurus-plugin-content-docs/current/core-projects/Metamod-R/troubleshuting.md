@@ -1,163 +1,163 @@
 ---
 id: metamod-r-troubbleshouting
-title: Troubbleshouting
+title: 故障排查
 sidebar_position: 4
-description: Metamod-R is an optimized version of the original Metamod, enhancing performance and compatibility for Half-Life 1 servers.
+description: Metamod-R 是原版 Metamod 的优化版本，为 Half-Life 1 服务器提升性能与兼容性。
 slug: /metamod-r/troubbleshouting
 ---
 
 <head>
-  <title>Metamod-R: Troubbleshouting | ReHLDS</title>
+  <title>Metamod-R: 故障排查 | ReHLDS</title>
 </head>
 
-# Troubbleshouting
+# 故障排查
 
-## How to report about the problem correctly:
+## 如何正确地反馈问题：
 
-If you want to make an offer, register a mistake, your fail or you need "live" help and assistance-you can always apply [here](https://github.com/rehlds/metamod-r/issues). Just press the green `New issue` button and fill out the form.
+如果你想提出建议、报告缺陷或故障，或者需要「实时」的帮助与支持，随时可以到[这里](https://github.com/rehlds/metamod-r/issues)提交。点击绿色的 `New issue` 按钮并填写表单即可。
 
-Developers will be grateful if the description of the problem be as much detail as possible:
-* The version of your operating system;
- The version (build number) HLDS server (either [ReHLDS](https://github.com/rehlds/ReHLDS));
-* The version of your game (or mod);
-* Metamod-r version (build number or build date) ;
-  - You can optionally specify a list of modules (by typing `meta list` in the server console).
-* Attach the logs;
-* Apply crashdumps;
+如果问题的描述尽可能详尽，开发者会非常感激：
+* 你的操作系统版本；
+ HLDS 服务器的版本（构建号），或 [ReHLDS](https://github.com/rehlds/ReHLDS) 的版本；
+* 你的游戏（或模组）版本；
+* Metamod-r 的版本（构建号或构建日期）；
+  - 可以顺带附上模块列表（在服务器控制台输入 `meta list` 获取）。
+* 附上日志；
+* 附上崩溃转储；
 
-This will help for a more thorough analysis and possibly correction of your problems in the future.
+这有助于更彻底地分析，并在日后尽可能修复你遇到的问题。
 
 ***
  
 
-## Getting HLDS\reHLDS crash dumps
+## 获取 HLDS\reHLDS 的崩溃转储
 
-![](https://i.imgur.com/vqDiJ67.png) [Main source (rus)](https://aghl.ru/forum/viewtopic.php?f=10&t=1441).
-![](https://i.imgur.com/vqDiJ67.png) [Mirror (rus)](https://dev-cs.ru/threads/1532/).
+![](https://i.imgur.com/vqDiJ67.png) [主要来源（俄语）](https://aghl.ru/forum/viewtopic.php?f=10&t=1441).
+![](https://i.imgur.com/vqDiJ67.png) [镜像（俄语）](https://dev-cs.ru/threads/1532/).
 
-**Don't just post dumps on the Internet, as they often contain full information about the server, including rcon and so on. For transmission, you can archive them with a password, which is also useful because they compress very well.**
+**请不要把转储直接发到公开网络上，它们通常包含服务器的完整信息，包括 rcon 等等。传输时可以打包成带密码的压缩包，这样做还有一个好处：转储的压缩率很高。**
  
 ### ![](https://i.imgur.com/t23p9tU.png) Windows
 
-#### Using WER (Windows Error Reporting):
-* Enable WER (error reports):
-- Before Vista:
-- Run drwtsn32.exe and select "Full" next to Crash Dump File. Here you can also see (or configure) where the dumps will be stored.
-- On Vista and above:
-- Editing the registry, a convenient method from [s1lent](https://github.com/s1lentq):
+#### 使用 WER（Windows 错误报告）：
+* 启用 WER（错误报告）：
+- Vista 之前的系统：
+- 运行 drwtsn32.exe，在 Crash Dump File 旁选择 "Full"。在这里还可以查看（或设置）转储的保存位置。
+- Vista 及更高版本：
+- 编辑注册表，这是来自 [s1lent](https://github.com/s1lentq) 的便捷方法：
 >
-> #### A detailed and quick way to configure the registry to receive dumps for beginners.
+> #### 面向新手的注册表配置详解，快速拿到转储。
 >
-> * Settings:
+> * 设置项：
 > - **NAME_APP** - `hlds.exe`
-> - name of the application that will need to create dumps in case of a crash.
+> - 崩溃时需要生成转储的应用程序名称。
 > - **REG_LINK** - `HKLM\Software\Microsoft\Windows\Windows Error Reporting`
-> - path to the Windows Error Reporting section (This setting most likely does not need to be changed, I think the paths are the same in all Windows)
+> - Windows 错误报告项的路径（这一项多半不需要改动，我认为各版本 Windows 的路径都一样）
 > - **DumpType** - `2`
-> - `0` - Normal dump
-> - `1` - Minimum dump
-> - `2` - Full dump
+> - `0` —— 普通转储
+> - `1` —— 最小转储
+> - `2` —— 完整转储
 > - DumpCount - `15`
-> - number of dumps to create, if the number of dumps in the folder is greater than the specified value, the old dump will be deleted to create a new dump.
+> - 要保留的转储数量；当目录中的转储数超过该值时，会删除旧的转储以便生成新的。
 > - **DumpFolder** - `C:\CrashDumps`
-> - path to the folder where the dumps will be stored.
-> - (to avoid any problems, do not use spaces or Cyrillic in the paths)
-> * Installation:
-> - Download the archive and unzip it.
-> - Run add_RegistryDumps.bat
+> - 转储的保存目录路径。
+> - （为避免出问题，路径中不要使用空格或西里尔字母）
+> * 安装步骤：
+> - 下载压缩包并解压。
+> - 运行 add_RegistryDumps.bat
 >
-> - After writing to the registry, you must make sure that you have enabled the Windows Error Reporting service.
-> - Then press the hotkey Windows + R (the Windows button is between ctrl and alt) or you can call cmd.exe or Start - Run, immediately after that you need to enter gpedit.msc, then see the screenshot.
+> - 写入注册表之后，务必确认 Windows 错误报告服务已启用。
+> - 然后按下 Windows + R 组合键（Windows 键位于 ctrl 和 alt 之间），也可以调用 cmd.exe 或「开始 - 运行」，随后输入 gpedit.msc，接着参照截图操作。
 >  
-> `Computer Configuration -> Administrative Templates -> Windows Components -> Windows Error Reporting`
+> `计算机配置 -> 管理模板 -> Windows 组件 -> Windows 错误报告`
 >  
 > ![](https://i.imgur.com/PLQ8mf3.jpg)
 >  
-> * ![](https://i.imgur.com/vqDiJ67.png) [add_RegistryDumps.zip](http://aghl.ru/forum/download/file.php?id=3071) \ ![](https://i.imgur.com/Uy97ydR.png) mirror for ["add_RegistryDumps.zip"](https://github.com/EpicMorgGames/LegacyMods/raw/master/AGHL.ru/add_RegistryDumps.zip) 
-> * ![](https://i.imgur.com/vqDiJ67.png) [remove_RegistryDumps.zip](http://aghl.ru/forum/download/file.php?id=3536) \ ![](https://i.imgur.com/Uy97ydR.png) mirror for ["remove_RegistryDumps.zip"](https://github.com/EpicMorgGames/LegacyMods/raw/master/AGHL.ru/remove_RegistryDumps.zip) 
+> * ![](https://i.imgur.com/vqDiJ67.png) [add_RegistryDumps.zip](http://aghl.ru/forum/download/file.php?id=3071) \ ![](https://i.imgur.com/Uy97ydR.png) 镜像：["add_RegistryDumps.zip"](https://github.com/EpicMorgGames/LegacyMods/raw/master/AGHL.ru/add_RegistryDumps.zip) 
+> * ![](https://i.imgur.com/vqDiJ67.png) [remove_RegistryDumps.zip](http://aghl.ru/forum/download/file.php?id=3536) \ ![](https://i.imgur.com/Uy97ydR.png) 镜像：["remove_RegistryDumps.zip"](https://github.com/EpicMorgGames/LegacyMods/raw/master/AGHL.ru/remove_RegistryDumps.zip) 
 >  
 
-#### Using the userdumps utility
-* Instructions from _unKn0wn_:
+#### 使用 userdumps 工具
+* 来自 _unKn0wn_ 的说明：
 
 >
-> Method for obtaining dumps using the utility from MicroSoft: ![](https://i.imgur.com/vqDiJ67.png) [UserModeProcessDumper](http://www.microsoft.com/en-us/download/details.aspx?id=4060) \ ![](https://i.imgur.com/Uy97ydR.png) mirror for ["UserModeProcessDumper8_1_2929_5.zip"](https://github.com/EpicMorgGames/LegacyMods/raw/master/AGHL.ru/UserModeProcessDumper8_1_2929_5.zip).
+> 使用微软提供的工具获取转储的方法： ![](https://i.imgur.com/vqDiJ67.png) [UserModeProcessDumper](http://www.microsoft.com/en-us/download/details.aspx?id=4060) \ ![](https://i.imgur.com/Uy97ydR.png) 镜像：["UserModeProcessDumper8_1_2929_5.zip"](https://github.com/EpicMorgGames/LegacyMods/raw/master/AGHL.ru/UserModeProcessDumper8_1_2929_5.zip).
 >
-> Thanks to [Lev](https://github.com/LevShisterov) for the settings.
+> 感谢 [Lev](https://github.com/LevShisterov) 提供的设置方案。
 >
-> ##### 1. Installation
-> Unzip the archive you downloaded (by default C:\kktools\userdump8.1).
-> - Run the setup.exe file from the directory:
-> - If you are using 32-bit Windows XP/2003, then C:\kktools\userdump8.1\x86.
-> - If you are using 64-bit Windows XP/2003, then C:\kktools\userdump8.1\x64.
-> - In the Installation Wizard window, click Next.
-> - (Only for 32-bit OS) In the Terminate Mode window, select Disable "Dump on Process Termination" feature and click Next.
+> ##### 1. 安装
+> 解压下载到的压缩包（默认路径为 C:\kktools\userdump8.1）。
+> - 从以下目录运行 setup.exe：
+> - 如果使用 32 位的 Windows XP/2003，则为 C:\kktools\userdump8.1\x86。
+> - 如果使用 64 位的 Windows XP/2003，则为 C:\kktools\userdump8.1\x64。
+> - 在安装向导窗口中点击 Next。
+> - （仅限 32 位系统）在 Terminate Mode 窗口中选择 Disable "Dump on Process Termination" feature，然后点击 Next。
 >
 > ![](https://i.imgur.com/NgjxfPa.png)
 >
-> - Click Finish and wait for the installation to complete.
-> In the User Mode Process Dump Setup window, click the YES button (If for some reason you do not know how to enter the userdump settings menu, you can always find them in Control Panel - Process Dumper).
+> - 点击 Finish 并等待安装完成。
+> 在 User Mode Process Dump Setup 窗口中点击 YES 按钮（如果你不清楚如何进入 userdump 的设置界面，随时可以在「控制面板 - Process Dumper」中找到）。
 >
-> ##### 2. Adding an application
-> In the Properties: User Mode Process Dumper Setup window that opens, click New and add the name of the program we need, for example: hlds.exe (the extension is required!) and click OK
+> ##### 2. 添加应用程序
+> 在打开的 Properties: User Mode Process Dumper Setup 窗口中点击 New，添加目标程序名称，例如 hlds.exe（扩展名必须写！），然后点击 OK
 >
 > ![](https://i.imgur.com/36m9qL1.jpg)
 >
-> ##### 3. Settings
-> In the Properties: User Mode Process Dumper Setup window, find the application rule you just created, select it and click the Rules button
-> In the Process Monitoring Ruless for hlds.exe window that opens
-> 1. Select Use custom rules.
-> 2. If necessary, change the folder for storing the created dumps.
-> 3. In Exception Codes, select (by left-clicking) the following codes: "Access Violation, Overflow, Illegal Instruction, Stack overflow."
-> 4. Set the Save Mode parameter to Cyclic saving (5 times).
-> It should look something like this:
+> ##### 3. 设置
+> 在 Properties: User Mode Process Dumper Setup 窗口中找到刚创建的应用规则，选中它并点击 Rules 按钮
+> 在打开的 Process Monitoring Ruless for hlds.exe 窗口中
+> 1. 选择 Use custom rules。
+> 2. 如有需要，修改转储的保存目录。
+> 3. 在 Exception Codes 中（用左键）勾选以下代码："Access Violation、Overflow、Illegal Instruction、Stack overflow"。
+> 4. 把 Save Mode 参数设为 Cyclic saving（5 次）。
+> 最终大致是这样：
 >
 > ![](https://i.imgur.com/sio3Aac.jpg)
 >
-> PS: I recommend using it together with Dr Watson with the "Brief" dump type, since the doctor can keep logs in text format, which will allow you to select the necessary dumps. And userdump will make full dumps.
+> 附注：建议与转储类型设为 "Brief" 的 Dr Watson 搭配使用，因为后者会以文本格式保留日志，便于你挑出需要的转储；而 userdump 负责生成完整转储。
 >
 
 ### ![](https://i.imgur.com/AzhAYR4.png) Linux
 
-The server must be started with the **-debug** key.
+服务器必须使用 **-debug** 参数启动。
 
-If gdb is installed on the system, then clear information about the error will be automatically written to the `debug.log` file. So it is recommended to install it (the command depends on the system used, on Debian\Ubuntu it is `apt install gdb`). Although this is not required to create dumps, it is actually necessary to do this if possible, since the crash location will be written to `debug.log`, which will allow you to immediately say something about the error. Getting the same information on another system from a dump file will require all the binaries from the server.
+如果系统中安装了 gdb，错误的明确信息会自动写入 `debug.log` 文件，因此建议安装它（命令取决于所用系统，在 Debian\Ubuntu 上是 `apt install gdb`）。虽然生成转储并不强制要求它，但只要条件允许就应该装上：崩溃位置会被写入 `debug.log`，让你立刻对错误有所判断。若要在另一台机器上从转储文件中获得同样的信息，则需要服务器上的全部二进制文件。
 
-By default, the dump file is called `core`, is written to the working folder, and, accordingly, will be overwritten. To avoid this, you can add the process ID to the name:
+默认情况下转储文件名为 `core`，写入工作目录，因而会被覆盖。为避免这一点，可以把进程 ID 加入文件名：
 
 `echo 1 > /proc/sys/kernel/core_uses_pid`
 
-or dump the dumps to `/tmp`:
+或者把转储写入 `/tmp`：
 
-`echo /tmp/%e-%t-%p-%c.dmp > /proc/sys/kernel/core_pattern` More information ![](https://i.imgur.com/vqDiJ67.png)[here](http://man7.org/linux/man-pages/man5/core.5.html).
+`echo /tmp/%e-%t-%p-%c.dmp > /proc/sys/kernel/core_pattern` 更多信息见![](https://i.imgur.com/vqDiJ67.png)[here](http://man7.org/linux/man-pages/man5/core.5.html).
 
-Launch without `sudo` (as root, otherwise the general system settings should be set to unlimited):
+不使用 `sudo` 启动（以 root 身份，否则需要把系统全局设置改为 unlimited）：
 
 `ulimit -c unlimited && ./hlds_run -debug ...`
 
-Launch with `sudo` (as user hlds):
+使用 `sudo` 启动（以 hlds 用户身份）：
 
 `ulimit -Hc unlimited && sudo -u hlds sh -c "ulimit -Sc unlimited && ./hlds_run -debug ..."`
 
-Checking launch under sudo:
+检查 sudo 下的启动情况：
 
 `ulimit -Hc unlimited && sudo -u hlds sh -c "ulimit -Sc unlimited && whoami && ulimit -Sc && ./hlds_run -debug ..."`
 
-displays the user name under which the launch will take place and the limit on creating dumps, after which it starts the server.
+会显示启动所用的用户名和转储创建上限，随后启动服务器。
 
-To test dump settings, you can use a specially developed module: ![](https://i.imgur.com/vqDiJ67.png) [FixItAll](http://aghl.ru/forum/viewtopic.php?f=19&t=1680&p=19549) \ ![](https://i.imgur.com/Uy97ydR.png) [FixItAll mirror](https://github.com/EpicMorgGames/LegacyMods/raw/master/AGHL.ru/fixitall_mm.0.0.zip) or ![](https://i.imgur.com/Uy97ydR.png) [Crash.sma*](https://github.com/EpicMorgGames/LegacyMods/blob/master/AGHL.ru/Crash.sma).
+要验证转储设置，可以使用一个专门开发的模块： ![](https://i.imgur.com/vqDiJ67.png) [FixItAll](http://aghl.ru/forum/viewtopic.php?f=19&t=1680&p=19549) \ ![](https://i.imgur.com/Uy97ydR.png) [FixItAll mirror](https://github.com/EpicMorgGames/LegacyMods/raw/master/AGHL.ru/fixitall_mm.0.0.zip) or ![](https://i.imgur.com/Uy97ydR.png) [Crash.sma*](https://github.com/EpicMorgGames/LegacyMods/blob/master/AGHL.ru/Crash.sma).
 
 * crash.sma - https://github.com/rehlds/metamod-r/issues/42#issuecomment-416456526
 
 ***
 
-### Summary table:
+### 汇总表：
 
-`Folder` - the directory of your mod or game. In columns ![](https://i.imgur.com/t23p9tU.png) and ![](https://i.imgur.com/AzhAYR4.png) the names of the executable files from the folder 'dlls`, which is located in the directory`your mod or game'.
+`Folder` —— 你的模组或游戏所在目录。在 ![](https://i.imgur.com/t23p9tU.png) and ![](https://i.imgur.com/AzhAYR4.png) 两列中给出的是位于「你的模组或游戏」目录下 `dlls` 文件夹中的可执行文件名。
 
-:x: - platform version does not exist
+:x: —— 该平台不存在对应版本
 
-| Game \ Mod | Folder |   ![](https://i.imgur.com/t23p9tU.png) | ![](https://i.imgur.com/AzhAYR4.png)
+| 游戏 \ 模组 | 目录 |   ![](https://i.imgur.com/t23p9tU.png) | ![](https://i.imgur.com/AzhAYR4.png)
 | ------------- | ------| ------|------|
 | [Action Half-Life](http://www.moddb.com/mods/action-half-life/downloads/) | action | ahl.dll | ahl.so
 | [Adrenaline Gamer](https://github.com/martinwebrant/agmod) | ag | ag.dll | ag.so
@@ -181,7 +181,7 @@ To test dump settings, you can use a specially developed module: ![](https://i.i
 | [Deathmatch Classic](http://store.steampowered.com/app/40/Deathmatch_Classic/) | dmc | dmc.dll | dmc.so
 | [Day of Defeat](http://store.steampowered.com/app/30/Day_of_Defeat/) | dod | dod.dll | dod.so
 | [Digital Paintball](http://www.moddb.com/mods/digital-paintball/downloads/) | dpb |  pb.dll |  pb.i386.so
-| [Earth's Special Forces (Old)](http://www.moddb.com/mods/earths-special-forces/downloads/) | esf | hl.dll | hl.so (located in `linuxdll`, not in the `dlls` directory)
+| [Earth's Special Forces (Old)](http://www.moddb.com/mods/earths-special-forces/downloads/) | esf | hl.dll | hl.so（位于 `linuxdll`，而非 `dlls` 目录）
 | [Earth's Special Forces](http://www.moddb.com/mods/earths-special-forces/downloads/) | esf | hl.dll | hl.so
 | [Existence](http://www.moddb.com/mods/existence/downloads/) | existence | existence.dll | :x: 
 | [Firearms](http://www.moddb.com/mods/firearms/downloads/) | firearms | firearms.dll | :x: 
@@ -249,4 +249,4 @@ To test dump settings, you can use a specially developed module: ![](https://i.i
 | [Zombie Panic](http://www.moddb.com/mods/zombie-panic/downloads/) | zp | mp.dll | hl.so   
 
 ***
-Any assistance and contribution to the project is welcome. The more tests and feedback, the stronger the development of Metamod-r and other related products. Goodluck!
+欢迎对本项目提供任何形式的帮助与贡献。测试和反馈越多，Metamod-r 及相关产品的发展就越有力。祝顺利！
