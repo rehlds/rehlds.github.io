@@ -175,6 +175,10 @@ const config: Config = {
               label: "Discord",
               href: "https://rehlds.dev/to/discord",
             },
+            {
+              label: "Telegram",
+              href: "https://t.me/ReHLDS_Community",
+            },
           ],
         },
         {
