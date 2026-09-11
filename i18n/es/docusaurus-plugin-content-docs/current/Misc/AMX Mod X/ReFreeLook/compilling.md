@@ -16,7 +16,6 @@ keywords:
 tags:
   - refreelook
   - compilling
-  - compilación
 last_update:
   date: 07/21/2025
   author: STAM

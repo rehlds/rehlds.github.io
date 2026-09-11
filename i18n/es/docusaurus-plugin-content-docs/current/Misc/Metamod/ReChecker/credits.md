@@ -16,7 +16,6 @@ tags:
   - rechecker
   - credits
   - about
-  - créditos
 last_update:
   date: 07/21/2025
   author: STAM

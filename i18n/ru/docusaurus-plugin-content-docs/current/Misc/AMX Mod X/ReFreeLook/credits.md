@@ -18,7 +18,6 @@ tags:
   - refreelook
   - credits
   - about
-  - Авторы
 last_update:
   date: 07/21/2025
   author: STAM

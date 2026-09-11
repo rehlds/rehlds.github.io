@@ -16,7 +16,6 @@ keywords:
 tags:
   - refreelook
   - install
-  - 安装
 last_update:
   date: 07/21/2025
   author: STAM

@@ -14,7 +14,6 @@ keywords:
 tags:
   - rechecker
   - settings
-  - 设置
 last_update:
   date: 07/21/2025
   author: STAM
