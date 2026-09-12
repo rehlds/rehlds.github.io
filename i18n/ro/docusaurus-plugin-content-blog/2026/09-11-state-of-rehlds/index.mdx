@@ -1,0 +1,77 @@
+---
+title: "Unde se află ReHLDS astăzi"
+description: Ce este organizația ReHLDS, ce a apărut de curând și în ce stadiu se află documentația, acum în șase limbi.
+authors:
+  - STAM
+keywords:
+  - ReHLDS
+  - Half-Life dedicated server
+  - Counter-Strike 1.6
+  - open source
+  - documentation
+  - community
+tags:
+  - announcement
+  - community
+  - documentation
+  - open source
+---
+
+# Unde se află ReHLDS astăzi
+
+Half-Life s-a dovedit a fi unul dintre acele jocuri care refuză să se termine. Servere puse la punct acum un deceniu sunt încă în funcțiune, încă pline vinerea seara, încă administrate de oameni care știu exact ce face fiecare rând din configurație. Motorul de sub ele, în schimb, a încetat de mult să mai primească atenție din partea autorilor lui inițiali.
+
+Această lipsă este cea pe care organizația noastră există ca să o acopere.
+
+{/* truncate */}
+
+## Ce facem, de fapt
+
+ReHLDS este o versiune reconstruită a Half-Life Dedicated Server al Valve, obținută prin inginerie inversă pornind de la versiunea 6153, cu erorile corectate, cu breșele de securitate închise și cu limitele ridicate. În jurul lui se află o familie de proiecte, fiecare rezolvând câte o problemă concretă pe care un administrator chiar o are:
+
+- **[ReGameDLL_CS](https://rehlds.dev/ro/docs/regamedll-cs)** — un înlocuitor stabil și extins al bibliotecii de joc pentru Counter-Strike 1.6 și Condition Zero.
+- **[Metamod-r](https://rehlds.dev/ro/docs/metamod-r)** — un administrator de pluginuri optimizat, cu un nucleu compilat JIT.
+- **[ReAPI](https://rehlds.dev/ro/docs/reapi)** — mecanismele interne ale motorului și ale GameDLL-ului, expuse pluginurilor Pawn ca funcții native obișnuite, ca autorii de pluginuri să nu mai modifice decalaje de memorie.
+- **[ReUnion](https://rehlds.dev/ro/docs/reunion)**, **[ReChecker](https://rehlds.dev/ro/docs/rechecker)**, **[ReSemiclip](https://rehlds.dev/ro/docs/resemiclip)**, **[ReFreeLook](https://rehlds.dev/ro/docs/refreelook)** — compatibilitatea clienților, verificarea fișierelor, coliziunea dintre jucători și controlul camerei spectatorului.
+
+Nimic din toate acestea nu este o rescriere de dragul rescrierii. Fiecare dintre aceste proiecte a pornit fiindcă cineva s-a lovit de un zid pe un server activ și a hotărât să repare motorul, în loc să îl ocolească.
+
+## Ce a apărut de curând
+
+Proiectele principale sunt în mișcare. ReHLDS, ReGameDLL_CS și ReAPI au publicat versiuni în aceeași zi, în luna mai a acestui an — `3.15.0.896`, `5.30.0.814` și, respectiv, `5.29.0.358` —, iar ReHLDS și ReGameDLL_CS au primit fiecare vreo treizeci de commit-uri în ultimul an. Acesta nu este un muzeu.
+
+Merită menționat separat: în iulie 2025, ReHLDS a trecut de la GPLv3 la **licența MIT**, cu acordul explicit al principalilor săi contribuitori. A fost o hotărâre luată anume ca să fie mai ușor de construit peste motor, nu o formalitate.
+
+## Documentația există în sfârșit cu adevărat
+
+Multă vreme, răspunsul sincer la întrebarea „unde e documentația?” era o ridicare din umeri și o legătură către un fir de forum din 2017. Acest lucru nu mai este adevărat.
+
+Toate proiectele enumerate mai sus au acum un set complet de documentație — ce sunt, cum se instalează, fiecare setare pe care o oferă, cum se compilează din sursă și cine le-a scris. Și totul există în **șase limbi**: engleză, rusă, spaniolă, portugheză braziliană, română și chineză simplificată, câte 84 de pagini fiecare.
+
+Limba chineză, în special, a meritat dusă la capăt cum trebuie. Site-urile de documentație revin în tăcere la engleză, pagină cu pagină, așa că un site tradus pe jumătate nu pare pe jumătate tradus — pare stricat într-un fel pe care nimeni nu îl raportează. Acum nu mai pare.
+
+Alături de asta au apărut trei secțiuni noi:
+
+- **Proiecte terțe** — pluginuri scrise de membri ai comunității din afara acestei organizații, [Hitbox Fixer](https://rehlds.dev/ro/docs/hitbox-fixer) și [SafeNameAndChat](https://rehlds.dev/ro/docs/safenameandchat). Ele se instalează pe scară largă alături de ReHLDS și merită să poată fi găsite, cu mențiunea clară că nu sunt ale noastre.
+- **Proiecte abandonate** — patru proiecte cu adevărat moarte: hitboxtracker, ReAMXModX, ReLocalizeBugFix și LocalizeBugFix. Fiecare pagină spune pe șleau ce a fost proiectul, de ce s-a oprit și ce să folosiți în locul lui. O pagină absentă nu îi spune nimic unui administrator care caută; o pagină care spune „acest lucru este incompatibil cu ReHLDS-ul modern, folosiți-l pe celălalt” îi salvează o seară.
+- **Comunitate** — unelte terțe construite în jurul ReHLDS, enumerate cu rezervele spuse pe față. Prezența în listă nu înseamnă o recomandare, iar pagina spune asta.
+
+## Ce urmează
+
+Panourile proiectului sunt publice. Dacă vreți să știți la ce se lucrează cu adevărat, și nu ce sună bine într-un anunț, [acolo trebuie să vă uitați](https://github.com/orgs/rehlds/projects).
+
+De partea documentației, întrebarea evidentă care urmează este ce limbă să adăugăm. Dacă ne uităm la locurile unde se află de fapt serverele active de CS 1.6, și nu la cele unde presupunem că sunt, următorul candidat este poloneza. Aici nu se promite nimic: o traducere rămâne utilă doar atâta vreme cât cineva o ține la zi, iar o versiune de limbă învechită este mai rea decât niciuna.
+
+## Cum puteți ajuta
+
+Cel mai util lucru pe care îl puteți face nu costă nimic: **rulați versiunea actuală și raportați ce se strică.**
+
+Un raport bun cuprinde versiunea ReHLDS, platforma dumneavoastră, modul și versiunea lui, lista pluginurilor și mesajele din consolă sau fișierul de blocaj. [Depanarea](https://rehlds.dev/ro/docs/rehlds/troubbleshouting) explică cum se obțin toate acestea. Din astfel de rapoarte a ajuns motorul unde este — întreaga listă de corecturi a venit de la oameni care administrează servere, nu dintr-un laborator de testare.
+
+În rest: documentația este [un depozit ca oricare altul](https://github.com/rehlds/rehlds.github.io). Dacă o pagină este greșită, neclară sau nu cuprinde ceva ce ați aflat pe calea grea, un pull request care o îndreaptă este cu adevărat binevenit — inclusiv traducerile.
+
+Iar dacă vă întrebați dacă să scrieți în privat sau în public: [întrebați în public](/ro/blog/2024/12/12/why-not-to-dm-developers). Răspunsul ajută și persoana următoare.
+
+---
+
+Ne găsiți pe [GitHub](https://github.com/rehlds), pe [Discord](https://rehlds.dev/to/discord) și pe [Telegram](https://rehlds.dev/to/telegram). Mulțumim că țineți aceste servere în viață.
