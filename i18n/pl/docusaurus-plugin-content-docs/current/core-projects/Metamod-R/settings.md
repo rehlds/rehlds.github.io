@@ -16,10 +16,10 @@ slug: /metamod-r/settings
 Jako przykładu użyjemy wymyślonej wtyczki `metaPlugin`. Instalacja pozostałych wtyczek wygląda podobnie.
  
 * Utwórz plik `plugins.ini` w folderze `addons\metamod` (jeśli go tam nie ma)
-* Utwórz folder dla nowej wtyczki w folderze `addons`._Na przykład folder **meta Plugin**._
-* * Umieść swoją wtyczkę `metaPlugin.dll` (albo `meta Plugin.so`) w utworzonym folderze `addons\metamod\metaplugins`.
+* Utwórz folder dla nowej wtyczki w folderze `addons`._Na przykład folder **metaPlugin**._
+* * Umieść swoją wtyczkę `metaPlugin.dll` (albo `metaPlugin.so`) w utworzonym folderze `addons\metaPlugin`.
 * Otwórz plik `plugins.ini` z folderu `metamod` w dowolnym edytorze tekstu.
-* * Żeby podłączyć wtyczkę `metaPlugin.dll` (albo `meta Plugin.so`), wpisz do pliku `plugins.ini` następujące wiersze:
+* * Żeby podłączyć wtyczkę `metaPlugin.dll` (albo `metaPlugin.so`), wpisz do pliku `plugins.ini` następujące wiersze:
 
 _Dla windowsowych wersji twojego serwera:_
 ```

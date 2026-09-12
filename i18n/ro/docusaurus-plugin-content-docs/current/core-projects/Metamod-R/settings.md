@@ -16,10 +16,10 @@ slug: /metamod-r/settings
 Ca exemplu vom folosi un plugin imaginar, `metaPlugin`. Instalarea celorlalte pluginuri este asemănătoare.
  
 * Creați fișierul `plugins.ini` în folderul `addons\metamod` (dacă acesta nu există)
-* Creați un folder pentru noul plugin în folderul `addons`._De exemplu, folderul **meta Plugin**._
-* * Puneți pluginul dumneavoastră `metaPlugin.dll` (sau `meta Plugin.so`) în folderul creat `addons\metamod\metaplugins`.
+* Creați un folder pentru noul plugin în folderul `addons`._De exemplu, folderul **metaPlugin**._
+* * Puneți pluginul dumneavoastră `metaPlugin.dll` (sau `metaPlugin.so`) în folderul creat `addons\metaPlugin`.
 * Deschideți fișierul `plugins.ini` din folderul `metamod` cu orice editor de text.
-* * Ca să activați pluginul `metaPlugin.dll` (sau `meta Plugin.so`), scrieți următoarele rânduri în fișierul `plugins.ini`:
+* * Ca să activați pluginul `metaPlugin.dll` (sau `metaPlugin.so`), scrieți următoarele rânduri în fișierul `plugins.ini`:
 
 _Pentru versiunile Windows ale serverului dumneavoastră:_
 ```
