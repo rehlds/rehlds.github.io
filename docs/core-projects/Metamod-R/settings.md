@@ -16,10 +16,10 @@ slug: /metamod-r/settings
 As example we will use a mythical plugin `metaPlugin`. Installation of other plugins is similar.
  
 * Create the `plugins.ini` file in the `addons\metamod`folder (in case of absence of this file)
-* Create a folder for the new plugin in the `addons` folder._For example, **meta Plugin** folder._
-* * Put your plugin `metaPlugin.dll` (or `meta Plugin.so`) to the created folder `addons\metamod\metaplugins`.
+* Create a folder for the new plugin in the `addons` folder._For example, **metaPlugin** folder._
+* * Put your plugin `metaPlugin.dll` (or `metaPlugin.so`) to the created folder `addons\metaPlugin`.
 * Open the `plugins.ini` file from the `metamod` folder with any text editor.
-* * To connect the plugin `metaPlugin.dll`(or `meta Plugin.so`) write the following lines to the `plugins file.ini`:
+* * To connect the plugin `metaPlugin.dll`(or `metaPlugin.so`) write the following lines to the `plugins.ini` file:
 
 _For Windows versions of your server:_
 ```

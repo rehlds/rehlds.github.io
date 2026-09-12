@@ -16,10 +16,10 @@ slug: /metamod-r/settings
 这里以一个虚构的插件 `metaPlugin` 为例。其他插件的安装方式相同。
  
 * 在 `addons\metamod` 目录中创建 `plugins.ini` 文件（如果该文件尚不存在）
-* 在 `addons` 目录中为新插件创建一个目录。_例如 **meta Plugin** 目录。_
-* * 把插件 `metaPlugin.dll`（或 `meta Plugin.so`）放入刚创建的 `addons\metamod\metaplugins` 目录。
+* 在 `addons` 目录中为新插件创建一个目录。_例如 **metaPlugin** 目录。_
+* * 把插件 `metaPlugin.dll`（或 `metaPlugin.so`）放入刚创建的 `addons\metaPlugin` 目录。
 * 用任意文本编辑器打开 `metamod` 目录中的 `plugins.ini` 文件。
-* * 要挂载插件 `metaPlugin.dll`（或 `meta Plugin.so`），请在 `plugins file.ini` 中写入以下内容：
+* * 要挂载插件 `metaPlugin.dll`（或 `metaPlugin.so`），请在 `plugins file.ini` 中写入以下内容：
 
 _Windows 版服务器：_
 ```

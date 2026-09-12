@@ -17,7 +17,7 @@ slug: /metamod-r/settings
  
 * В папке `addons\metamod` создайте файл `plugins.ini`, если его там нету.
 * В папке `addons` создайте папку для нового плагина. _Например, папку **metaPlugin**._
-* Поместите свой плагин `metaPlugin.dll` (или `metaPlugin.so`)  в созданную папку по пути `addons\metamod\metaPlugin`.
+* Поместите свой плагин `metaPlugin.dll` (или `metaPlugin.so`)  в созданную папку по пути `addons\metaPlugin`.
 * Откройте из папки `metamod` файл  `plugins.ini` любым удобным для вас текстовым редактором.
 * Для подключения плагина `metaPlugin.dll` (или `metaPlugin.so`) пропишите следующие строки в файл  `plugins.ini`:
 
