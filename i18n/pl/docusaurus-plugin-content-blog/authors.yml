@@ -1,0 +1,19 @@
+wopox1337:
+  name: Sergey Shorokhov
+  title: Inżynier oprogramowania
+  url: https://wopox1337.github.io
+  image_url: https://github.com/wopox1337.png
+  page: true
+  socials:
+    github: wopox1337
+
+STAM:
+  name: Anatolii Zimovskii
+  title: Inżynier DevOps
+  url: https://www.mobygames.com/person/1052066/anatolii-zimovskii/
+  image_url: https://github.com/stamepicmorg.png
+  page: true
+  socials:
+    github: stamepicmorg
+    linkedin: anatoliy-zimovskiy
+    mobygames: https://www.mobygames.com/person/1052066/anatolii-zimovskii/
