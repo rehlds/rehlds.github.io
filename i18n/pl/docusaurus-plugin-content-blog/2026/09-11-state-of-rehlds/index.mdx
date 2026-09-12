@@ -1,0 +1,77 @@
+---
+title: "Gdzie dziś jest ReHLDS"
+description: Czym jest organizacja ReHLDS, co ukazało się ostatnio i na jakim etapie jest dokumentacja, dostępna już w siedmiu językach.
+authors:
+  - STAM
+keywords:
+  - ReHLDS
+  - Half-Life dedicated server
+  - Counter-Strike 1.6
+  - open source
+  - documentation
+  - community
+tags:
+  - announcement
+  - community
+  - documentation
+  - open source
+---
+
+# Gdzie dziś jest ReHLDS
+
+Half-Life okazał się jedną z tych gier, które nie chcą się skończyć. Serwery postawione dekadę temu wciąż działają, w piątkowy wieczór wciąż są pełne i wciąż prowadzą je ludzie, którzy dokładnie wiedzą, co robi każdy wiersz konfiguracji. Silnik pod spodem już dawno przestał jednak zajmować swoich pierwotnych autorów.
+
+To właśnie tę lukę wypełnia nasza organizacja.
+
+{/* truncate */}
+
+## Czym się właściwie zajmujemy
+
+ReHLDS to odtworzona metodą inżynierii wstecznej i przebudowana wersja Half-Life Dedicated Server od Valve, zbudowana na nowo na bazie wersji 6153 — z naprawionymi błędami, zamkniętymi lukami bezpieczeństwa i podniesionymi limitami. Wokół niej stoi rodzina projektów, z których każdy rozwiązuje jeden konkretny problem, jaki administrator naprawdę ma:
+
+- **[ReGameDLL_CS](https://rehlds.dev/pl/docs/regamedll-cs)** — stabilny, rozbudowany zamiennik biblioteki gry dla Counter-Strike 1.6 i Condition Zero.
+- **[Metamod-r](https://rehlds.dev/pl/docs/metamod-r)** — zoptymalizowany menedżer wtyczek z rdzeniem kompilowanym JIT.
+- **[ReAPI](https://rehlds.dev/pl/docs/reapi)** — wnętrzności silnika i biblioteki GameDLL udostępnione wtyczkom Pawna jako zwykłe funkcje natywne, żeby ich autorzy przestali grzebać w przesunięciach pamięci.
+- **[ReUnion](https://rehlds.dev/pl/docs/reunion)**, **[ReChecker](https://rehlds.dev/pl/docs/rechecker)**, **[ReSemiclip](https://rehlds.dev/pl/docs/resemiclip)**, **[ReFreeLook](https://rehlds.dev/pl/docs/refreelook)** — zgodność klientów, weryfikacja plików, kolizje graczy i kontrola kamery obserwatora.
+
+Nic z tego nie jest przepisywaniem dla samego przepisywania. Każdy z tych projektów zaczął się dlatego, że ktoś uderzył w ścianę na działającym serwerze i postanowił naprawić silnik, zamiast go obchodzić.
+
+## Co ukazało się ostatnio
+
+Główne projekty żyją. ReHLDS, ReGameDLL_CS i ReAPI wydały wersje tego samego dnia w maju tego roku — odpowiednio `3.15.0.896`, `5.30.0.814` i `5.29.0.358` — a ReHLDS i ReGameDLL_CS dostały w ostatnim roku po jakieś trzydzieści commitów. To nie muzeum.
+
+Warto wspomnieć osobno: w lipcu 2025 ReHLDS przeszedł z GPLv3 na **licencję MIT**, za wyraźną zgodą swoich głównych współtwórców. To była świadoma decyzja, żeby łatwiej było budować na tym silniku, a nie formalność.
+
+## Dokumentacja wreszcie naprawdę istnieje
+
+Przez długi czas szczerą odpowiedzią na pytanie „gdzie jest dokumentacja?” było wzruszenie ramionami i odnośnik do wątku na forum z 2017 roku. To już nieaktualne.
+
+Każdy z wymienionych wyżej projektów ma teraz komplet dokumentacji — czym jest, jak go zainstalować, każde ustawienie, jakie udostępnia, jak skompilować go ze źródeł i kto go napisał. A wszystko to istnieje w **siedmiu językach**: angielskim, rosyjskim, hiszpańskim, portugalskim brazylijskim, rumuńskim, polskim i chińskim uproszczonym, po 84 strony w każdym.
+
+Zwłaszcza język chiński wart był porządnego dokończenia. Strony z dokumentacją po cichu wracają do angielskiego, strona po stronie, więc częściowo przetłumaczony serwis nie wygląda na częściowo przetłumaczony — wygląda na zepsuty w sposób, którego nikt nie zgłasza. Teraz już tak nie wygląda.
+
+Obok tego pojawiły się trzy nowe działy:
+
+- **Projekty zewnętrzne** — wtyczki napisane przez członków społeczności spoza tej organizacji, [Hitbox Fixer](https://rehlds.dev/pl/docs/hitbox-fixer) i [SafeNameAndChat](https://rehlds.dev/pl/docs/safenameandchat). Instaluje się je powszechnie razem z ReHLDS, więc powinny dać się znaleźć — z wyraźną adnotacją, że nie są nasze.
+- **Projekty porzucone** — cztery naprawdę martwe projekty: hitboxtracker, ReAMXModX, ReLocalizeBugFix i LocalizeBugFix. Każda strona mówi wprost, czym to było, dlaczego się skończyło i czego użyć zamiast tego. Brakująca strona nie mówi szukającemu administratorowi nic; strona ze zdaniem „to jest niezgodne z nowoczesnym ReHLDS, weź tamto” oszczędza mu wieczór.
+- **Społeczność** — zewnętrzne narzędzia zbudowane wokół ReHLDS, wymienione razem z otwarcie podanymi zastrzeżeniami. Obecność na liście nie jest rekomendacją i strona wprost to mówi.
+
+## Co dalej
+
+Tablice projektu są publiczne. Jeśli chcesz wiedzieć, nad czym naprawdę się pracuje, a nie co ładnie brzmi w ogłoszeniu, [właśnie tam należy zajrzeć](https://github.com/orgs/rehlds/projects).
+
+Po stronie dokumentacji krótka lista, którą ułożyliśmy na podstawie tego, gdzie faktycznie stoją działające serwery CS 1.6, jest już w całości domknięta. Kolejne języki stoją otworem dla każdego, kto zechce się takim zająć, ale niczego tu nie obiecujemy: tłumaczenie jest przydatne tylko dopóty, dopóki ktoś trzyma je na bieżąco, a nieaktualna wersja językowa jest gorsza niż jej brak.
+
+## Jak możesz pomóc
+
+Najbardziej przydatna rzecz, jaką możesz zrobić, nic nie kosztuje: **uruchom bieżące wydanie i zgłaszaj, co się psuje.**
+
+Dobre zgłoszenie zawiera wersję ReHLDS, twoją platformę, modyfikację i jej wersję, listę wtyczek oraz komunikaty z konsoli albo zrzut awaryjny. [Rozwiązywanie problemów](https://rehlds.dev/pl/docs/rehlds/troubbleshouting) tłumaczy, jak to wszystko zebrać. To właśnie dzięki takim zgłoszeniom silnik jest tam, gdzie jest — cała lista poprawek wzięła się od ludzi prowadzących serwery, a nie z laboratorium testowego.
+
+Poza tym: dokumentacja to [repozytorium jak każde inne](https://github.com/rehlds/rehlds.github.io). Jeśli jakaś strona jest błędna, niejasna albo brakuje w niej czegoś, do czego sam musiałeś dojść po bólu, pull request z poprawką jest naprawdę mile widziany — łącznie z tłumaczeniami.
+
+A jeśli zastanawiasz się, czy zapytać na priv, czy publicznie: [pytaj publicznie](/pl/blog/2024/12/12/why-not-to-dm-developers). Odpowiedź pomoże też następnej osobie.
+
+---
+
+Znajdziesz nas na [GitHubie](https://github.com/rehlds), [Discordzie](https://rehlds.dev/to/discord) i [Telegramie](https://rehlds.dev/to/telegram). Dzięki, że utrzymujecie te serwery przy życiu.
