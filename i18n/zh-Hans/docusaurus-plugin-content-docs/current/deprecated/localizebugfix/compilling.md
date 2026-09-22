@@ -12,7 +12,7 @@ slug: /localizebugfix/compilling
 
 # 构建说明
 
-:::warning 已废弃
+:::warning[已废弃]
 
 此处记录仅供参考。该仓库已在 GitHub 上归档，不再接受 Pull Request——参见[什么是 LocalizeBug Fix？](./index.md)。
 

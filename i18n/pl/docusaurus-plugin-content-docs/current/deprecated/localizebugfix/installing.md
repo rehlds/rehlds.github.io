@@ -12,7 +12,7 @@ slug: /localizebugfix/install
 
 # Instalacja
 
-:::warning Projekt porzucony
+:::warning[Projekt porzucony]
 
 Ta instrukcja jest zachowana dla orientacji. Projekt jest zarchiwizowany — przeczytaj [Czym jest LocalizeBug Fix?](./index.md), a na obecnym serwerze wybierz [SafeNameAndChat](/pl/docs/safenameandchat/install).
 

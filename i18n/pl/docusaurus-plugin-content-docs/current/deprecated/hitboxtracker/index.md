@@ -8,7 +8,7 @@ slug: /hitboxtracker
 
 # Czym jest hitboxtracker?
 
-:::warning Projekt porzucony
+:::warning[Projekt porzucony]
 
 hitboxtracker jest **porzucony i nie jest już utrzymywany**. Opisujemy go tu wyłącznie dla orientacji — nie instaluj go na obecnym serwerze.
 

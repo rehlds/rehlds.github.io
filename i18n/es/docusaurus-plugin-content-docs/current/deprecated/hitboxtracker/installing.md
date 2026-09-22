@@ -12,7 +12,7 @@ slug: /hitboxtracker/install
 
 # Instalación
 
-:::warning Obsoleto
+:::warning[Obsoleto]
 
 Estas instrucciones se conservan como referencia. hitboxtracker ya no se mantiene: consulta [¿Qué es hitboxtracker?](./index.md) antes de aplicar nada de esto y usa [Hitbox Fixer](/es/docs/hitbox-fixer) en un servidor actual.
 

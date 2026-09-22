@@ -12,7 +12,7 @@ slug: /relocalizebugfix/settings
 
 # 设置
 
-:::warning 已废弃
+:::warning[已废弃]
 
 此处记录仅供参考。该插件与现代版本的 ReHLDS 不兼容——参见[什么是 ReLocalizeBug Fix？](./index.md)。
 

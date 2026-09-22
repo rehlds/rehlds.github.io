@@ -14,7 +14,7 @@ slug: /revoice/credits
 
 ReVoice to wtyczka Metamoda stworzona pierwotnie przez The Legion i utrzymywana od tamtej pory przez społeczność ReHLDS.
 
-:::warning Projekt porzucony
+:::warning[Projekt porzucony]
 
 ReVoice został oznaczony przez opiekunów jako **porzucony** i nie jest aktywnie rozwijany.
 

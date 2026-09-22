@@ -12,7 +12,7 @@ slug: /hitboxtracker/settings
 
 # Ustawienia
 
-:::warning Projekt porzucony
+:::warning[Projekt porzucony]
 
 Zachowane dla orientacji. hitboxtracker nie jest już utrzymywany — przeczytaj [Czym jest hitboxtracker?](./index.md).
 

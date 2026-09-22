@@ -12,7 +12,7 @@ slug: /hitboxtracker/settings
 
 # Setări
 
-:::warning Abandonat
+:::warning[Abandonat]
 
 Păstrat ca referință. hitboxtracker nu mai este întreținut — citiți [Ce este hitboxtracker?](./index.md).
 

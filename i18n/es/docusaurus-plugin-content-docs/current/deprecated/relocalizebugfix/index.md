@@ -8,7 +8,7 @@ slug: /relocalizebugfix
 
 # ¿Qué es ReLocalizeBug Fix?
 
-:::warning Obsoleto
+:::warning[Obsoleto]
 
 ReLocalizeBug Fix está **obsoleto y es incompatible con las versiones modernas de ReHLDS**. Ejecutarlo sobre una build actual puede provocar inestabilidad y comportamientos imprevistos. Está [marcado como obsoleto desde 2017](https://github.com/rehlds/rehlds/issues/328#issuecomment-275837883).
 

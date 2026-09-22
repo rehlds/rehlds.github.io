@@ -8,7 +8,7 @@ slug: /localizebugfix
 
 # Czym jest LocalizeBug Fix?
 
-:::warning Projekt porzucony
+:::warning[Projekt porzucony]
 
 LocalizeBug Fix jest **zarchiwizowany i nie jest już utrzymywany**. Repozytorium zarchiwizowano na GitHubie w 2015 roku i nie przyjmuje ono zmian. Opisujemy go tu wyłącznie dla orientacji.
 

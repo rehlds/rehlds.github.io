@@ -12,7 +12,7 @@ slug: /reamxmodx/install
 
 # Instalação
 
-:::warning Descontinuado
+:::warning[Descontinuado]
 
 Não instale o ReAMXModX em um servidor atual. Instale o [AMX Mod X](https://www.amxmodx.org/) da AlliedModders — ele suporta o ReHLDS nativamente, que é a única coisa que este fork existia para acrescentar.
 

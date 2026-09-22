@@ -30,7 +30,7 @@ Pełną, stale aktualizowaną listę ustawień znajdziesz w pliku [`game.cfg`](h
 
 ## Ostrzeżenie o zgodności
 
-:::warning Zgodność binarna
+:::warning[Zgodność binarna]
 
 ReGameDLL_CS nie jest zgodny na poziomie binarnym z oryginalną biblioteką GameDLL Valve, ponieważ jest budowany innymi kompilatorami. Wtyczki, które badają albo modyfikują oryginalny plik binarny po sygnaturach lub przesunięciach, jak niektóre wtyczki oparte na Orpheu, mogą zawieść albo wywrócić serwer.
 

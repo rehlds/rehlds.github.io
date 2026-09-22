@@ -14,7 +14,7 @@ slug: /revoice/credits
 
 ReVoice is a Metamod plugin originally by The Legion, maintained since by the ReHLDS community.
 
-:::warning Deprecated
+:::warning[Deprecated]
 
 ReVoice is marked **Deprecated** by its maintainers and is not under active development.
 

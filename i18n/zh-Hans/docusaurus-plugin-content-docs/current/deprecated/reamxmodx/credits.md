@@ -16,7 +16,7 @@ ReAMXModX 是 **AMX Mod X** 的一个分支，后者由 [AlliedModders](https://
 
 AMX Mod X 所附带的 Pawn 抽象机与编译器，© ITB CompuPhase，1997–2005。
 
-:::warning 已废弃
+:::warning[已废弃]
 
 该分支**已经过时**——上游的 AMX Mod X 原生支持 ReHLDS。请使用 [AMX Mod X](https://www.amxmodx.org/)。
 

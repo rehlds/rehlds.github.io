@@ -12,7 +12,7 @@ slug: /reamxmodx/compilling
 
 # Instruções de compilação
 
-:::warning Descontinuado
+:::warning[Descontinuado]
 
 Mantido como referência. O fork está congelado em um instantâneo de 2016 do AMX Mod X e não publica lançamentos — compilá-lo é a única forma de obter binários, e não há um bom motivo para isso. Leia [O que é o ReAMXModX?](./index.md).
 

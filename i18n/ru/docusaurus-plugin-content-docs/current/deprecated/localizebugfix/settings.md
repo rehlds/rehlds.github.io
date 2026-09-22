@@ -12,7 +12,7 @@ slug: /localizebugfix/settings
 
 # Настройки
 
-:::warning Устаревший проект
+:::warning[Устаревший проект]
 
 Сохранено для справки. Проект заархивирован — см. [Что такое LocalizeBug Fix?](./index.md).
 

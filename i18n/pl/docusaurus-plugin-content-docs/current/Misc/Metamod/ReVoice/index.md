@@ -8,7 +8,7 @@ slug: /revoice
 
 # Czym jest ReVoice?
 
-:::warning Projekt porzucony
+:::warning[Projekt porzucony]
 
 ReVoice został oznaczony przez opiekunów jako **porzucony**. Repozytorium wciąż jest dostępne i da się je skompilować, ale projekt nie jest aktywnie rozwijany — przetestuj go dokładnie, zanim na nim polegniesz na produkcji, i przed wdrożeniem sprawdź znane problemy w [systemie zgłoszeń](https://github.com/rehlds/ReVoice/issues).
 

@@ -8,7 +8,7 @@ slug: /reamxmodx
 
 # O que é o ReAMXModX?
 
-:::warning Descontinuado
+:::warning[Descontinuado]
 
 O ReAMXModX está **obsoleto**. O AMX Mod X oficial passou a ter suporte próprio ao ReHLDS, o que eliminou toda a razão de existir deste fork.
 

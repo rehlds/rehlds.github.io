@@ -12,7 +12,7 @@ slug: /localizebugfix/compilling
 
 # Instrukcja kompilacji
 
-:::warning Projekt porzucony
+:::warning[Projekt porzucony]
 
 Zachowane dla orientacji. Repozytorium jest zarchiwizowane na GitHubie i nie przyjmuje pull requestów — przeczytaj [Czym jest LocalizeBug Fix?](./index.md).
 

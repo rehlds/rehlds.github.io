@@ -12,7 +12,7 @@ slug: /relocalizebugfix/settings
 
 # Configurações
 
-:::warning Descontinuado
+:::warning[Descontinuado]
 
 Mantido como referência. O plugin é incompatível com as versões modernas do ReHLDS — leia [O que é o ReLocalizeBug Fix?](./index.md).
 

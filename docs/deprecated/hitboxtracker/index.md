@@ -8,7 +8,7 @@ slug: /hitboxtracker
 
 # What is hitboxtracker?
 
-:::warning Deprecated
+:::warning[Deprecated]
 
 hitboxtracker is **deprecated and no longer maintained**. It is documented here for reference only — do not deploy it on a current server.
 

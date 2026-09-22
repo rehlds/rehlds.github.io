@@ -14,7 +14,7 @@ slug: /hitboxtracker/credits
 
 hitboxtracker a fost dezvoltat în cadrul organizației ReHLDS, ca unealtă de diagnosticare. Prima lui versiune publică a fost `v1.0`, în decembrie 2017, urmată de `v1.1`, în ianuarie 2018, care a mutat transportul datelor hitbox-urilor de la delta la mesajul `svc_director`.
 
-:::warning Abandonat
+:::warning[Abandonat]
 
 Proiectul este **abandonat și nu mai este întreținut**. Folosiți [Hitbox Fixer](/ro/docs/hitbox-fixer) pe un server actual.
 

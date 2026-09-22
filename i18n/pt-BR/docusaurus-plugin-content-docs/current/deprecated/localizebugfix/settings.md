@@ -12,7 +12,7 @@ slug: /localizebugfix/settings
 
 # Configurações
 
-:::warning Descontinuado
+:::warning[Descontinuado]
 
 Mantido como referência. O projeto está arquivado — leia [O que é o LocalizeBug Fix?](./index.md).
 

@@ -12,7 +12,7 @@ slug: /reamxmodx/install
 
 # Установка
 
-:::warning Устаревший проект
+:::warning[Устаревший проект]
 
 Не устанавливайте ReAMXModX на современный сервер. Ставьте [AMX Mod X](https://www.amxmodx.org/) от AlliedModders: он поддерживает ReHLDS сам по себе, а это единственное, ради чего существовал данный форк.
 

@@ -12,7 +12,7 @@ slug: /reamxmodx/compilling
 
 # 构建说明
 
-:::warning 已废弃
+:::warning[已废弃]
 
 此处记录仅供参考。该分支冻结在 2016 年的 AMX Mod X 快照上，且从未发布过版本——构建是获得文件的唯一途径，而这样做并没有什么好理由。参见[什么是 ReAMXModX？](./index.md)。
 

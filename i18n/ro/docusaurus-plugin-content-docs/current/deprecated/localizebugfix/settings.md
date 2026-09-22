@@ -12,7 +12,7 @@ slug: /localizebugfix/settings
 
 # Setări
 
-:::warning Abandonat
+:::warning[Abandonat]
 
 Păstrat ca referință. Proiectul este arhivat — citiți [Ce este LocalizeBug Fix?](./index.md).
 

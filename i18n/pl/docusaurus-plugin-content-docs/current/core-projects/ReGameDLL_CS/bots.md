@@ -10,7 +10,7 @@ slug: /regamedll-cs/bots
 
 ReGameDLL_CS zawiera kod zBot używany w Counter-Strike: Condition Zero. Serwery dedykowane muszą go włączyć osobno, a serwery CS 1.6 potrzebują dodatkowo profili i zasobów botów, rozprowadzanych oddzielnie.
 
-:::warning Stara opcja wiersza poleceń
+:::warning[Stara opcja wiersza poleceń]
 
 Nie używaj starej opcji `-bots` w wierszu poleceń HLDS. Została usunięta z projektu na rzecz CVara `bot_enable`.
 

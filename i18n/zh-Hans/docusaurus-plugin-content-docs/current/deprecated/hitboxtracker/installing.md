@@ -12,7 +12,7 @@ slug: /hitboxtracker/install
 
 # 安装
 
-:::warning 已废弃
+:::warning[已废弃]
 
 以下说明仅供参考。hitboxtracker 已不再维护——动手之前请先阅读[什么是 hitboxtracker？](./index.md)，在当前的服务器上请改用 [Hitbox Fixer](/zh-Hans/docs/hitbox-fixer)。
 

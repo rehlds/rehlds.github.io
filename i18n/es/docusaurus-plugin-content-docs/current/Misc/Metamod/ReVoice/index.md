@@ -8,7 +8,7 @@ slug: /revoice
 
 # ¿Qué es ReVoice?
 
-:::warning Obsoleto
+:::warning[Obsoleto]
 
 Sus mantenedores han marcado ReVoice como **obsoleto**. El repositorio sigue disponible y se puede compilar, pero ya no está en desarrollo activo: pruébalo a fondo antes de confiar en él en producción y revisa las [incidencias](https://github.com/rehlds/ReVoice/issues) en busca de problemas conocidos antes de desplegarlo.
 

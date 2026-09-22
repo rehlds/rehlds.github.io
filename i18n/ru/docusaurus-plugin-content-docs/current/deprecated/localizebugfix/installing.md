@@ -12,7 +12,7 @@ slug: /localizebugfix/install
 
 # Установка
 
-:::warning Устаревший проект
+:::warning[Устаревший проект]
 
 Эта инструкция сохранена для справки. Проект заархивирован — см. [Что такое LocalizeBug Fix?](./index.md), а на современном сервере используйте [SafeNameAndChat](/ru/docs/safenameandchat/install).
 

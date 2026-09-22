@@ -14,7 +14,7 @@ slug: /localizebugfix/credits
 
 LocalizeBug Fix 由 [@s1lentq](https://github.com/s1lentq) 编写，他同时也是 ReHLDS 组织多个核心项目的作者。该插件自报名称为 *LocalizeBug Fix*，版本 `2.4`，日期为 2014 年。
 
-:::warning 已废弃
+:::warning[已废弃]
 
 该仓库已在 GitHub 上**归档**——它是只读的，不再接受问题或 Pull Request。在当前的服务器上请改用 [SafeNameAndChat](/zh-Hans/docs/safenameandchat)。
 

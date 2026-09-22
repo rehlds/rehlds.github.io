@@ -12,7 +12,7 @@ slug: /localizebugfix/compilling
 
 # Instrucciones de compilación
 
-:::warning Obsoleto
+:::warning[Obsoleto]
 
 Se conserva como referencia. El repositorio está archivado en GitHub y no admite pull requests: consulta [¿Qué es LocalizeBug Fix?](./index.md).
 

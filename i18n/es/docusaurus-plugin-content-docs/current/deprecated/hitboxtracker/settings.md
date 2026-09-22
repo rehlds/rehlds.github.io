@@ -12,7 +12,7 @@ slug: /hitboxtracker/settings
 
 # Configuración
 
-:::warning Obsoleto
+:::warning[Obsoleto]
 
 Se conserva como referencia. hitboxtracker ya no se mantiene: consulta [¿Qué es hitboxtracker?](./index.md).
 

@@ -14,7 +14,7 @@ slug: /revoice/credits
 
 ReVoice este un plugin Metamod creat inițial de The Legion și întreținut de atunci de comunitatea ReHLDS.
 
-:::warning Abandonat
+:::warning[Abandonat]
 
 ReVoice este marcat drept **abandonat** de cei care îl întrețin și nu este în dezvoltare activă.
 

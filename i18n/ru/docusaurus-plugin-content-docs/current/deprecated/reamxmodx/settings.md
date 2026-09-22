@@ -12,7 +12,7 @@ slug: /reamxmodx/settings
 
 # Настройки
 
-:::warning Устаревший проект
+:::warning[Устаревший проект]
 
 Сохранено для справки. Используйте [AMX Mod X](https://www.amxmodx.org/) от AlliedModders — см. [Что такое ReAMXModX?](./index.md).
 

@@ -12,7 +12,7 @@ slug: /revoice/install
 
 # Instalación
 
-:::warning Obsoleto
+:::warning[Obsoleto]
 
 Sus mantenedores han marcado ReVoice como **obsoleto**: consulta [¿Qué es ReVoice?](./index.md) antes de desplegarlo en un servidor de producción.
 

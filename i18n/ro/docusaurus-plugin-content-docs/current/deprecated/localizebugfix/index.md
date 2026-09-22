@@ -8,7 +8,7 @@ slug: /localizebugfix
 
 # Ce este LocalizeBug Fix?
 
-:::warning Abandonat
+:::warning[Abandonat]
 
 LocalizeBug Fix este **arhivat și nu mai este întreținut**. Depozitul a fost arhivat pe GitHub în 2015 și nu mai primește modificări. Este documentat aici doar ca referință.
 

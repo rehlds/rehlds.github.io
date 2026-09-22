@@ -8,7 +8,7 @@ slug: /relocalizebugfix
 
 # O que é o ReLocalizeBug Fix?
 
-:::warning Descontinuado
+:::warning[Descontinuado]
 
 O ReLocalizeBug Fix está **descontinuado e é incompatível com as versões modernas do ReHLDS**. Rodá-lo em uma build atual pode causar instabilidade e comportamentos inesperados. Ele está [descontinuado desde 2017](https://github.com/rehlds/rehlds/issues/328#issuecomment-275837883).
 

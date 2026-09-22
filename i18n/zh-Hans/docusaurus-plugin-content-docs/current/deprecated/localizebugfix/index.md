@@ -8,7 +8,7 @@ slug: /localizebugfix
 
 # 什么是 LocalizeBug Fix？
 
-:::warning 已废弃
+:::warning[已废弃]
 
 LocalizeBug Fix **已归档，不再维护**。仓库已于 2015 年在 GitHub 上归档，不再接受任何改动。此处记录仅供参考。
 

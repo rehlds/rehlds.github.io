@@ -12,7 +12,7 @@ slug: /hitboxtracker/install
 
 # Installation
 
-:::warning Deprecated
+:::warning[Deprecated]
 
 These instructions are kept for reference. hitboxtracker is no longer maintained — see [What is hitboxtracker?](./index.md) before using any of this, and prefer [Hitbox Fixer](/docs/hitbox-fixer) on a current server.
 

@@ -16,7 +16,7 @@ ReAMXModX to fork **AMX Mod X**, stworzonego i utrzymywanego przez [AlliedModder
 
 Maszyna abstrakcyjna i kompilator Pawna dołączone do AMX Mod X są © ITB CompuPhase, 1997–2005.
 
-:::warning Projekt porzucony
+:::warning[Projekt porzucony]
 
 Fork jest **przestarzały** — oficjalny AMX Mod X natywnie obsługuje ReHLDS. Użyj zamiast niego [AMX Mod X](https://www.amxmodx.org/).
 

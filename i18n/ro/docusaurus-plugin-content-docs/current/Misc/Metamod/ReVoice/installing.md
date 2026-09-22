@@ -12,7 +12,7 @@ slug: /revoice/install
 
 # Instalare
 
-:::warning Abandonat
+:::warning[Abandonat]
 
 ReVoice este marcat drept **abandonat** de cei care îl întrețin — citiți [Ce este ReVoice?](./index.md) înainte de a-l pune pe un server de producție.
 

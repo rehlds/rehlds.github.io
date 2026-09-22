@@ -12,7 +12,7 @@ slug: /relocalizebugfix/install
 
 # Установка
 
-:::warning Устаревший проект
+:::warning[Устаревший проект]
 
 Эта инструкция сохранена только для справки. Плагин **несовместим с современными версиями ReHLDS** — см. [Что такое ReLocalizeBug Fix?](./index.md) и используйте вместо него [SafeNameAndChat](/ru/docs/safenameandchat/install).
 

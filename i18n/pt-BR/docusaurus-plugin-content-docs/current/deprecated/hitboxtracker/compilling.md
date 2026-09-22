@@ -12,7 +12,7 @@ slug: /hitboxtracker/compilling
 
 # Instruções de compilação
 
-:::warning Descontinuado
+:::warning[Descontinuado]
 
 Mantido como referência. O hitboxtracker não é mais mantido — leia [O que é o hitboxtracker?](./index.md).
 

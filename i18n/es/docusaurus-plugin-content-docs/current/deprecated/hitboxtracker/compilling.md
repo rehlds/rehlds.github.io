@@ -12,7 +12,7 @@ slug: /hitboxtracker/compilling
 
 # Instrucciones de compilación
 
-:::warning Obsoleto
+:::warning[Obsoleto]
 
 Se conserva como referencia. hitboxtracker ya no se mantiene: consulta [¿Qué es hitboxtracker?](./index.md).
 

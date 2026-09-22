@@ -12,7 +12,7 @@ slug: /localizebugfix/settings
 
 # 设置
 
-:::warning 已废弃
+:::warning[已废弃]
 
 此处记录仅供参考。该项目已归档——参见[什么是 LocalizeBug Fix？](./index.md)。
 

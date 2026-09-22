@@ -30,7 +30,7 @@ ReGameDLL_CS 是经过逆向重构并持续维护的 Counter-Strike 服务端 Ga
 
 ## 兼容性警告
 
-:::warning 二进制兼容性
+:::warning[二进制兼容性]
 
 ReGameDLL_CS 使用了不同的编译器，因此与 Valve 原版 GameDLL 不具备二进制兼容性。通过签名或偏移量扫描、修改原版二进制文件的插件（例如部分基于 Orpheu 的插件）可能失效或导致服务器崩溃。
 

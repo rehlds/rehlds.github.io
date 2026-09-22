@@ -12,7 +12,7 @@ slug: /localizebugfix/settings
 
 # Ustawienia
 
-:::warning Projekt porzucony
+:::warning[Projekt porzucony]
 
 Zachowane dla orientacji. Projekt jest zarchiwizowany — przeczytaj [Czym jest LocalizeBug Fix?](./index.md).
 

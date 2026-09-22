@@ -12,7 +12,7 @@ slug: /relocalizebugfix/settings
 
 # Setări
 
-:::warning Abandonat
+:::warning[Abandonat]
 
 Păstrat ca referință. Pluginul este incompatibil cu versiunile moderne de ReHLDS — citiți [Ce este ReLocalizeBug Fix?](./index.md).
 

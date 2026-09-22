@@ -8,7 +8,7 @@ slug: /hitboxtracker
 
 # ¿Qué es hitboxtracker?
 
-:::warning Obsoleto
+:::warning[Obsoleto]
 
 hitboxtracker está **obsoleto y sin mantenimiento**. Se documenta aquí solo como referencia: no lo instales en un servidor actual.
 

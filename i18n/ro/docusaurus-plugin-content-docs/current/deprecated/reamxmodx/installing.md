@@ -12,7 +12,7 @@ slug: /reamxmodx/install
 
 # Instalare
 
-:::warning Abandonat
+:::warning[Abandonat]
 
 Nu instalați ReAMXModX pe un server actual. Instalați în schimb [AMX Mod X](https://www.amxmodx.org/) de la AlliedModders — el susține ReHLDS în mod nativ, singurul lucru pentru care exista acest fork.
 

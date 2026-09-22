@@ -8,7 +8,7 @@ slug: /revoice
 
 # Ce este ReVoice?
 
-:::warning Abandonat
+:::warning[Abandonat]
 
 ReVoice este marcat drept **abandonat** de cei care îl întrețin. Depozitul rămâne disponibil și poate fi compilat, dar proiectul nu este în dezvoltare activă — testați temeinic înainte să vă bazați pe el în producție și verificați [sistemul de raportare](https://github.com/rehlds/ReVoice/issues) pentru problemele cunoscute înainte de a-l pune în funcțiune.
 

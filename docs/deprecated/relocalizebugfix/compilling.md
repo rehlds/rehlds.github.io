@@ -12,7 +12,7 @@ slug: /relocalizebugfix/compilling
 
 # Build instructions
 
-:::warning Deprecated
+:::warning[Deprecated]
 
 Kept for reference. The plugin is no longer maintained and is incompatible with modern ReHLDS versions — see [What is ReLocalizeBug Fix?](./index.md).
 

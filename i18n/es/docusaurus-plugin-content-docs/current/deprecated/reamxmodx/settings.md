@@ -12,7 +12,7 @@ slug: /reamxmodx/settings
 
 # Configuración
 
-:::warning Obsoleto
+:::warning[Obsoleto]
 
 Se conserva como referencia. Usa [AMX Mod X](https://www.amxmodx.org/) de AlliedModders: consulta [¿Qué es ReAMXModX?](./index.md).
 

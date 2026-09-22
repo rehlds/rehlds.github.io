@@ -12,7 +12,7 @@ slug: /hitboxtracker/install
 
 # Instalação
 
-:::warning Descontinuado
+:::warning[Descontinuado]
 
 Estas instruções são mantidas como referência. O hitboxtracker não é mais mantido — leia [O que é o hitboxtracker?](./index.md) antes de usar qualquer coisa daqui, e prefira o [Hitbox Fixer](/pt-BR/docs/hitbox-fixer) em um servidor atual.
 

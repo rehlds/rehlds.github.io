@@ -12,7 +12,7 @@ slug: /revoice/install
 
 # Instalacja
 
-:::warning Projekt porzucony
+:::warning[Projekt porzucony]
 
 ReVoice został oznaczony przez opiekunów jako **porzucony** — zanim wdrożysz go na serwerze produkcyjnym, przeczytaj [Czym jest ReVoice?](./index.md).
 

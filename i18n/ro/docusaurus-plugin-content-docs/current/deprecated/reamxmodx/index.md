@@ -8,7 +8,7 @@ slug: /reamxmodx
 
 # Ce este ReAMXModX?
 
-:::warning Abandonat
+:::warning[Abandonat]
 
 ReAMXModX este **învechit**. AMX Mod X oficial a căpătat între timp propria susținere pentru ReHLDS, ceea ce a înlăturat întregul motiv de a exista al acestui fork.
 

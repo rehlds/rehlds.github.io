@@ -8,7 +8,7 @@ slug: /relocalizebugfix
 
 # Ce este ReLocalizeBug Fix?
 
-:::warning Abandonat
+:::warning[Abandonat]
 
 ReLocalizeBug Fix este **abandonat și incompatibil cu versiunile moderne de ReHLDS**. Rularea lui pe o versiune actuală poate duce la instabilitate și la comportamente neașteptate. El este [abandonat din 2017](https://github.com/rehlds/rehlds/issues/328#issuecomment-275837883).
 

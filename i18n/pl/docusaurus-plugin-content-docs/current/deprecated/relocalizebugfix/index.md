@@ -8,7 +8,7 @@ slug: /relocalizebugfix
 
 # Czym jest ReLocalizeBug Fix?
 
-:::warning Projekt porzucony
+:::warning[Projekt porzucony]
 
 ReLocalizeBug Fix jest **porzucony i niezgodny z nowoczesnymi wersjami ReHLDS**. Uruchomienie go na obecnej wersji może prowadzić do niestabilności i nieoczekiwanego zachowania. Jest [porzucony od 2017 roku](https://github.com/rehlds/rehlds/issues/328#issuecomment-275837883).
 

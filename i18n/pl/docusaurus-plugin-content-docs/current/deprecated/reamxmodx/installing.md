@@ -12,7 +12,7 @@ slug: /reamxmodx/install
 
 # Instalacja
 
-:::warning Projekt porzucony
+:::warning[Projekt porzucony]
 
 Nie instaluj ReAMXModX na obecnym serwerze. Zainstaluj zamiast tego [AMX Mod X](https://www.amxmodx.org/) od AlliedModders — natywnie obsługuje ReHLDS, czyli jedyną rzecz, dla której ten fork istniał.
 

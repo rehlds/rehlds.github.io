@@ -8,7 +8,7 @@ slug: /localizebugfix
 
 # O que é o LocalizeBug Fix?
 
-:::warning Descontinuado
+:::warning[Descontinuado]
 
 O LocalizeBug Fix está **arquivado e não é mais mantido**. O repositório foi arquivado no GitHub em 2015 e não aceita alterações. Ele está documentado aqui apenas como referência.
 

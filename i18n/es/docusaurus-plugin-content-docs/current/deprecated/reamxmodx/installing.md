@@ -12,7 +12,7 @@ slug: /reamxmodx/install
 
 # Instalación
 
-:::warning Obsoleto
+:::warning[Obsoleto]
 
 No instales ReAMXModX en un servidor actual. Instala [AMX Mod X](https://www.amxmodx.org/) de AlliedModders: admite ReHLDS de forma nativa, que es lo único que esta bifurcación existía para añadir.
 

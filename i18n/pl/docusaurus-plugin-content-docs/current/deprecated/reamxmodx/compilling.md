@@ -12,7 +12,7 @@ slug: /reamxmodx/compilling
 
 # Instrukcja kompilacji
 
-:::warning Projekt porzucony
+:::warning[Projekt porzucony]
 
 Zachowane dla orientacji. Fork jest zamrożony na migawce AMX Mod X z 2016 roku i nie publikuje wydań — kompilacja to jedyny sposób, żeby zdobyć pliki binarne, i nie ma po temu dobrego powodu. Przeczytaj [Czym jest ReAMXModX?](./index.md).
 

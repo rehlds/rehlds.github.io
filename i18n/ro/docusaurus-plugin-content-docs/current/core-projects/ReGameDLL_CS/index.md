@@ -30,7 +30,7 @@ Lista completă și actualizată permanent a setărilor se află în fișierul [
 
 ## Avertisment privind compatibilitatea
 
-:::warning Compatibilitate binară
+:::warning[Compatibilitate binară]
 
 ReGameDLL_CS nu este compatibil la nivel binar cu GameDLL-ul original al Valve, fiindcă este compilat cu alte compilatoare. Pluginurile care inspectează sau modifică binarul original după semnături ori decalaje, cum sunt unele pluginuri bazate pe Orpheu, pot da greș sau pot bloca serverul.
 

@@ -12,7 +12,7 @@ slug: /relocalizebugfix/settings
 
 # Configuración
 
-:::warning Obsoleto
+:::warning[Obsoleto]
 
 Se conserva como referencia. El plugin es incompatible con las versiones modernas de ReHLDS: consulta [¿Qué es ReLocalizeBug Fix?](./index.md).
 

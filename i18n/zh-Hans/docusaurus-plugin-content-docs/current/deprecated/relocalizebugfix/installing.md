@@ -12,7 +12,7 @@ slug: /relocalizebugfix/install
 
 # 安装
 
-:::warning 已废弃
+:::warning[已废弃]
 
 以下说明仅供参考。该插件**与现代版本的 ReHLDS 不兼容**——参见[什么是 ReLocalizeBug Fix？](./index.md)，并改用 [SafeNameAndChat](/zh-Hans/docs/safenameandchat/install)。
 

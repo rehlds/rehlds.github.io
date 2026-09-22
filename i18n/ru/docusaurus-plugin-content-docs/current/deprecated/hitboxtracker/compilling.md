@@ -12,7 +12,7 @@ slug: /hitboxtracker/compilling
 
 # Инструкция по сборке
 
-:::warning Устаревший проект
+:::warning[Устаревший проект]
 
 Сохранено для справки. hitboxtracker больше не поддерживается — см. [Что такое hitboxtracker?](./index.md).
 

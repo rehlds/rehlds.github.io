@@ -8,7 +8,7 @@ slug: /hitboxtracker
 
 # 什么是 hitboxtracker？
 
-:::warning 已废弃
+:::warning[已废弃]
 
 hitboxtracker **已废弃，不再维护**。此处记录仅供参考——请勿在当前的服务器上部署。
 

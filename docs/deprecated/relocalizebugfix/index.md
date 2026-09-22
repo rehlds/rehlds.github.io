@@ -8,7 +8,7 @@ slug: /relocalizebugfix
 
 # What is ReLocalizeBug Fix?
 
-:::warning Deprecated
+:::warning[Deprecated]
 
 ReLocalizeBug Fix is **deprecated and incompatible with modern ReHLDS versions**. Running it on a current build may cause instability and unexpected behavior. It has been [deprecated since 2017](https://github.com/rehlds/rehlds/issues/328#issuecomment-275837883).
 

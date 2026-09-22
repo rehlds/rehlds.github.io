@@ -8,7 +8,7 @@ slug: /reamxmodx
 
 # What is ReAMXModX?
 
-:::warning Deprecated
+:::warning[Deprecated]
 
 ReAMXModX is **obsolete**. Upstream AMX Mod X has since added ReHLDS support of its own, which removed this fork's entire reason to exist.
 

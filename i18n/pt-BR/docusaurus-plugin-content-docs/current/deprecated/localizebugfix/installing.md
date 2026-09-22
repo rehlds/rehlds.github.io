@@ -12,7 +12,7 @@ slug: /localizebugfix/install
 
 # Instalação
 
-:::warning Descontinuado
+:::warning[Descontinuado]
 
 Estas instruções são mantidas como referência. O projeto está arquivado — leia [O que é o LocalizeBug Fix?](./index.md) e prefira o [SafeNameAndChat](/pt-BR/docs/safenameandchat/install) em um servidor atual.
 

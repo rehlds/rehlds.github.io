@@ -12,7 +12,7 @@ slug: /hitboxtracker/compilling
 
 # Instrucțiuni de compilare
 
-:::warning Abandonat
+:::warning[Abandonat]
 
 Păstrate ca referință. hitboxtracker nu mai este întreținut — citiți [Ce este hitboxtracker?](./index.md).
 

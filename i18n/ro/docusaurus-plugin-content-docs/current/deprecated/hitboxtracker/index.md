@@ -8,7 +8,7 @@ slug: /hitboxtracker
 
 # Ce este hitboxtracker?
 
-:::warning Abandonat
+:::warning[Abandonat]
 
 hitboxtracker este **abandonat și nu mai este întreținut**. Este documentat aici doar ca referință — nu îl instalați pe un server actual.
 

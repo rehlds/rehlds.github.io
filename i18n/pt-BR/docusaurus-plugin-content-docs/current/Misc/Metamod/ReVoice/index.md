@@ -8,7 +8,7 @@ slug: /revoice
 
 # O que é o ReVoice?
 
-:::warning Descontinuado
+:::warning[Descontinuado]
 
 O ReVoice foi marcado como **descontinuado** pelos mantenedores dele. O repositório continua disponível e compilável, mas o projeto não está em desenvolvimento ativo — teste bem antes de depender dele em produção e verifique no [rastreador de issues](https://github.com/rehlds/ReVoice/issues) quais problemas são conhecidos antes de colocá-lo no ar.
 

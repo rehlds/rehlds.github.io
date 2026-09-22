@@ -12,7 +12,7 @@ slug: /localizebugfix/settings
 
 # Settings
 
-:::warning Deprecated
+:::warning[Deprecated]
 
 Kept for reference. The project is archived — see [What is LocalizeBug Fix?](./index.md).
 

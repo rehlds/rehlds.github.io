@@ -12,7 +12,7 @@ slug: /revoice/install
 
 # Installing
 
-:::warning Deprecated
+:::warning[Deprecated]
 
 ReVoice is marked **Deprecated** by its maintainers — see [What is ReVoice?](./index.md) before deploying it to a production server.
 

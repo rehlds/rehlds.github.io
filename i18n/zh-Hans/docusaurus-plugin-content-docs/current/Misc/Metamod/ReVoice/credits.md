@@ -14,7 +14,7 @@ slug: /revoice/credits
 
 ReVoice 是一个 Metamod 插件，最初由 The Legion 创建，此后由 ReHLDS 社区维护。
 
-:::warning 已废弃
+:::warning[已废弃]
 
 维护者已把 ReVoice 标记为**已废弃**，该项目不再积极开发。
 

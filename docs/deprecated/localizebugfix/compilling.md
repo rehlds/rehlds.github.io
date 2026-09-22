@@ -12,7 +12,7 @@ slug: /localizebugfix/compilling
 
 # Build instructions
 
-:::warning Deprecated
+:::warning[Deprecated]
 
 Kept for reference. The repository is archived on GitHub and accepts no pull requests — see [What is LocalizeBug Fix?](./index.md).
 

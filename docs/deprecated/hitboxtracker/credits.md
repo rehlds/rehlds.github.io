@@ -14,7 +14,7 @@ slug: /hitboxtracker/credits
 
 hitboxtracker was developed within the ReHLDS organization as a diagnostic tool. Its first public release was `v1.0` in December 2017, followed by `v1.1` in January 2018, which switched the transport for the hitbox data from delta to the `svc_director` message.
 
-:::warning Deprecated
+:::warning[Deprecated]
 
 The project is **deprecated and no longer maintained**. Use [Hitbox Fixer](/docs/hitbox-fixer) instead on a current server.
 

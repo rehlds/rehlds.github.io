@@ -12,7 +12,7 @@ slug: /reamxmodx/settings
 
 # Setări
 
-:::warning Abandonat
+:::warning[Abandonat]
 
 Păstrat ca referință. Folosiți [AMX Mod X](https://www.amxmodx.org/) de la AlliedModders — citiți [Ce este ReAMXModX?](./index.md).
 

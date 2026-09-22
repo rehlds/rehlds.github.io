@@ -8,7 +8,7 @@ slug: /revoice
 
 # 什么是 ReVoice？
 
-:::warning 已废弃
+:::warning[已废弃]
 
 维护者已把 ReVoice 标记为**已废弃**。仓库仍然可用、也能构建，但已不再积极开发——在生产环境依赖它之前请充分测试，部署前也请先查看[问题追踪器](https://github.com/rehlds/ReVoice/issues)中已知的问题。
 

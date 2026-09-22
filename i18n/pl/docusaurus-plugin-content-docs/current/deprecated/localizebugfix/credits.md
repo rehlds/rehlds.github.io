@@ -14,7 +14,7 @@ slug: /localizebugfix/credits
 
 LocalizeBug Fix napisał [@s1lentq](https://github.com/s1lentq), autor również kilku głównych projektów organizacji ReHLDS. Wtyczka przedstawiała się jako *LocalizeBug Fix* w wersji `2.4`, datowanej na 2014 rok.
 
-:::warning Projekt porzucony
+:::warning[Projekt porzucony]
 
 Repozytorium jest **zarchiwizowane** na GitHubie — jest tylko do odczytu i nie przyjmuje zgłoszeń ani pull requestów. Na obecnym serwerze użyj [SafeNameAndChat](/pl/docs/safenameandchat).
 

@@ -12,7 +12,7 @@ slug: /hitboxtracker/settings
 
 # 设置
 
-:::warning 已废弃
+:::warning[已废弃]
 
 此处记录仅供参考。hitboxtracker 已不再维护——参见[什么是 hitboxtracker？](./index.md)。
 

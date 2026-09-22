@@ -12,7 +12,7 @@ slug: /hitboxtracker/settings
 
 # Настройки
 
-:::warning Устаревший проект
+:::warning[Устаревший проект]
 
 Сохранено для справки. hitboxtracker больше не поддерживается — см. [Что такое hitboxtracker?](./index.md).
 

@@ -14,7 +14,7 @@ slug: /hitboxtracker/credits
 
 hitboxtracker se desarrolló dentro de la organización ReHLDS como herramienta de diagnóstico. Su primera versión pública fue la `v1.0`, en diciembre de 2017, seguida de la `v1.1` en enero de 2018, que cambió el transporte de los datos de las cajas de impacto de delta al mensaje `svc_director`.
 
-:::warning Obsoleto
+:::warning[Obsoleto]
 
 El proyecto está **obsoleto y sin mantenimiento**. Usa [Hitbox Fixer](/es/docs/hitbox-fixer) en un servidor actual.
 

@@ -14,7 +14,7 @@ slug: /relocalizebugfix/credits
 
 ReLocalizeBug Fix identifies itself as version `2.8`, authored by *s1lent / Adidasman*. It was built as an extension of [LocalizeBug Fix by s1lentq](/docs/localizebugfix) and adapted for ReHLDS, then maintained under the ReHLDS organization.
 
-:::warning Deprecated
+:::warning[Deprecated]
 
 The project is **deprecated and incompatible with modern ReHLDS versions**, and has been [deprecated since 2017](https://github.com/rehlds/rehlds/issues/328#issuecomment-275837883). Use [SafeNameAndChat](/docs/safenameandchat) instead.
 

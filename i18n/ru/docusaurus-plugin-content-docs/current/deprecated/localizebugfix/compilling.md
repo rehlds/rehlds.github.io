@@ -12,7 +12,7 @@ slug: /localizebugfix/compilling
 
 # Инструкция по сборке
 
-:::warning Устаревший проект
+:::warning[Устаревший проект]
 
 Сохранено для справки. Репозиторий заархивирован на GitHub и pull-запросы не принимает — см. [Что такое LocalizeBug Fix?](./index.md).
 

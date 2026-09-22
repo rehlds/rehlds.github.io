@@ -12,7 +12,7 @@ slug: /reamxmodx/settings
 
 # Settings
 
-:::warning Deprecated
+:::warning[Deprecated]
 
 Kept for reference. Use [AMX Mod X](https://www.amxmodx.org/) from AlliedModders — see [What is ReAMXModX?](./index.md).
 

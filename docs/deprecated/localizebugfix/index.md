@@ -8,7 +8,7 @@ slug: /localizebugfix
 
 # What is LocalizeBug Fix?
 
-:::warning Deprecated
+:::warning[Deprecated]
 
 LocalizeBug Fix is **archived and no longer maintained**. The repository was archived on GitHub in 2015 and accepts no changes. It is documented here for reference only.
 

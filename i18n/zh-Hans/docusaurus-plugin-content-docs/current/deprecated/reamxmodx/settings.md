@@ -12,7 +12,7 @@ slug: /reamxmodx/settings
 
 # 设置
 
-:::warning 已废弃
+:::warning[已废弃]
 
 此处记录仅供参考。请使用 AlliedModders 的 [AMX Mod X](https://www.amxmodx.org/)——参见[什么是 ReAMXModX？](./index.md)。
 

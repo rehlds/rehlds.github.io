@@ -12,7 +12,7 @@ slug: /localizebugfix/install
 
 # Instalare
 
-:::warning Abandonat
+:::warning[Abandonat]
 
 Aceste instrucțiuni sunt păstrate ca referință. Proiectul este arhivat — citiți [Ce este LocalizeBug Fix?](./index.md) și preferați [SafeNameAndChat](/ro/docs/safenameandchat/install) pe un server actual.
 

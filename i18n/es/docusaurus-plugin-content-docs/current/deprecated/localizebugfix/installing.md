@@ -12,7 +12,7 @@ slug: /localizebugfix/install
 
 # Instalación
 
-:::warning Obsoleto
+:::warning[Obsoleto]
 
 Estas instrucciones se conservan como referencia. El proyecto está archivado: consulta [¿Qué es LocalizeBug Fix?](./index.md) y usa [SafeNameAndChat](/es/docs/safenameandchat/install) en un servidor actual.
 

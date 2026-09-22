@@ -16,7 +16,7 @@ ReAMXModX este un fork al **AMX Mod X**, creat și întreținut de [AlliedModder
 
 Mașina abstractă și compilatorul Pawn distribuite cu AMX Mod X sunt © ITB CompuPhase, 1997–2005.
 
-:::warning Abandonat
+:::warning[Abandonat]
 
 Forkul este **învechit** — AMX Mod X oficial susține ReHLDS în mod nativ. Folosiți în schimb [AMX Mod X](https://www.amxmodx.org/).
 

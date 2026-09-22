@@ -8,7 +8,7 @@ slug: /hitboxtracker
 
 # O que é o hitboxtracker?
 
-:::warning Descontinuado
+:::warning[Descontinuado]
 
 O hitboxtracker está **descontinuado e não é mais mantido**. Ele está documentado aqui apenas como referência — não o instale em um servidor atual.
 

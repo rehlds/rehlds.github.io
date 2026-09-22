@@ -12,7 +12,7 @@ slug: /revoice/install
 
 # 安装
 
-:::warning 已废弃
+:::warning[已废弃]
 
 维护者已把 ReVoice 标记为**已废弃**——在把它部署到生产服务器之前，请先阅读[什么是 ReVoice？](./index.md)。
 

@@ -12,7 +12,7 @@ slug: /relocalizebugfix/settings
 
 # Settings
 
-:::warning Deprecated
+:::warning[Deprecated]
 
 Kept for reference. The plugin is incompatible with modern ReHLDS versions — see [What is ReLocalizeBug Fix?](./index.md).
 

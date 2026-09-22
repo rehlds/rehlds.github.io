@@ -12,7 +12,7 @@ slug: /relocalizebugfix/install
 
 # Instalación
 
-:::warning Obsoleto
+:::warning[Obsoleto]
 
 Estas instrucciones se conservan solo como referencia. El plugin es **incompatible con las versiones modernas de ReHLDS**: consulta [¿Qué es ReLocalizeBug Fix?](./index.md) y usa [SafeNameAndChat](/es/docs/safenameandchat/install) en su lugar.
 

@@ -12,7 +12,7 @@ slug: /reamxmodx/compilling
 
 # Instrucciones de compilación
 
-:::warning Obsoleto
+:::warning[Obsoleto]
 
 Se conserva como referencia. La bifurcación está congelada en una instantánea de AMX Mod X de 2016 y no publica versiones: compilarla es la única forma de obtener binarios, y no hay buenas razones para hacerlo. Consulta [¿Qué es ReAMXModX?](./index.md).
 

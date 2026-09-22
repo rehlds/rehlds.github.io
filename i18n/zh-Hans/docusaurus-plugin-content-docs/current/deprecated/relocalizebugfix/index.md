@@ -8,7 +8,7 @@ slug: /relocalizebugfix
 
 # 什么是 ReLocalizeBug Fix？
 
-:::warning 已废弃
+:::warning[已废弃]
 
 ReLocalizeBug Fix **已废弃，且与现代版本的 ReHLDS 不兼容**。在当前构建上运行它可能导致不稳定和难以预料的行为。它[自 2017 年起即被标记为废弃](https://github.com/rehlds/rehlds/issues/328#issuecomment-275837883)。
 

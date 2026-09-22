@@ -14,7 +14,7 @@ slug: /relocalizebugfix/credits
 
 O ReLocalizeBug Fix se identifica como versão `2.8`, de autoria de *s1lent / Adidasman*. Ele foi construído como uma extensão do [LocalizeBug Fix do s1lentq](/pt-BR/docs/localizebugfix), adaptada para o ReHLDS, e depois mantido sob a organização ReHLDS.
 
-:::warning Descontinuado
+:::warning[Descontinuado]
 
 O projeto está **descontinuado e é incompatível com as versões modernas do ReHLDS**, e está [descontinuado desde 2017](https://github.com/rehlds/rehlds/issues/328#issuecomment-275837883). Use o [SafeNameAndChat](/pt-BR/docs/safenameandchat) no lugar dele.
 

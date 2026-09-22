@@ -8,7 +8,7 @@ slug: /reamxmodx
 
 # 什么是 ReAMXModX？
 
-:::warning 已废弃
+:::warning[已废弃]
 
 ReAMXModX **已经过时**。上游的 AMX Mod X 此后加入了自己的 ReHLDS 支持，这让该分支彻底失去了存在的理由。
 

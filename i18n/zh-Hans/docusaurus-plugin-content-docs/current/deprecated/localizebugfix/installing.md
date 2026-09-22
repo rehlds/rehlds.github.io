@@ -12,7 +12,7 @@ slug: /localizebugfix/install
 
 # 安装
 
-:::warning 已废弃
+:::warning[已废弃]
 
 以下说明仅供参考。该项目已归档——参见[什么是 LocalizeBug Fix？](./index.md)，在当前的服务器上请改用 [SafeNameAndChat](/zh-Hans/docs/safenameandchat/install)。
 

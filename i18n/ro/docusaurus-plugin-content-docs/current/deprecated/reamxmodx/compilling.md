@@ -12,7 +12,7 @@ slug: /reamxmodx/compilling
 
 # Instrucțiuni de compilare
 
-:::warning Abandonat
+:::warning[Abandonat]
 
 Păstrate ca referință. Forkul este înghețat la un instantaneu din 2016 al AMX Mod X și nu publică versiuni — compilarea lui este singura cale de a obține binare, iar pentru asta nu există un motiv bun. Citiți [Ce este ReAMXModX?](./index.md).
 

@@ -14,7 +14,7 @@ slug: /relocalizebugfix/credits
 
 ReLocalizeBug Fix se identifică drept versiunea `2.8`, avându-i ca autori pe *s1lent / Adidasman*. A fost construit ca o extindere a [LocalizeBug Fix al lui s1lentq](/ro/docs/localizebugfix), adaptată pentru ReHLDS, și apoi întreținut sub organizația ReHLDS.
 
-:::warning Abandonat
+:::warning[Abandonat]
 
 Proiectul este **abandonat și incompatibil cu versiunile moderne de ReHLDS** și este [abandonat din 2017](https://github.com/rehlds/rehlds/issues/328#issuecomment-275837883). Folosiți în schimb [SafeNameAndChat](/ro/docs/safenameandchat).
 

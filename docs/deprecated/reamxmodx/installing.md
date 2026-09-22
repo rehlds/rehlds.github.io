@@ -12,7 +12,7 @@ slug: /reamxmodx/install
 
 # Installation
 
-:::warning Deprecated
+:::warning[Deprecated]
 
 Do not install ReAMXModX on a current server. Install [AMX Mod X](https://www.amxmodx.org/) from AlliedModders instead — it supports ReHLDS natively, which is the only thing this fork existed to add.
 

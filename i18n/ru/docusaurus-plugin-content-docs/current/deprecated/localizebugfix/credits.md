@@ -14,7 +14,7 @@ slug: /localizebugfix/credits
 
 LocalizeBug Fix написан [@s1lentq](https://github.com/s1lentq), автором нескольких основных проектов организации ReHLDS. Плагин представлялся как *LocalizeBug Fix* версии `2.4`, датированной 2014 годом.
 
-:::warning Устаревший проект
+:::warning[Устаревший проект]
 
 Репозиторий **заархивирован** на GitHub — он доступен только для чтения и не принимает ни задач, ни pull-запросов. На современном сервере используйте [SafeNameAndChat](/ru/docs/safenameandchat).
 

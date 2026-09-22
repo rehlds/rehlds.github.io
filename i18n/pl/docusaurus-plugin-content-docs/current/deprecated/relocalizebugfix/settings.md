@@ -12,7 +12,7 @@ slug: /relocalizebugfix/settings
 
 # Ustawienia
 
-:::warning Projekt porzucony
+:::warning[Projekt porzucony]
 
 Zachowane dla orientacji. Wtyczka jest niezgodna z nowoczesnymi wersjami ReHLDS — przeczytaj [Czym jest ReLocalizeBug Fix?](./index.md).
 

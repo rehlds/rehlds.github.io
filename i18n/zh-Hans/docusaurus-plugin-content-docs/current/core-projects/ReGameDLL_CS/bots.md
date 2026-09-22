@@ -10,7 +10,7 @@ slug: /regamedll-cs/bots
 
 ReGameDLL_CS 内置了 Counter-Strike: Condition Zero 使用的 zBot 代码。专用服务器必须显式启用它，而 CS 1.6 服务器还需要单独安装 Bot 配置和资源。
 
-:::warning 旧版启动参数
+:::warning[旧版启动参数]
 
 不要再使用旧的 HLDS 命令行参数 `-bots`。上游已经将其移除，改用 CVar `bot_enable`。
 

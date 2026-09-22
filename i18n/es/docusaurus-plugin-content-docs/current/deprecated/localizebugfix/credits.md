@@ -14,7 +14,7 @@ slug: /localizebugfix/credits
 
 LocalizeBug Fix lo escribió [@s1lentq](https://github.com/s1lentq), autor también de varios de los proyectos principales de la organización ReHLDS. El plugin se identificaba como *LocalizeBug Fix* versión `2.4`, fechada en 2014.
 
-:::warning Obsoleto
+:::warning[Obsoleto]
 
 El repositorio está **archivado** en GitHub: es de solo lectura y no admite incidencias ni pull requests. Usa [SafeNameAndChat](/es/docs/safenameandchat) en un servidor actual.
 

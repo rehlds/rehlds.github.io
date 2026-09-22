@@ -12,7 +12,7 @@ slug: /revoice/install
 
 # Instalação
 
-:::warning Descontinuado
+:::warning[Descontinuado]
 
 O ReVoice foi marcado como **descontinuado** pelos mantenedores dele — leia [O que é o ReVoice?](./index.md) antes de colocá-lo em um servidor de produção.
 

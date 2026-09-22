@@ -16,7 +16,7 @@ ReAMXModX es una bifurcación de **AMX Mod X**, creado y mantenido por [AlliedMo
 
 La máquina abstracta y el compilador de Pawn que acompañan a AMX Mod X son © ITB CompuPhase, 1997–2005.
 
-:::warning Obsoleto
+:::warning[Obsoleto]
 
 La bifurcación está **obsoleta**: el AMX Mod X original admite ReHLDS de forma nativa. Usa [AMX Mod X](https://www.amxmodx.org/).
 

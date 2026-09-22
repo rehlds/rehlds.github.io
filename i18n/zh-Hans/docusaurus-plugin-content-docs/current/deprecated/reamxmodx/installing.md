@@ -12,7 +12,7 @@ slug: /reamxmodx/install
 
 # 安装
 
-:::warning 已废弃
+:::warning[已废弃]
 
 请不要在当前的服务器上安装 ReAMXModX。改装 AlliedModders 的 [AMX Mod X](https://www.amxmodx.org/)——它原生支持 ReHLDS，而这正是该分支存在的唯一理由。
 

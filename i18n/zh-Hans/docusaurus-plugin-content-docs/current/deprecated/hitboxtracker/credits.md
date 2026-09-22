@@ -14,7 +14,7 @@ slug: /hitboxtracker/credits
 
 hitboxtracker 是 ReHLDS 组织内部开发的诊断工具。首个公开版本 `v1.0` 发布于 2017 年 12 月，随后是 2018 年 1 月的 `v1.1`，后者把碰撞框数据的传输方式从 delta 改为 `svc_director` 消息。
 
-:::warning 已废弃
+:::warning[已废弃]
 
 该项目**已废弃，不再维护**。在当前的服务器上请改用 [Hitbox Fixer](/zh-Hans/docs/hitbox-fixer)。
 

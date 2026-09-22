@@ -14,7 +14,7 @@ slug: /hitboxtracker/credits
 
 hitboxtracker powstał w ramach organizacji ReHLDS jako narzędzie diagnostyczne. Jego pierwsze publiczne wydanie, `v1.0`, ukazało się w grudniu 2017, a po nim `v1.1` w styczniu 2018, które przeniosło przesyłanie danych hitboksów z delty na komunikat `svc_director`.
 
-:::warning Projekt porzucony
+:::warning[Projekt porzucony]
 
 Projekt jest **porzucony i nie jest już utrzymywany**. Na obecnym serwerze użyj [Hitbox Fixera](/pl/docs/hitbox-fixer).
 

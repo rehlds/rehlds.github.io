@@ -8,7 +8,7 @@ slug: /reamxmodx
 
 # Czym jest ReAMXModX?
 
-:::warning Projekt porzucony
+:::warning[Projekt porzucony]
 
 ReAMXModX jest **przestarzały**. Oficjalny AMX Mod X zyskał w międzyczasie własną obsługę ReHLDS, co odebrało temu forkowi cały powód istnienia.
 

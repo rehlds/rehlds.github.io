@@ -14,7 +14,7 @@ slug: /relocalizebugfix/credits
 
 ReLocalizeBug Fix 自报版本为 `2.8`，作者署名 *s1lent / Adidasman*。它在 [s1lentq 的 LocalizeBug Fix](/zh-Hans/docs/localizebugfix) 基础上扩展而来，针对 ReHLDS 做了适配，此后在 ReHLDS 组织下维护。
 
-:::warning 已废弃
+:::warning[已废弃]
 
 该项目**已废弃，且与现代版本的 ReHLDS 不兼容**，[自 2017 年起即被标记为废弃](https://github.com/rehlds/rehlds/issues/328#issuecomment-275837883)。请改用 [SafeNameAndChat](/zh-Hans/docs/safenameandchat)。
 

@@ -12,7 +12,7 @@ slug: /reamxmodx/settings
 
 # Ustawienia
 
-:::warning Projekt porzucony
+:::warning[Projekt porzucony]
 
 Zachowane dla orientacji. Użyj [AMX Mod X](https://www.amxmodx.org/) od AlliedModders — przeczytaj [Czym jest ReAMXModX?](./index.md).
 

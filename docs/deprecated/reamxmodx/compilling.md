@@ -12,7 +12,7 @@ slug: /reamxmodx/compilling
 
 # Build instructions
 
-:::warning Deprecated
+:::warning[Deprecated]
 
 Kept for reference. The fork is frozen at a 2016 snapshot of AMX Mod X and publishes no releases — building it is the only way to obtain binaries, and there is no good reason to. See [What is ReAMXModX?](./index.md).
 

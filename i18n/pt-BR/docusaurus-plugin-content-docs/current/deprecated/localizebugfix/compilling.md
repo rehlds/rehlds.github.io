@@ -12,7 +12,7 @@ slug: /localizebugfix/compilling
 
 # Instruções de compilação
 
-:::warning Descontinuado
+:::warning[Descontinuado]
 
 Mantido como referência. O repositório está arquivado no GitHub e não aceita pull requests — leia [O que é o LocalizeBug Fix?](./index.md).
 

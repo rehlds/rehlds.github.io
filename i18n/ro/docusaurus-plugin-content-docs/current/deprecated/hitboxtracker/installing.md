@@ -12,7 +12,7 @@ slug: /hitboxtracker/install
 
 # Instalare
 
-:::warning Abandonat
+:::warning[Abandonat]
 
 Aceste instrucțiuni sunt păstrate ca referință. hitboxtracker nu mai este întreținut — citiți [Ce este hitboxtracker?](./index.md) înainte de a folosi ceva de aici și preferați [Hitbox Fixer](/ro/docs/hitbox-fixer) pe un server actual.
 

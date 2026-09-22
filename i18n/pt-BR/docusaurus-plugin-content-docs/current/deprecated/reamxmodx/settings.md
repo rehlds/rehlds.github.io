@@ -12,7 +12,7 @@ slug: /reamxmodx/settings
 
 # Configurações
 
-:::warning Descontinuado
+:::warning[Descontinuado]
 
 Mantido como referência. Use o [AMX Mod X](https://www.amxmodx.org/) da AlliedModders — leia [O que é o ReAMXModX?](./index.md).
 

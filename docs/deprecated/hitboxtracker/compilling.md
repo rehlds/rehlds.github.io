@@ -12,7 +12,7 @@ slug: /hitboxtracker/compilling
 
 # Build instructions
 
-:::warning Deprecated
+:::warning[Deprecated]
 
 Kept for reference. hitboxtracker is no longer maintained — see [What is hitboxtracker?](./index.md).
 

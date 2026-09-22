@@ -8,7 +8,7 @@ slug: /reamxmodx
 
 # ¿Qué es ReAMXModX?
 
-:::warning Obsoleto
+:::warning[Obsoleto]
 
 ReAMXModX está **obsoleto**. El AMX Mod X original incorporó desde entonces su propia compatibilidad con ReHLDS, lo que dejó a esta bifurcación sin razón de ser.
 

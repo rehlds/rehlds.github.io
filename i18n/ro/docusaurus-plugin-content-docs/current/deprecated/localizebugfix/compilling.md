@@ -12,7 +12,7 @@ slug: /localizebugfix/compilling
 
 # Instrucțiuni de compilare
 
-:::warning Abandonat
+:::warning[Abandonat]
 
 Păstrate ca referință. Depozitul este arhivat pe GitHub și nu acceptă pull request-uri — citiți [Ce este LocalizeBug Fix?](./index.md).
 

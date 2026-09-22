@@ -8,7 +8,7 @@ slug: /relocalizebugfix
 
 # Что такое ReLocalizeBug Fix?
 
-:::warning Устаревший проект
+:::warning[Устаревший проект]
 
 ReLocalizeBug Fix **устарел и несовместим с современными версиями ReHLDS**. Его запуск на текущей сборке может привести к нестабильности и непредсказуемому поведению. Проект [объявлен устаревшим с 2017 года](https://github.com/rehlds/rehlds/issues/328#issuecomment-275837883).
 

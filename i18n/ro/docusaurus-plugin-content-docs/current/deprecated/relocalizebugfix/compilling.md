@@ -12,7 +12,7 @@ slug: /relocalizebugfix/compilling
 
 # Instrucțiuni de compilare
 
-:::warning Abandonat
+:::warning[Abandonat]
 
 Păstrate ca referință. Pluginul nu mai este întreținut și este incompatibil cu versiunile moderne de ReHLDS — citiți [Ce este ReLocalizeBug Fix?](./index.md).
 

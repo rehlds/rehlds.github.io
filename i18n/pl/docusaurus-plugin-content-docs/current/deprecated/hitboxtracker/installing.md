@@ -12,7 +12,7 @@ slug: /hitboxtracker/install
 
 # Instalacja
 
-:::warning Projekt porzucony
+:::warning[Projekt porzucony]
 
 Ta instrukcja jest zachowana dla orientacji. hitboxtracker nie jest już utrzymywany — zanim z czegokolwiek tutaj skorzystasz, przeczytaj [Czym jest hitboxtracker?](./index.md), a na obecnym serwerze wybierz [Hitbox Fixera](/pl/docs/hitbox-fixer).
 

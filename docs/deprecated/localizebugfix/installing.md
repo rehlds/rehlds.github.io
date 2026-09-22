@@ -12,7 +12,7 @@ slug: /localizebugfix/install
 
 # Installation
 
-:::warning Deprecated
+:::warning[Deprecated]
 
 These instructions are kept for reference. The project is archived — see [What is LocalizeBug Fix?](./index.md) and prefer [SafeNameAndChat](/docs/safenameandchat/install) on a current server.
 

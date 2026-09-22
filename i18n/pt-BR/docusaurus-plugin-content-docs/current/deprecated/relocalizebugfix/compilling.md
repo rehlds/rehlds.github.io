@@ -12,7 +12,7 @@ slug: /relocalizebugfix/compilling
 
 # Instruções de compilação
 
-:::warning Descontinuado
+:::warning[Descontinuado]
 
 Mantido como referência. O plugin não é mais mantido e é incompatível com as versões modernas do ReHLDS — leia [O que é o ReLocalizeBug Fix?](./index.md).
 

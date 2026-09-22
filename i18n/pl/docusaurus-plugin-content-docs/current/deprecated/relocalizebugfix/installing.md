@@ -12,7 +12,7 @@ slug: /relocalizebugfix/install
 
 # Instalacja
 
-:::warning Projekt porzucony
+:::warning[Projekt porzucony]
 
 Ta instrukcja jest zachowana wyłącznie dla orientacji. Wtyczka jest **niezgodna z nowoczesnymi wersjami ReHLDS** — przeczytaj [Czym jest ReLocalizeBug Fix?](./index.md) i użyj zamiast niej [SafeNameAndChat](/pl/docs/safenameandchat/install).
 

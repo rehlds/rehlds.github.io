@@ -12,7 +12,7 @@ slug: /relocalizebugfix/compilling
 
 # Instrucciones de compilación
 
-:::warning Obsoleto
+:::warning[Obsoleto]
 
 Se conserva como referencia. El plugin ya no se mantiene y es incompatible con las versiones modernas de ReHLDS: consulta [¿Qué es ReLocalizeBug Fix?](./index.md).
 

@@ -12,7 +12,7 @@ slug: /localizebugfix/settings
 
 # Configuración
 
-:::warning Obsoleto
+:::warning[Obsoleto]
 
 Se conserva como referencia. El proyecto está archivado: consulta [¿Qué es LocalizeBug Fix?](./index.md).
 

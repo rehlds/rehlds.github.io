@@ -12,7 +12,7 @@ slug: /relocalizebugfix/compilling
 
 # Instrukcja kompilacji
 
-:::warning Projekt porzucony
+:::warning[Projekt porzucony]
 
 Zachowane dla orientacji. Wtyczka nie jest już utrzymywana i jest niezgodna z nowoczesnymi wersjami ReHLDS — przeczytaj [Czym jest ReLocalizeBug Fix?](./index.md).
 

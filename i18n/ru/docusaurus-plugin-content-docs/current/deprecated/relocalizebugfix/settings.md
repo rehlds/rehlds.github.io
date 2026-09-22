@@ -12,7 +12,7 @@ slug: /relocalizebugfix/settings
 
 # Настройки
 
-:::warning Устаревший проект
+:::warning[Устаревший проект]
 
 Сохранено для справки. Плагин несовместим с современными версиями ReHLDS — см. [Что такое ReLocalizeBug Fix?](./index.md).
 

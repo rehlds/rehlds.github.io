@@ -8,7 +8,7 @@ slug: /revoice
 
 # What is ReVoice?
 
-:::warning Deprecated
+:::warning[Deprecated]
 
 ReVoice is marked **Deprecated** by its maintainers. The repository is still available and buildable, but it is not under active development — test thoroughly before relying on it in production, and check the [issue tracker](https://github.com/rehlds/ReVoice/issues) for known problems before deploying.
 
