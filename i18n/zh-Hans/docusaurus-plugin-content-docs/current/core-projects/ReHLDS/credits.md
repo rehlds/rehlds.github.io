@@ -32,4 +32,4 @@ Valve、Half-Life、Counter-Strike 及相关名称和素材归各自所有者所
 
 ## 如何参与
 
-在你的游戏服务器上运行 ReHLDS，并通过[问题追踪器](https://github.com/rehlds/ReHLDS/issues)反馈遇到的任何问题——反馈中应包含哪些内容，请参见[故障排查](./troubleshuting.md)。同样欢迎提交 Pull Request。
+在你的游戏服务器上运行 ReHLDS，并通过[问题追踪器](https://github.com/rehlds/ReHLDS/issues)反馈遇到的任何问题——反馈中应包含哪些内容，请参见[故障排查](./troubleshooting.md)。同样欢迎提交 Pull Request。

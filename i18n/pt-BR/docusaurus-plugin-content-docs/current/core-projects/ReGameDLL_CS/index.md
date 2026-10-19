@@ -57,7 +57,7 @@ Cada pasta de plataforma também contém `game.cfg`, `game_init.cfg` e `delta.ls
 - [Configurar regras de jogo e comandos de servidor](./settings/)
 - [Instalar e operar o zBot](./bots/)
 - [Compilar o ReGameDLL_CS a partir do código-fonte](./compilling/)
-- [Resolver problemas em um servidor](./troubbleshouting/)
+- [Resolver problemas em um servidor](./troubleshooting/)
 
 Depois da instalação, execute este comando no console do servidor:
 

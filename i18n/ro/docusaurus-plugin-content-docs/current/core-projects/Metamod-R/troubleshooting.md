@@ -1,9 +1,9 @@
 ---
-id: metamod-r-troubbleshouting
+id: metamod-r-troubleshooting
 title: Depanare
 sidebar_position: 4
 description: Metamod-R este o versiune optimizată a Metamod original, cu performanță sporită și compatibilitate mai bună pentru serverele de Half-Life 1.
-slug: /metamod-r/troubbleshouting
+slug: /metamod-r/troubleshooting
 ---
 
 <head>

@@ -148,4 +148,4 @@ bot_chatter "minimal"
 bot_defer_to_human "0"
 ```
 
-Vedeți [Depanare](../troubbleshouting/) dacă nu sunt recunoscute comenzile `bot_*` sau dacă boții nu intră în joc.
+Vedeți [Depanare](../troubleshooting/) dacă nu sunt recunoscute comenzile `bot_*` sau dacă boții nu intră în joc.

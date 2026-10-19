@@ -148,4 +148,4 @@ bot_chatter "minimal"
 bot_defer_to_human "0"
 ```
 
-如果 `bot_*` 命令不存在或 Bot 不加入，请参阅[故障排查](../troubbleshouting/)。
+如果 `bot_*` 命令不存在或 Bot 不加入，请参阅[故障排查](../troubleshooting/)。

@@ -25,7 +25,7 @@ Consultați [lista jocurilor compatibile](/ro/docs/metamod-r/supported-games) ș
 # Instalarea pe serverul de joc
 * Descărcați cea mai recentă versiune de _**Metamod-r**_ [![Download](https://camo.githubusercontent.com/2b15ec2fc402e02b66fde9eab7e896406caeddac/687474703a2f2f7265686c64732e6f72672f76657273696f6e2f6d6574616d6f642d2d722e737667)](http://teamcity.rehlds.org/guestAuth/downloadArtifacts.html?buildTypeId=Metamod_Publish&buildId=lastSuccessful) într-un loc convenabil.
 * Dezarhivați folderul _**addons**_ din arhiva zip descărcată în folderul modului dumneavoastră.![](https://i.imgur.com/ptx3MZx.png)
-_Dacă aveți dificultăți în stabilirea numelui directorului, consultați tabelul rezumativ, aflat **[aici](/ro/docs/metamod-r/troubbleshouting)**._
+_Dacă aveți dificultăți în stabilirea numelui directorului, consultați tabelul rezumativ, aflat **[aici](/ro/docs/metamod-r/troubleshooting)**._
 * Găsiți fișierul `liblist.gam` în folderul modului, faceți-i o copie de siguranță (dacă doriți) și deschideți-l cu orice editor de text.
 * Găsiți în fișierul `liblist.gam` rândurile care conțin `gamedll` și `gamedll_linux`. _La `Half-Life 1`, de exemplu, arată așa:_
 ```
@@ -59,4 +59,4 @@ După instalarea cu succes a **Metamod-r**, puteți verifica funcționarea porni
 ![](https://i.imgur.com/VScngBr.png)
 Dacă nu funcționează,
 ![](https://i.imgur.com/HPKRiBF.png)
-consultați [ghidul de depanare](/ro/docs/metamod-r/troubbleshouting).
+consultați [ghidul de depanare](/ro/docs/metamod-r/troubleshooting).

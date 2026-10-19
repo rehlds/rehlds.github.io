@@ -1,9 +1,9 @@
 ---
-id: regamedll-cs-troubbleshouting
+id: regamedll-cs-troubleshooting
 title: Solución de problemas
 sidebar_position: 6
 description: Problemas habituales de instalación, configuración y bots en ReGameDLL_CS.
-slug: /regamedll-cs/troubbleshouting
+slug: /regamedll-cs/troubleshooting
 ---
 
 # Solución de problemas

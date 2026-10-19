@@ -1,9 +1,9 @@
 ---
-id: rehlds-troubbleshouting
+id: rehlds-troubleshooting
 title: 故障排查
 sidebar_position: 4
 description: ReHLDS 是对原版 HLDS 重新工程化后的版本，为 Half-Life、Counter-Strike 1.6 等游戏提供更强的安全性、性能和模组能力。
-slug: /rehlds/troubbleshouting
+slug: /rehlds/troubleshooting
 ---
 
 <head>

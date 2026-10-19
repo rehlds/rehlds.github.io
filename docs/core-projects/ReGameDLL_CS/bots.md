@@ -148,4 +148,4 @@ bot_chatter "minimal"
 bot_defer_to_human "0"
 ```
 
-See [Troubleshooting](../troubbleshouting/) if the `bot_*` commands are unknown or bots do not join.
+See [Troubleshooting](../troubleshooting/) if the `bot_*` commands are unknown or bots do not join.

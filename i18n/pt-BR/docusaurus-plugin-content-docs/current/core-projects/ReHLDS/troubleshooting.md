@@ -1,9 +1,9 @@
 ---
-id: rehlds-troubbleshouting
+id: rehlds-troubleshooting
 title: Solução de problemas
 sidebar_position: 4
 description: O ReHLDS é uma versão reconstruída do HLDS original, com mais segurança, mais desempenho e melhores recursos de modding para jogos como Half-Life e Counter-Strike 1.6.
-slug: /rehlds/troubbleshouting
+slug: /rehlds/troubleshooting
 ---
 
 <head>

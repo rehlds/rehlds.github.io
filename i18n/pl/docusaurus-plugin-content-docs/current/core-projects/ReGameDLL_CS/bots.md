@@ -148,4 +148,4 @@ bot_chatter "minimal"
 bot_defer_to_human "0"
 ```
 
-Jeśli polecenia `bot_*` nie są rozpoznawane albo boty nie wchodzą do gry, zajrzyj do [Rozwiązywania problemów](../troubbleshouting/).
+Jeśli polecenia `bot_*` nie są rozpoznawane albo boty nie wchodzą do gry, zajrzyj do [Rozwiązywania problemów](../troubleshooting/).

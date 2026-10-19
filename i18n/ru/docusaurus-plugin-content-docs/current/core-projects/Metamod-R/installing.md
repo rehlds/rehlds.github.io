@@ -27,7 +27,7 @@ slug: /metamod-r/install
 * Скачайте последнюю версию _**Metamod-r**_ [![Download](https://img.shields.io/github/downloads/rehlds/metamod-r/latest/total?sort=date&style=flat-square)](https://github.com/rehlds/metamod-r/releases/latest) в любое удобное место.
 * Разархивируйте из скачанного zip-архива папку _**addons**_ в папку вашего мода. ![](https://i.imgur.com/QYpJ6vI.png)
 
- _Если у вас возникла проблема, с определением имени каталога, обратитесь к сводной таблице, которая представлена **[здесь](/ru/docs/metamod-r/troubbleshouting)**._
+ _Если у вас возникла проблема, с определением имени каталога, обратитесь к сводной таблице, которая представлена **[здесь](/ru/docs/metamod-r/troubleshooting)**._
 
 * В папке мода найдите файл `liblist.gam`, сделайте его резервную копию (если хотите) и откройте файл любым удобным текстовым редактором.
 * Найдите в файле `liblist.gam` строчки, содержащие `gamedll` и `gamedll_linux`. _Например, у `Half-Life 1` они будет выглядеть так:_
@@ -62,4 +62,4 @@ gamedll_linux "addons/metamod/metamod_i386.so"
 
 Если такого не наблюдается,
 ![](https://i.imgur.com/HPKRiBF.png)
-обратитесь к [руководству по устранению неполадок](/ru/docs/metamod-r/troubbleshouting).
+обратитесь к [руководству по устранению неполадок](/ru/docs/metamod-r/troubleshooting).

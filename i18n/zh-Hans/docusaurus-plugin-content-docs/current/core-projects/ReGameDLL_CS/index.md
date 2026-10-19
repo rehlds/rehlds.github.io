@@ -57,7 +57,7 @@ ReGameDLL_CS 使用了不同的编译器，因此与 Valve 原版 GameDLL 不具
 - [配置游戏规则和服务器命令](./settings/)
 - [安装和使用 zBot](./bots/)
 - [从源代码构建 ReGameDLL_CS](./compilling/)
-- [排查服务器问题](./troubbleshouting/)
+- [排查服务器问题](./troubleshooting/)
 
 安装完成后，在服务器控制台执行：
 

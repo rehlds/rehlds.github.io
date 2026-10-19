@@ -25,7 +25,7 @@ Check out [list of supported games](/docs/metamod-r/supported-games) and make su
 # Installation on the game server
 * Download the latest version of _**Metamod-r**_ [![Download](https://camo.githubusercontent.com/2b15ec2fc402e02b66fde9eab7e896406caeddac/687474703a2f2f7265686c64732e6f72672f76657273696f6e2f6d6574616d6f642d2d722e737667)](http://teamcity.rehlds.org/guestAuth/downloadArtifacts.html?buildTypeId=Metamod_Publish&buildId=lastSuccessful) into any convenient place.
 * Unzip the folder _**addons**_ into your mod folder from the downloaded zip archive.![](https://i.imgur.com/ptx3MZx.png)
-_In case of any problem with determining the name of the directory, please refer to the summary table, which is represented by **[here](/docs/metamod-r/troubbleshouting)**._
+_In case of any problem with determining the name of the directory, please refer to the summary table, which is represented by **[here](/docs/metamod-r/troubleshooting)**._
 * Find the `liblist.gam` file in the mod folder, make a backup copy of it (if you want) and open the file with any convenient text editor.
 * Find  in the `liblist.gam` file strings containing `gamedll` and `gamedll_linux`. _For example, `Half-Life 1` 1 would look like this:_
 ```
@@ -59,4 +59,4 @@ After a successful installation of **Metamod-r** you can check the performance b
 ![](https://i.imgur.com/VScngBr.png)
 If it doesn't,
 ![](https://i.imgur.com/HPKRiBF.png)
-contact [the Troubleshooting guide](/docs/metamod-r/troubbleshouting).
+contact [the Troubleshooting guide](/docs/metamod-r/troubleshooting).

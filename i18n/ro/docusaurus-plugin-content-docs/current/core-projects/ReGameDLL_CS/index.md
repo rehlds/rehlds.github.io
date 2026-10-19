@@ -57,7 +57,7 @@ Fiecare folder de platformă mai conține `game.cfg`, `game_init.cfg` și `delta
 - [Configurarea regulilor de joc și a comenzilor de server](./settings/)
 - [Instalarea și administrarea zBot](./bots/)
 - [Compilarea ReGameDLL_CS din sursă](./compilling/)
-- [Depanarea unui server](./troubbleshouting/)
+- [Depanarea unui server](./troubleshooting/)
 
 După instalare, rulați această comandă în consola serverului:
 
