@@ -1,9 +1,9 @@
 ---
-id: regamedll-cs-troubbleshouting
+id: regamedll-cs-troubleshooting
 title: Устранение неполадок
 sidebar_position: 6
 description: Частые проблемы установки, настройки и ботов ReGameDLL_CS.
-slug: /regamedll-cs/troubbleshouting
+slug: /regamedll-cs/troubleshooting
 ---
 
 # Устранение неполадок

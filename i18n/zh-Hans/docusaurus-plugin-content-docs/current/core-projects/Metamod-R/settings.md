@@ -37,7 +37,7 @@ _可以在服务器控制台执行 `meta list` 命令来检查插件是否正常
 
 如果结果不正常：
 ![](https://i.imgur.com/nGXAokG.png)
-请参阅 [Troubbleshouting](https://github.com/rehlds/metamod-r/wiki/Troubbleshouting)。
+请参阅 [Troubleshooting](https://github.com/rehlds/metamod-r/wiki/Troubbleshouting)。
 
 # 控制台命令列表
 命令需以 `meta` 开头书写。_例如 `meta version`。_

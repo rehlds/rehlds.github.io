@@ -32,4 +32,4 @@ Valve, Half-Life, Counter-Strike, and related names and assets belong to their r
 
 ## How to help
 
-Run ReHLDS on your game server and report any problems you encounter through the [issue tracker](https://github.com/rehlds/ReHLDS/issues) — see [Troubleshooting](./troubleshuting.md) for what to include in a report. Pull requests are also welcome.
+Run ReHLDS on your game server and report any problems you encounter through the [issue tracker](https://github.com/rehlds/ReHLDS/issues) — see [Troubleshooting](./troubleshooting.md) for what to include in a report. Pull requests are also welcome.

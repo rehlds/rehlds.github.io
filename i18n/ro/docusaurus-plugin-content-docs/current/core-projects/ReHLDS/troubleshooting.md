@@ -1,9 +1,9 @@
 ---
-id: rehlds-troubbleshouting
+id: rehlds-troubleshooting
 title: Depanare
 sidebar_position: 4
 description: ReHLDS este o versiune reconstruită a HLDS original, cu securitate sporită, performanță mai bună și capacități extinse de modding pentru jocuri precum Half-Life și Counter-Strike 1.6.
-slug: /rehlds/troubbleshouting
+slug: /rehlds/troubleshooting
 ---
 
 <head>

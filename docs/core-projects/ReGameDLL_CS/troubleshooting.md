@@ -1,9 +1,9 @@
 ---
-id: regamedll-cs-troubbleshouting
+id: regamedll-cs-troubleshooting
 title: Troubleshooting
 sidebar_position: 6
 description: Common ReGameDLL_CS installation, configuration, and bot problems.
-slug: /regamedll-cs/troubbleshouting
+slug: /regamedll-cs/troubleshooting
 ---
 
 # Troubleshooting

@@ -32,4 +32,4 @@ Valve, Half-Life, Counter-Strike oraz powiązane nazwy i materiały należą do 
 
 ## Jak możesz pomóc
 
-Uruchom ReHLDS na swoim serwerze gry i zgłaszaj napotkane problemy przez [system zgłoszeń](https://github.com/rehlds/ReHLDS/issues) — w [Rozwiązywaniu problemów](./troubleshuting.md) znajdziesz listę tego, co warto dołączyć do zgłoszenia. Pull requesty również są mile widziane.
+Uruchom ReHLDS na swoim serwerze gry i zgłaszaj napotkane problemy przez [system zgłoszeń](https://github.com/rehlds/ReHLDS/issues) — w [Rozwiązywaniu problemów](./troubleshooting.md) znajdziesz listę tego, co warto dołączyć do zgłoszenia. Pull requesty również są mile widziane.

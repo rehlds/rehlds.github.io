@@ -25,7 +25,7 @@ slug: /metamod-r/install
 # 在游戏服务器上安装
 * 把最新版本的 _**Metamod-r**_ [![Download](https://camo.githubusercontent.com/2b15ec2fc402e02b66fde9eab7e896406caeddac/687474703a2f2f7265686c64732e6f72672f76657273696f6e2f6d6574616d6f642d2d722e737667)](http://teamcity.rehlds.org/guestAuth/downloadArtifacts.html?buildTypeId=Metamod_Publish&buildId=lastSuccessful) 下载到任意方便的位置。
 * 把下载到的 zip 压缩包中的 _**addons**_ 目录解压到你的模组目录中。![](https://i.imgur.com/ptx3MZx.png)
-_如果在确定目录名称时遇到困难，请参考**[这里](/zh-Hans/docs/metamod-r/troubbleshouting)**给出的汇总表格。_
+_如果在确定目录名称时遇到困难，请参考**[这里](/zh-Hans/docs/metamod-r/troubleshooting)**给出的汇总表格。_
 * 在模组目录中找到 `liblist.gam` 文件，按需为它做一份备份，然后用任意顺手的文本编辑器打开。
 * 在 `liblist.gam` 中找到包含 `gamedll` 和 `gamedll_linux` 的行。_例如 `Half-Life 1` 的内容是这样：_
 ```
@@ -59,4 +59,4 @@ gamedll_linux "addons/metamod/metamod_i386.so"
 ![](https://i.imgur.com/VScngBr.png)
 如果没有正常工作：
 ![](https://i.imgur.com/HPKRiBF.png)
-请参阅[故障排查指南](/zh-Hans/docs/metamod-r/troubbleshouting)。
+请参阅[故障排查指南](/zh-Hans/docs/metamod-r/troubleshooting)。

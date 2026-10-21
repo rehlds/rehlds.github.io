@@ -1,9 +1,9 @@
 ---
-id: regamedll-cs-troubbleshouting
+id: regamedll-cs-troubleshooting
 title: 故障排查
 sidebar_position: 6
 description: 常见的 ReGameDLL_CS 安装、配置和 Bot 问题。
-slug: /regamedll-cs/troubbleshouting
+slug: /regamedll-cs/troubleshooting
 ---
 
 # 故障排查

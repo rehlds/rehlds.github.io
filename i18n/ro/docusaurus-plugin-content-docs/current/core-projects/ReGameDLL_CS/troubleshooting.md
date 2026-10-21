@@ -1,9 +1,9 @@
 ---
-id: regamedll-cs-troubbleshouting
+id: regamedll-cs-troubleshooting
 title: Depanare
 sidebar_position: 6
 description: Probleme obișnuite de instalare, de configurare și de boți în ReGameDLL_CS.
-slug: /regamedll-cs/troubbleshouting
+slug: /regamedll-cs/troubleshooting
 ---
 
 # Depanare

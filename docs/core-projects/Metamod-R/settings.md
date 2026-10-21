@@ -37,7 +37,7 @@ _You can check plugin performance via `meta list` command in the server console 
 
 in case of negative result,
 ![](https://i.imgur.com/nGXAokG.png)
-apply to [Troubbleshouting](https://github.com/rehlds/metamod-r/wiki/Troubbleshouting).
+apply to [Troubleshooting](https://github.com/rehlds/metamod-r/wiki/Troubbleshouting).
 
 # List of console commands
 Write command with `meta` word. _For example, `meta version`_.

@@ -37,7 +37,7 @@ _Puedes comprobar el funcionamiento del plugin con el comando `meta list` en la 
 
 si el resultado no es el esperado,
 ![](https://i.imgur.com/nGXAokG.png)
-consulta [Troubbleshouting](https://github.com/rehlds/metamod-r/wiki/Troubbleshouting).
+consulta [Troubleshooting](https://github.com/rehlds/metamod-r/wiki/Troubbleshouting).
 
 # Lista de comandos de consola
 El comando se escribe precedido de `meta`. _Por ejemplo, `meta version`_.

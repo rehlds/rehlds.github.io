@@ -1,9 +1,9 @@
 ---
-id: metamod-r-troubbleshouting
+id: metamod-r-troubleshooting
 title: 故障排查
 sidebar_position: 4
 description: Metamod-R 是原版 Metamod 的优化版本，为 Half-Life 1 服务器提升性能与兼容性。
-slug: /metamod-r/troubbleshouting
+slug: /metamod-r/troubleshooting
 ---
 
 <head>

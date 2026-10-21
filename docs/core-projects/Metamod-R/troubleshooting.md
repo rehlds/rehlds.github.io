@@ -1,163 +1,163 @@
 ---
-id: metamod-r-troubbleshouting
-title: Rozwiązywanie problemów
+id: metamod-r-troubleshooting
+title: Troubleshooting
 sidebar_position: 4
-description: Metamod-R to zoptymalizowana wersja oryginalnego Metamoda, z lepszą wydajnością i zgodnością dla serwerów Half-Life 1.
-slug: /metamod-r/troubbleshouting
+description: Metamod-R is an optimized version of the original Metamod, enhancing performance and compatibility for Half-Life 1 servers.
+slug: /metamod-r/troubleshooting
 ---
 
 <head>
-  <title>Metamod-R: Rozwiązywanie problemów | ReHLDS</title>
+  <title>Metamod-R: Troubleshooting | ReHLDS</title>
 </head>
 
-# Rozwiązywanie problemów
+# Troubleshooting
 
-## Jak poprawnie zgłosić problem:
+## How to report about the problem correctly:
 
-Jeśli chcesz coś zaproponować, zgłosić błąd albo własne niepowodzenie, lub potrzebujesz pomocy „na żywo”, zawsze możesz się zwrócić [tutaj](https://github.com/rehlds/metamod-r/issues). Wystarczy kliknąć zielony przycisk `New issue` i wypełnić formularz.
+If you want to make an offer, register a mistake, your fail or you need "live" help and assistance-you can always apply [here](https://github.com/rehlds/metamod-r/issues). Just press the green `New issue` button and fill out the form.
 
-Twórcy będą wdzięczni, jeśli opis problemu będzie możliwie szczegółowy:
-* Wersja twojego systemu operacyjnego;
- Wersja (numer kompilacji) serwera HLDS (albo [ReHLDS](https://github.com/rehlds/ReHLDS));
-* Wersja twojej gry (albo modyfikacji);
-* Wersja Metamod-r (numer albo data kompilacji);
-  - Opcjonalnie możesz podać też listę modułów (wpisując `meta list` w konsoli serwera).
-* Dołącz logi;
-* Dołącz zrzuty awaryjne;
+Developers will be grateful if the description of the problem be as much detail as possible:
+* The version of your operating system;
+ The version (build number) HLDS server (either [ReHLDS](https://github.com/rehlds/ReHLDS));
+* The version of your game (or mod);
+* Metamod-r version (build number or build date) ;
+  - You can optionally specify a list of modules (by typing `meta list` in the server console).
+* Attach the logs;
+* Apply crashdumps;
 
-Pomoże to w dokładniejszej analizie i, być może, w naprawieniu twoich problemów w przyszłości.
+This will help for a more thorough analysis and possibly correction of your problems in the future.
 
 ***
  
 
-## Jak zdobyć zrzuty awaryjne HLDS\reHLDS
+## Getting HLDS\reHLDS crash dumps
 
-![](https://i.imgur.com/vqDiJ67.png) [Źródło główne (po rosyjsku)](https://aghl.ru/forum/viewtopic.php?f=10&t=1441).
-![](https://i.imgur.com/vqDiJ67.png) [Kopia (po rosyjsku)](https://dev-cs.ru/threads/1532/).
+![](https://i.imgur.com/vqDiJ67.png) [Main source (rus)](https://aghl.ru/forum/viewtopic.php?f=10&t=1441).
+![](https://i.imgur.com/vqDiJ67.png) [Mirror (rus)](https://dev-cs.ru/threads/1532/).
 
-**Nie publikuj zrzutów ot tak w internecie, bo często zawierają pełne informacje o serwerze, w tym rcon i podobne dane. Do przekazania spakuj je z hasłem, co jest wygodne również dlatego, że kompresują się bardzo dobrze.**
+**Don't just post dumps on the Internet, as they often contain full information about the server, including rcon and so on. For transmission, you can archive them with a password, which is also useful because they compress very well.**
  
 ### ![](https://i.imgur.com/t23p9tU.png) Windows
 
-#### Za pomocą WER (Raportowanie błędów systemu Windows):
-* Włącz WER (raporty o błędach):
-- Przed Vistą:
-- Uruchom drwtsn32.exe i wybierz "Full" przy Crash Dump File. Tam też zobaczysz (albo ustawisz), gdzie zrzuty będą zapisywane.
-- Na Viście i nowszych:
-- Przez edycję rejestru — wygodna metoda od [s1lenta](https://github.com/s1lentq):
+#### Using WER (Windows Error Reporting):
+* Enable WER (error reports):
+- Before Vista:
+- Run drwtsn32.exe and select "Full" next to Crash Dump File. Here you can also see (or configure) where the dumps will be stored.
+- On Vista and above:
+- Editing the registry, a convenient method from [s1lent](https://github.com/s1lentq):
 >
-> #### Szczegółowy i szybki sposób skonfigurowania rejestru pod zrzuty awaryjne, dla początkujących.
+> #### A detailed and quick way to configure the registry to receive dumps for beginners.
 >
-> * Ustawienia:
+> * Settings:
 > - **NAME_APP** - `hlds.exe`
-> - nazwa aplikacji, dla której mają powstawać zrzuty w razie awarii.
+> - name of the application that will need to create dumps in case of a crash.
 > - **REG_LINK** - `HKLM\Software\Microsoft\Windows\Windows Error Reporting`
-> - ścieżka do sekcji Windows Error Reporting (tego ustawienia najpewniej nie trzeba zmieniać; wydaje mi się, że ścieżki są takie same we wszystkich wersjach Windowsa)
+> - path to the Windows Error Reporting section (This setting most likely does not need to be changed, I think the paths are the same in all Windows)
 > - **DumpType** - `2`
-> - `0` - Zwykły zrzut
-> - `1` - Minimalny zrzut
-> - `2` - Pełny zrzut
+> - `0` - Normal dump
+> - `1` - Minimum dump
+> - `2` - Full dump
 > - DumpCount - `15`
-> - liczba tworzonych zrzutów; jeśli liczba zrzutów w folderze przekroczy podaną wartość, stary zostanie usunięty, żeby zrobić miejsce nowemu.
+> - number of dumps to create, if the number of dumps in the folder is greater than the specified value, the old dump will be deleted to create a new dump.
 > - **DumpFolder** - `C:\CrashDumps`
-> - ścieżka folderu, w którym będą zapisywane zrzuty.
-> - (żeby uniknąć problemów, nie używaj w ścieżkach spacji ani cyrylicy)
-> * Instalacja:
-> - Pobierz archiwum i je rozpakuj.
-> - Uruchom add_RegistryDumps.bat
+> - path to the folder where the dumps will be stored.
+> - (to avoid any problems, do not use spaces or Cyrillic in the paths)
+> * Installation:
+> - Download the archive and unzip it.
+> - Run add_RegistryDumps.bat
 >
-> - Po zapisaniu do rejestru upewnij się, że usługa Windows Error Reporting jest włączona.
-> - Następnie naciśnij Windows + R (klawisz Windows jest między ctrl a alt), albo otwórz cmd.exe, albo Start - Uruchom; zaraz potem wpisz gpedit.msc i spójrz na zrzut ekranu.
+> - After writing to the registry, you must make sure that you have enabled the Windows Error Reporting service.
+> - Then press the hotkey Windows + R (the Windows button is between ctrl and alt) or you can call cmd.exe or Start - Run, immediately after that you need to enter gpedit.msc, then see the screenshot.
 >  
-> `Konfiguracja komputera -> Szablony administracyjne -> Składniki systemu Windows -> Raportowanie błędów systemu Windows`
+> `Computer Configuration -> Administrative Templates -> Windows Components -> Windows Error Reporting`
 >  
 > ![](https://i.imgur.com/PLQ8mf3.jpg)
 >  
-> * ![](https://i.imgur.com/vqDiJ67.png) [add_RegistryDumps.zip](http://aghl.ru/forum/download/file.php?id=3071) \ ![](https://i.imgur.com/Uy97ydR.png) kopia ["add_RegistryDumps.zip"](https://github.com/EpicMorgGames/LegacyMods/raw/master/AGHL.ru/add_RegistryDumps.zip) 
-> * ![](https://i.imgur.com/vqDiJ67.png) [remove_RegistryDumps.zip](http://aghl.ru/forum/download/file.php?id=3536) \ ![](https://i.imgur.com/Uy97ydR.png) kopia ["remove_RegistryDumps.zip"](https://github.com/EpicMorgGames/LegacyMods/raw/master/AGHL.ru/remove_RegistryDumps.zip) 
+> * ![](https://i.imgur.com/vqDiJ67.png) [add_RegistryDumps.zip](http://aghl.ru/forum/download/file.php?id=3071) \ ![](https://i.imgur.com/Uy97ydR.png) mirror for ["add_RegistryDumps.zip"](https://github.com/EpicMorgGames/LegacyMods/raw/master/AGHL.ru/add_RegistryDumps.zip) 
+> * ![](https://i.imgur.com/vqDiJ67.png) [remove_RegistryDumps.zip](http://aghl.ru/forum/download/file.php?id=3536) \ ![](https://i.imgur.com/Uy97ydR.png) mirror for ["remove_RegistryDumps.zip"](https://github.com/EpicMorgGames/LegacyMods/raw/master/AGHL.ru/remove_RegistryDumps.zip) 
 >  
 
-#### Za pomocą narzędzia userdumps
-* Instrukcja od _unKn0wn_:
+#### Using the userdumps utility
+* Instructions from _unKn0wn_:
 
 >
-> Sposób na zdobycie zrzutów przy użyciu narzędzia Microsoftu: ![](https://i.imgur.com/vqDiJ67.png) [UserModeProcessDumper](http://www.microsoft.com/en-us/download/details.aspx?id=4060) \ ![](https://i.imgur.com/Uy97ydR.png) kopia ["UserModeProcessDumper8_1_2929_5.zip"](https://github.com/EpicMorgGames/LegacyMods/raw/master/AGHL.ru/UserModeProcessDumper8_1_2929_5.zip).
+> Method for obtaining dumps using the utility from MicroSoft: ![](https://i.imgur.com/vqDiJ67.png) [UserModeProcessDumper](http://www.microsoft.com/en-us/download/details.aspx?id=4060) \ ![](https://i.imgur.com/Uy97ydR.png) mirror for ["UserModeProcessDumper8_1_2929_5.zip"](https://github.com/EpicMorgGames/LegacyMods/raw/master/AGHL.ru/UserModeProcessDumper8_1_2929_5.zip).
 >
-> Podziękowania dla [Leva](https://github.com/LevShisterov) za ustawienia.
+> Thanks to [Lev](https://github.com/LevShisterov) for the settings.
 >
-> ##### 1. Instalacja
-> Rozpakuj pobrane archiwum (domyślnie do C:\kktools\userdump8.1).
-> - Uruchom plik setup.exe z katalogu:
-> - Jeśli używasz 32-bitowego Windows XP/2003, to C:\kktools\userdump8.1\x86.
-> - Jeśli używasz 64-bitowego Windows XP/2003, to C:\kktools\userdump8.1\x64.
-> - W oknie kreatora instalacji kliknij Next.
-> - (Tylko dla systemów 32-bitowych) W oknie Terminate Mode wybierz Disable "Dump on Process Termination" feature i kliknij Next.
+> ##### 1. Installation
+> Unzip the archive you downloaded (by default C:\kktools\userdump8.1).
+> - Run the setup.exe file from the directory:
+> - If you are using 32-bit Windows XP/2003, then C:\kktools\userdump8.1\x86.
+> - If you are using 64-bit Windows XP/2003, then C:\kktools\userdump8.1\x64.
+> - In the Installation Wizard window, click Next.
+> - (Only for 32-bit OS) In the Terminate Mode window, select Disable "Dump on Process Termination" feature and click Next.
 >
 > ![](https://i.imgur.com/NgjxfPa.png)
 >
-> - Kliknij Finish i poczekaj na zakończenie instalacji.
-> W oknie User Mode Process Dump Setup kliknij przycisk YES (Jeśli z jakiegoś powodu nie wiesz, jak wejść do ustawień userdump, zawsze znajdziesz je w Panelu sterowania - Process Dumper).
+> - Click Finish and wait for the installation to complete.
+> In the User Mode Process Dump Setup window, click the YES button (If for some reason you do not know how to enter the userdump settings menu, you can always find them in Control Panel - Process Dumper).
 >
-> ##### 2. Dodanie aplikacji
-> W otwartym oknie Properties: User Mode Process Dumper Setup kliknij New, dodaj nazwę potrzebnego programu, na przykład: hlds.exe (rozszerzenie jest obowiązkowe!) i kliknij OK
+> ##### 2. Adding an application
+> In the Properties: User Mode Process Dumper Setup window that opens, click New and add the name of the program we need, for example: hlds.exe (the extension is required!) and click OK
 >
 > ![](https://i.imgur.com/36m9qL1.jpg)
 >
-> ##### 3. Ustawienia
-> W oknie Properties: User Mode Process Dumper Setup znajdź właśnie utworzoną regułę aplikacji, zaznacz ją i kliknij przycisk Rules
-> W otwartym oknie Process Monitoring Ruless for hlds.exe
-> 1. Wybierz Use custom rules.
-> 2. W razie potrzeby zmień folder, w którym zapisywane są zrzuty.
-> 3. W Exception Codes zaznacz (lewym przyciskiem) następujące kody: "Access Violation, Overflow, Illegal Instruction, Stack overflow."
-> 4. Ustaw parametr Save Mode na Cyclic saving (5 times).
-> Powinno to wyglądać mniej więcej tak:
+> ##### 3. Settings
+> In the Properties: User Mode Process Dumper Setup window, find the application rule you just created, select it and click the Rules button
+> In the Process Monitoring Ruless for hlds.exe window that opens
+> 1. Select Use custom rules.
+> 2. If necessary, change the folder for storing the created dumps.
+> 3. In Exception Codes, select (by left-clicking) the following codes: "Access Violation, Overflow, Illegal Instruction, Stack overflow."
+> 4. Set the Save Mode parameter to Cyclic saving (5 times).
+> It should look something like this:
 >
 > ![](https://i.imgur.com/sio3Aac.jpg)
 >
-> PS: polecam używać go razem z Dr Watsonem ustawionym na typ zrzutu "Brief", bo Dr Watson prowadzi logi w formacie tekstowym, co pozwala wybrać potrzebne zrzuty. A userdump wykona pełne zrzuty.
+> PS: I recommend using it together with Dr Watson with the "Brief" dump type, since the doctor can keep logs in text format, which will allow you to select the necessary dumps. And userdump will make full dumps.
 >
 
 ### ![](https://i.imgur.com/AzhAYR4.png) Linux
 
-Serwer trzeba uruchomić z flagą **-debug**.
+The server must be started with the **-debug** key.
 
-Jeśli w systemie zainstalowany jest gdb, czytelne informacje o błędzie trafiają automatycznie do pliku `debug.log`. Dlatego warto go zainstalować (polecenie zależy od systemu; na Debianie\Ubuntu jest to `apt install gdb`). Choć nie jest to konieczne do tworzenia zrzutów, w praktyce warto to zrobić, kiedy tylko się da, bo miejsce awarii zapisuje się w `debug.log`, co pozwala od razu powiedzieć coś o błędzie. Zdobycie tych samych informacji na innym systemie z pliku zrzutu wymagałoby wszystkich plików binarnych z serwera.
+If gdb is installed on the system, then clear information about the error will be automatically written to the `debug.log` file. So it is recommended to install it (the command depends on the system used, on Debian\Ubuntu it is `apt install gdb`). Although this is not required to create dumps, it is actually necessary to do this if possible, since the crash location will be written to `debug.log`, which will allow you to immediately say something about the error. Getting the same information on another system from a dump file will require all the binaries from the server.
 
-Domyślnie plik zrzutu nazywa się `core`, zapisuje się w katalogu roboczym i w związku z tym będzie nadpisywany. Żeby tego uniknąć, możesz dodać do nazwy identyfikator procesu:
+By default, the dump file is called `core`, is written to the working folder, and, accordingly, will be overwritten. To avoid this, you can add the process ID to the name:
 
 `echo 1 > /proc/sys/kernel/core_uses_pid`
 
-albo kierować zrzuty do `/tmp`:
+or dump the dumps to `/tmp`:
 
-`echo /tmp/%e-%t-%p-%c.dmp > /proc/sys/kernel/core_pattern` Więcej informacji ![](https://i.imgur.com/vqDiJ67.png)[tutaj](http://man7.org/linux/man-pages/man5/core.5.html).
+`echo /tmp/%e-%t-%p-%c.dmp > /proc/sys/kernel/core_pattern` More information ![](https://i.imgur.com/vqDiJ67.png)[here](http://man7.org/linux/man-pages/man5/core.5.html).
 
-Uruchomienie bez `sudo` (jako root; w przeciwnym razie ogólne ustawienia systemu trzeba ustawić na unlimited):
+Launch without `sudo` (as root, otherwise the general system settings should be set to unlimited):
 
 `ulimit -c unlimited && ./hlds_run -debug ...`
 
-Uruchomienie z `sudo` (jako użytkownik hlds):
+Launch with `sudo` (as user hlds):
 
 `ulimit -Hc unlimited && sudo -u hlds sh -c "ulimit -Sc unlimited && ./hlds_run -debug ..."`
 
-Sprawdzenie uruchomienia przez sudo:
+Checking launch under sudo:
 
 `ulimit -Hc unlimited && sudo -u hlds sh -c "ulimit -Sc unlimited && whoami && ulimit -Sc && ./hlds_run -debug ..."`
 
-wypisuje nazwę użytkownika, na którym nastąpi uruchomienie, oraz limit tworzenia zrzutów, a następnie uruchamia serwer.
+displays the user name under which the launch will take place and the limit on creating dumps, after which it starts the server.
 
-Do przetestowania ustawień zrzutów możesz użyć modułu stworzonego specjalnie w tym celu: ![](https://i.imgur.com/vqDiJ67.png) [FixItAll](http://aghl.ru/forum/viewtopic.php?f=19&t=1680&p=19549) \ ![](https://i.imgur.com/Uy97ydR.png) [Kopia FixItAll](https://github.com/EpicMorgGames/LegacyMods/raw/master/AGHL.ru/fixitall_mm.0.0.zip) or ![](https://i.imgur.com/Uy97ydR.png) [Crash.sma*](https://github.com/EpicMorgGames/LegacyMods/blob/master/AGHL.ru/Crash.sma).
+To test dump settings, you can use a specially developed module: ![](https://i.imgur.com/vqDiJ67.png) [FixItAll](http://aghl.ru/forum/viewtopic.php?f=19&t=1680&p=19549) \ ![](https://i.imgur.com/Uy97ydR.png) [FixItAll mirror](https://github.com/EpicMorgGames/LegacyMods/raw/master/AGHL.ru/fixitall_mm.0.0.zip) or ![](https://i.imgur.com/Uy97ydR.png) [Crash.sma*](https://github.com/EpicMorgGames/LegacyMods/blob/master/AGHL.ru/Crash.sma).
 
 * crash.sma - https://github.com/rehlds/metamod-r/issues/42#issuecomment-416456526
 
 ***
 
-### Tabela zbiorcza:
+### Summary table:
 
-`Folder` - katalog twojej modyfikacji albo gry. W kolumnach ![](https://i.imgur.com/t23p9tU.png) i ![](https://i.imgur.com/AzhAYR4.png) znajdują się nazwy plików wykonywalnych z folderu `dlls`, który leży w katalogu twojej modyfikacji albo gry.
+`Folder` - the directory of your mod or game. In columns ![](https://i.imgur.com/t23p9tU.png) and ![](https://i.imgur.com/AzhAYR4.png) the names of the executable files from the folder 'dlls`, which is located in the directory`your mod or game'.
 
-:x: - wersja dla tej platformy nie istnieje
+:x: - platform version does not exist
 
-| Gra \ Modyfikacja | Folder |   ![](https://i.imgur.com/t23p9tU.png) | ![](https://i.imgur.com/AzhAYR4.png)
+| Game \ Mod | Folder |   ![](https://i.imgur.com/t23p9tU.png) | ![](https://i.imgur.com/AzhAYR4.png)
 | ------------- | ------| ------|------|
 | [Action Half-Life](http://www.moddb.com/mods/action-half-life/downloads/) | action | ahl.dll | ahl.so
 | [Adrenaline Gamer](https://github.com/martinwebrant/agmod) | ag | ag.dll | ag.so
@@ -181,7 +181,7 @@ Do przetestowania ustawień zrzutów możesz użyć modułu stworzonego specjaln
 | [Deathmatch Classic](http://store.steampowered.com/app/40/Deathmatch_Classic/) | dmc | dmc.dll | dmc.so
 | [Day of Defeat](http://store.steampowered.com/app/30/Day_of_Defeat/) | dod | dod.dll | dod.so
 | [Digital Paintball](http://www.moddb.com/mods/digital-paintball/downloads/) | dpb |  pb.dll |  pb.i386.so
-| [Earth's Special Forces (stary)](http://www.moddb.com/mods/earths-special-forces/downloads/) | esf | hl.dll | hl.so (leży w `linuxdll`, a nie w katalogu `dlls`)
+| [Earth's Special Forces (Old)](http://www.moddb.com/mods/earths-special-forces/downloads/) | esf | hl.dll | hl.so (located in `linuxdll`, not in the `dlls` directory)
 | [Earth's Special Forces](http://www.moddb.com/mods/earths-special-forces/downloads/) | esf | hl.dll | hl.so
 | [Existence](http://www.moddb.com/mods/existence/downloads/) | existence | existence.dll | :x: 
 | [Firearms](http://www.moddb.com/mods/firearms/downloads/) | firearms | firearms.dll | :x: 
@@ -225,10 +225,10 @@ Do przetestowania ustawień zrzutów możesz użyć modułu stworzonego specjaln
 | [The Ship](http://www.moddb.com/mods/the-ship) | ship | ship.dll | ship.so 
 | [Science & Industry](http://www.moddb.com/mods/science-and-industry/downloads/) | si | si.dll | si.so  
 | [Snow-War](http://www.moddb.com/mods/snow-war/downloads/) | snow | snow.dll | snow.so  
-| [StargateTC (stary, 1.x)](http://www.moddb.com/mods/stargatetc/downloads/) | stargatetc | hl.dll | hl.so
-| [StargateTC (zaktualizowany, 2.x)](http://www.moddb.com/mods/stargatetc/downloads/) | stargatetc | hl.dll | stc.so
-| [StargateTC (zaktualizowany, 2.x)](http://www.moddb.com/mods/stargatetc/downloads/) | stargatetc | hl.dll | stc_i386_opt.so
-| [Sven Coop (stary)](http://store.steampowered.com/app/225840/Sven_Coop/) | svencoop | hl.dll | hl.so 
+| [StargateTC (Old, 1.x)](http://www.moddb.com/mods/stargatetc/downloads/) | stargatetc | hl.dll | hl.so
+| [StargateTC (Updated, 2.x)](http://www.moddb.com/mods/stargatetc/downloads/) | stargatetc | hl.dll | stc.so
+| [StargateTC (Updated, 2.x)](http://www.moddb.com/mods/stargatetc/downloads/) | stargatetc | hl.dll | stc_i386_opt.so
+| [Sven Coop (Old)](http://store.steampowered.com/app/225840/Sven_Coop/) | svencoop | hl.dll | hl.so 
 | [Sven Coop (Steam)](http://store.steampowered.com/app/225840/Sven_Coop/) | svencoop | server.dll | server.so 
 | [Swarm](http://www.moddb.com/mods/swarm/downloads) | swarm | swarm.dll | swarm.so 
 | [Team Fortress Classic](http://store.steampowered.com/app/20/Team_Fortress_Classic/) | tfc | tfc.dll | tfc.so 
@@ -244,9 +244,9 @@ Do przetestowania ustawień zrzutów możesz użyć modułu stworzonego specjaln
 | [Wanted!](http://www.moddb.com/mods/wanted-the-western-mod-steam/downloads/) | wantedhl | wanted.dll | hl.so
 | [Wizard Wars (Steam)](http://www.moddb.com/mods/wizard-wars/downloads/) | wizardwars | wizardwars.dll | wizardwars.so 
 | [Wizard Wars Beta (Steam)](http://www.moddb.com/mods/wizard-wars/downloads/) | wizardwars_beta | wizardwars.dll | wizardwars.so 
-| [Wizard Wars (stary)](http://www.moddb.com/mods/wizard-wars/downloads/) | wizwars | mp.so | hl.dll 
+| [Wizard Wars (Old)](http://www.moddb.com/mods/wizard-wars/downloads/) | wizwars | mp.so | hl.dll 
 | [WormsHL](http://www.moddb.com/mods/wormshl/downloads/) | wormshl | wormshl.dll | wormshl.so  
 | [Zombie Panic](http://www.moddb.com/mods/zombie-panic/downloads/) | zp | mp.dll | hl.so   
 
 ***
-Każda pomoc i każdy wkład w projekt są mile widziane. Im więcej testów i opinii, tym lepiej rozwijają się Metamod-r i pozostałe powiązane produkty. Powodzenia!
+Any assistance and contribution to the project is welcome. The more tests and feedback, the stronger the development of Metamod-r and other related products. Goodluck!

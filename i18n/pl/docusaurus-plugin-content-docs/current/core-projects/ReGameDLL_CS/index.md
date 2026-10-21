@@ -57,7 +57,7 @@ W każdym folderze platformy są też `game.cfg`, `game_init.cfg` i `delta.lst`.
 - [Konfiguracja zasad gry i poleceń serwera](./settings/)
 - [Instalacja i obsługa zBot](./bots/)
 - [Kompilacja ReGameDLL_CS ze źródeł](./compilling/)
-- [Rozwiązywanie problemów z serwerem](./troubbleshouting/)
+- [Rozwiązywanie problemów z serwerem](./troubleshooting/)
 
 Po instalacji uruchom w konsoli serwera to polecenie:
 

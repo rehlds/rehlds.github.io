@@ -1,9 +1,9 @@
 ---
-id: metamod-r-troubbleshouting
+id: metamod-r-troubleshooting
 title: Solução de problemas
 sidebar_position: 4
 description: O Metamod-R é uma versão otimizada do Metamod original, com mais desempenho e melhor compatibilidade para servidores de Half-Life 1.
-slug: /metamod-r/troubbleshouting
+slug: /metamod-r/troubleshooting
 ---
 
 <head>

@@ -57,7 +57,7 @@ La carpeta de cada plataforma incluye además `game.cfg`, `game_init.cfg` y `del
 - [Configurar las reglas de juego y los comandos de servidor](./settings/)
 - [Instalar y manejar zBot](./bots/)
 - [Compilar ReGameDLL_CS desde el código fuente](./compilling/)
-- [Solucionar problemas de un servidor](./troubbleshouting/)
+- [Solucionar problemas de un servidor](./troubleshooting/)
 
 Después de instalarlo, ejecuta este comando en la consola del servidor:
 

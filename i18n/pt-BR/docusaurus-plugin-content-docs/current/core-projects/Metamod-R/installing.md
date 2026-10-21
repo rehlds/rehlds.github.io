@@ -25,7 +25,7 @@ Consulte a [lista de jogos compatíveis](/pt-BR/docs/metamod-r/supported-games) 
 # Instalação no servidor de jogo
 * Baixe a versão mais recente do _**Metamod-r**_ [![Download](https://camo.githubusercontent.com/2b15ec2fc402e02b66fde9eab7e896406caeddac/687474703a2f2f7265686c64732e6f72672f76657273696f6e2f6d6574616d6f642d2d722e737667)](http://teamcity.rehlds.org/guestAuth/downloadArtifacts.html?buildTypeId=Metamod_Publish&buildId=lastSuccessful) para qualquer lugar conveniente.
 * Extraia a pasta _**addons**_ do arquivo zip baixado para dentro da pasta do seu mod.![](https://i.imgur.com/ptx3MZx.png)
-_Em caso de dúvida ao determinar o nome do diretório, consulte a tabela-resumo que está **[aqui](/pt-BR/docs/metamod-r/troubbleshouting)**._
+_Em caso de dúvida ao determinar o nome do diretório, consulte a tabela-resumo que está **[aqui](/pt-BR/docs/metamod-r/troubleshooting)**._
 * Encontre o arquivo `liblist.gam` na pasta do mod, faça uma cópia de segurança dele (se quiser) e abra o arquivo em um editor de texto de sua preferência.
 * Localize no arquivo `liblist.gam` as linhas que contêm `gamedll` e `gamedll_linux`. _No `Half-Life 1`, por exemplo, elas ficam assim:_
 ```
@@ -59,4 +59,4 @@ O **Metamod-r** está funcionando:
 ![](https://i.imgur.com/VScngBr.png)
 Se não estiver,
 ![](https://i.imgur.com/HPKRiBF.png)
-consulte [o guia de solução de problemas](/pt-BR/docs/metamod-r/troubbleshouting).
+consulte [o guia de solução de problemas](/pt-BR/docs/metamod-r/troubleshooting).

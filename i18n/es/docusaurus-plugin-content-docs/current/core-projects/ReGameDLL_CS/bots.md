@@ -148,4 +148,4 @@ bot_chatter "minimal"
 bot_defer_to_human "0"
 ```
 
-Consulta [Solución de problemas](../troubbleshouting/) si los comandos `bot_*` no existen o si los bots no entran.
+Consulta [Solución de problemas](../troubleshooting/) si los comandos `bot_*` no existen o si los bots no entran.

@@ -57,7 +57,7 @@ Each platform folder also contains `game.cfg`, `game_init.cfg`, and `delta.lst`.
 - [Configure game rules and server commands](./settings/)
 - [Install and operate zBot](./bots/)
 - [Build ReGameDLL_CS from source](./compilling/)
-- [Troubleshoot a server](./troubbleshouting/)
+- [Troubleshoot a server](./troubleshooting/)
 
 After installation, run this command in the server console:
 
